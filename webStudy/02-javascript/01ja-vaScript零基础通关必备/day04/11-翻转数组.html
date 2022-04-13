@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翻转数组</title>
+    <script>
+        //将数组['red', 'green', 'blue', 'pink', 'purple']的内容翻转存入新数组
+        // 1、声明一个新数组newArry
+        // 2、把旧数组第四个索引号取过来(arr.length - 1),给新数组索引号第0个元素 (newArry.length)
+        // 3、我们采取递减的方式 i--
+        var arr = ['red', 'green', 'blue', 'pink', 'purple'];
+        var newArry = [];
+        for (var i = arr.length - 1; i >= 0; i--) {
+            newArry[newArry.length] = arr[i];
+        }
+        console.log(newArry);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

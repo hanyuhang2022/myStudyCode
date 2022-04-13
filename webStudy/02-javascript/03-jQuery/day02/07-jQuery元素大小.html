@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery元素大小</title>
+    <script src="jQuery.min.js"></script>
+    <style>
+        div {
+            width: 200px;
+            height: 220px;
+            margin: 10px;
+            padding: 10px;
+            background-color: pink;;
+            border: 15px solid red
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <script>
+        $(function() {
+            // (1)这些参数为空时，则时获取相应值，发挥的是数字型
+            // (2)如果参数为数字，则时修改相应值
+
+            // 1.width() / height() 获取设置元素 width 和 height大小 (单纯的宽度高度)
+            console.log($("div").width());
+            // $("div").width(300); //修改div哭阿努为300px
+
+            // 2.innerWidth() / innerHeight() 获取设置元素 width 和 height + padding大小
+            console.log($("div").innerWidth());
+            console.log($("div").innerHeight());
+
+            // 3.outerWidth() / outerHeight()获取设置元素 width 和 height + padding + border 大小
+            console.log($("div").outerWidth());
+            console.log($("div").outerHeight());
+
+            // 3.outerWidth(true) / outerHeight(true)获取设置元素 width 和 height + padding + border + margin 大小
+            console.log($("div").outerWidth(true));
+            console.log($("div").outerHeight(true));
+        })
+    </script>
+</body>
+</html>

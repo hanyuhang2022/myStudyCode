@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行内元素（内联元素）</title>
+    <style>
+        span {
+            background-color: tomato;
+            width: 200px;
+            height: 56px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ①相邻行内元素在同一行上，一行可以显示多个。
+    ②高、宽直接设置是无效的
+    ③默认宽度就是本身他内容的宽度
+    ④行内元素只能容纳文本或者其他行内元素
+
+    注意: 
+         ①<a>链接里面不能再放链接
+         ②特殊情况下，<a>里面可以放块级元素,但是给<a>转换一下会计模式最安全 -->
+             <span>爱神的箭阿三dsdsdsds·</span><strong>阿斯顿撒旦撒旦</strong>
+             <span>爱神的箭阿三·</span><strong>阿斯顿撒旦撒旦</strong>
+</body>
+</html>

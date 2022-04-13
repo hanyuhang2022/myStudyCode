@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝轮播图</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        li {
+            list-style: none;
+        }
+        .tb-promo {
+            position: relative;
+            width: 520px;
+            height: 280px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+        .tb-promo img {
+            width: 520px;
+            height: 280px;
+        }
+        /*并集选择器 */
+        .prev,
+        .next
+             {
+            position: absolute;
+            /* 绝对定位的盒子垂直居中 */
+            top: 50%;
+            margin-top: -15px;
+            /* 加了绝对定位的盒子可以直接设置宽高 */
+            height: 30px;
+            width: 20px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, .3);
+            text-decoration: none;
+            line-height: 30px;
+            text-align: center;
+        }
+        .prev {
+            right: 0px;
+            border-radius: 15px 0px 0px 15px;
+        }
+        .next {
+            /* 如果一个盒子既有left属性又有right属性，则默认会执行left属性 */
+            /* 如果一个盒子既有top属性又有bottom属性，则默认会执行top属性 */
+            left: 0px;
+            border-radius: 0px 15px 15px 0px;
+        }
+        .promo-nav {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 13px;
+            background-color: rgba(255, 255, 255, .5);
+            border-radius: 7px;
+        } 
+        .promo-nav li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            background-color: #fff;
+            border-radius: 4px;
+            margin: 3px;
+        }
+        /* 不要忘记权重的问题 */
+        .promo-nav .select {
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="tb-promo">
+        <img src="images/tb.jpg" alt="">
+        <!-- 左侧按钮箭头 -->
+        <a href="#" class="prev"> &gt; </a>
+        <!-- 右侧按钮箭头 -->
+        <a href="#" class="next"> &lt; </a>
+        <!-- 小圆点 -->
+        <ul class="promo-nav">
+            <li class="select"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>

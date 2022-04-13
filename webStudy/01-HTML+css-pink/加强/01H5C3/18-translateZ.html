@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>translateZ</title>
+    <style>
+        body {
+            perspective: 500px;
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 100px auto;
+            /* Z就是Z轴,物体距离屏幕的距离,Z轴越大(正值)我们看到的物体越大 */
+            transform: translateZ(100px);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

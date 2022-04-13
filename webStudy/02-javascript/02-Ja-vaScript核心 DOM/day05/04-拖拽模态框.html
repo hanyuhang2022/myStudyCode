@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login-header {
+            width: 100%;
+            text-align: center;
+            height: 30px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        ul,
+        li,
+        ol,
+        dl,
+        dt,
+        dd,
+        div,
+        p,
+        span,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        input {
+            outline: none;
+        }
+
+        .login {
+            display: none;
+            width: 512px;
+            height: 280px;
+            position: fixed;
+            border: #ebebeb solid 1px;
+            left: 50%;
+            top: 50%;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 20px #ddd;
+            z-index: 9999;
+            transform: translate(-50%, -50%);
+        }
+
+        .login-title {
+            width: 100%;
+            margin-top: 10px;
+            text-align: center;
+            line-height: 40px;
+            height: 40px;
+            font-size: 18px;
+            position: relative;
+            cursor: move;
+        }
+
+        .login-title span {
+            position: absolute;
+            top: -30px;
+            right: -20px;
+            width: 40px;
+            height: 40px;
+            font-size: 12px;
+            border-radius: 20px;
+            background-color: #ffffff;
+            border: #ebebeb solid 1px;
+        }
+
+        .login-input-content {
+            margin-top: 20px;
+        }
+
+        .login-input {
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .login-input label {
+            float: left;
+            width: 90px;
+            padding-right: 10px;
+            text-align: right;
+            line-height: 35px;
+            height: 35px;
+            font-size: 14px;
+        }
+
+        .login-input input {
+            float: left;
+            width: 350px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 14px;
+            border: #ebebeb solid 1px;
+        }
+
+        .login-button {
+            width: 50%;
+            margin: 30px auto 0px auto;
+            line-height: 40px;
+            font-size: 14px;
+            border: #ebebeb solid 1px;
+            text-align: center;
+        }
+
+        .login-button a {
+            display: block;
+        }
+
+        .login-bg {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: rgba(0, 0, 0, .3);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-header"><a id="link" href="javascript:;">点击,弹出对话框</a></div>
+    <div class="login" id="login">
+        <div class="login-title">
+            登陆会员
+            <span><a href="" id="closeBtn" class="close-login">关闭</a></span>
+        </div>
+
+        <div class="login-input-content">
+            <div class="login-input">
+                <label>用户名：</label>
+                <input type="text" placeholder="请输入用户名">
+            </div>
+            <div class="login-input">
+                <label>密码：</label>
+                <input type="password" placeholder="请输入密码">
+            </div>
+        </div>
+
+        <div id="loginBtn" class="login-button">
+            <a href="" id="login-button-submit">登陆会员</a>
+        </div>
+    </div>
+    <!-- 遮盖层 -->
+    <div id="bg" class="login-bg"></div>
+
+    <script>
+        // 1.获取元素
+        var login = document.querySelector('.login');
+        var mask = document.querySelector('.login-bg'); //遮盖层
+        var link = document.querySelector('#link'); //点击弹出登录框
+        var closeBtn = document.querySelector('#closeBtn'); //点击关闭登录框
+        var title = document.querySelector('.login-title');
+        // 2.点击link 显示 mask和 login
+        link.addEventListener('click', function() {
+            mask.style.display = 'block';
+            login.style.display = 'block';
+        });
+        // 3.点击closeBtn 隐藏 mask和 login
+        closeBtn.addEventListener('click', function() {
+            login.style.display = 'none';
+            mask.style.display = 'none';
+        });
+        // 4.开始拖动
+            //(1)当我们鼠标按下就获得鼠标在盒子内的坐标 
+        title.addEventListener('mousedown', function(e) {
+            var x = e.pageX - login.offsetLeft;
+            var y = e.pageY - login.offsetTop;
+            // (2)接上一步鼠标按下后,在整个文档(document)中拖拽login ，login的位置就是鼠标到页面距离减去上边的x y
+            document.addEventListener('mousemove', move);
+            function move(e) {
+                login.style.left = e.pageX - x + 'px';
+                login.style.top = e.pageY - y + 'px';
+            }
+            // (3)鼠标弹起就让鼠标移动事件移除
+            document.addEventListener('mouseup', function() {
+                document.removeEventListener('mousemove', move);
+            })
+        });
+    </script>
+</body>
+</html>

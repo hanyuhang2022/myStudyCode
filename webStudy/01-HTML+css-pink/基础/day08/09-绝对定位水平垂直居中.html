@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝对定位水平垂直居中</title>
+    <style>
+        /* 水平居中 */
+        .box1 {
+            position: absolute;
+            /* 1、left 走父元素宽度的50% */
+            left: 50%;
+            /* 2、margin 负值往左边走自身的一半 */
+            margin-left: -100px;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        /* 垂直居中 */
+        .box2 {
+            position: absolute;
+            /* 1、left 走父元素高度的50% */
+            top: 50%;
+            /* 2、margin 负值往上边走自身的一半 */
+            margin-top: -100px;
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+        /* 水平垂直 */
+        .box3 {
+            position: absolute;
+            left: 50%;
+            margin-left: -100px;
+            top: 50%;
+            margin-top: -100px;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日期格式化年月日</title>
+    <script>
+        var date = new Date();
+        console.log(date.getFullYear()); //年
+        console.log(date.getMonth() + 1); //它的月份是0~11，所以输出的月份会比实际月份小1，解决办法就是再getMonth后 +1
+        console.log(date.getDate()); // 日
+        console.log(date.getDay()); //周几  （周一返回的是1 周六返回的是6 但是周日返回的是0）
+
+        // 写一个 2021年 12 月 21日 星期二
+        var date1 = new Date();
+        var year = date1.getFullYear();
+        var month = date1.getMonth() + 1;
+        var dates = date1.getDate();
+        
+        var day = date1.getDay();
+        var arr = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        console.log('今天是' + year + '年' + month + '月' + dates + arr[day]);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

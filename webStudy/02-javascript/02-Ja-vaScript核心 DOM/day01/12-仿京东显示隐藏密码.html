@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仿京东显示隐藏密码</title>
+    <style>
+        .box {
+            position: relative;
+            margin: 100px auto;
+            width: 400px;
+            border-bottom: 1px solid #ccc;
+        }
+        .box input {
+            height: 30px;
+            border: 0px;
+            width: 370px;
+            outline: none;
+        }
+        img {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            width: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <label for="">
+            <img src="images/close.png" alt="" id = "eye">
+        </label>
+        <input type="password" name = "" id = "psd">
+    </div>
+    <script>
+        // 1.获取元素
+        var eye = document.getElementById('eye');
+        var psd = document.getElementById('psd');
+        // 2.注册事件 事件处理
+        var flag = 1;
+        eye.onclick = function() {
+            // 点击一次之后,flag一定要变化
+            if(flag == 1) {
+                psd.type = 'text';
+                eye.src = "images/open.png"
+                flag = 0; //赋值操作
+            } else {
+                psd.type = 'password';
+                eye.src = "close.png"
+                flag = 1;
+            }
+        }
+    </script>
+</body>
+</html>

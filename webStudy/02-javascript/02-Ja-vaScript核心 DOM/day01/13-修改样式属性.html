@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>修改样式属性</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id = "box"></div>
+    <script>
+
+        // element.style 行内样式操作
+        // 注意: (1) JS 里面的样式采用驼峰命名法 比如 fontSize backgroungColor
+             //  (2) Js 修改 style 样式操作,产生的是行内样式,比css权重高
+
+        // 1.获取元素
+        var box = document.getElementById('box');
+        // 2.注册事件  执行过程
+        box.onclick = function() {
+            // box.style
+            this.style.backgroundColor = 'purple';
+            this.style.width = '300px';
+        }
+    </script>
+</body>
+</html>

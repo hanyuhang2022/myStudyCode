@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定位堆叠顺序</title>
+    <style>
+        /*    
+            z-index是用来控制合租出现的先后顺序。
+        
+                 特点：
+                    ①z-index的单位就是纯数字，不带px。
+                    ②数值可以是、正整数、负数或0，默认为auto，数值越大盒子越靠上。
+                    ③若属性相同按照书写顺序，后来者居上。
+                    ④只有定位的盒子才能使用z-index属性
+         */
+        .box {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .xiongda {
+            background-color: red;
+            z-index: 1;
+        }
+        .xionger {
+            background-color: blue;
+            top: 50px;
+            left: 50px;
+            z-index: 2;
+        }
+        .gtq {
+            background-color: pink;
+            top: 100px;
+            left: 100px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="box xiongda">熊大</div>
+    <div class="box xionger">熊二</div>
+    <div class="box gtq">光头强</div>
+</body>
+</html>

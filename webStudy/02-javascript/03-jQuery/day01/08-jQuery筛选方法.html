@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery筛选方法</title>
+    <script src="jQuery.min.js"></script>
+</head>
+<body>
+    <div class="yeye">
+        <div class="father">
+            <div class="son">儿子</div>
+        </div>
+    </div>
+    <div class="nav">
+        <p>我是屁</p>
+        <div>
+            <p>我是p</p>
+        </div>
+    </div>
+    <script>
+        // 注意一下都是方法 带()
+        $(function() {
+            // 1.父 parent() 返回的是最近一级的父元素 
+            console.log($('.son').parent());
+            // 2.子 
+                //  (1)只选亲儿子的 children() 类似子代选择器 ul>li
+                    $('.nav').children('p').css('color', 'red');
+                // (2)可以选里面所有孩子 包括儿子和孙子 find() 类似(ul li)
+                    $('.nav').find('p').css('color', 'pink');
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动画序列</title>
+    <style>
+        /* from 等价于 0%   to等价于100% */
+        @keyframes move {
+            /* form {
+                transform: translate(0,0);
+            }
+            to {
+                transform: translate(1000px,0);
+            } */
+
+
+            /* 动画序列 */
+            /* 1、可以做多个状态的变化 keyframe 关键帧
+                2、里面的百分比必须是整数
+                3、里面的百分比就是 总的时间（我们这个案例8s）的划分
+            
+            */
+            0% {
+                transform: translate(0px,0px);
+            }
+            25% {
+                transform: translate(1000px,0px);
+            }
+            50% {
+                transform: translate(1000px,500px);
+            }
+            75% {
+                transform: translate(0px,500px);
+            }
+            100% {
+                transform: translate(0px,0px);
+            }
+        }
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            animation-name: move;
+            animation-duration: 8s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

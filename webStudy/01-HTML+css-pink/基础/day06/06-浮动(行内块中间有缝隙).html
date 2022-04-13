@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行内块中间有缝隙</title>
+    <!-- 网页布局第一标准：
+            多哥块级元素纵向形排列找标准流，横向排列找浮动 -->
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            background-color: rosybrown;
+            /* display: inline-block; */
+
+            /* 添加浮动 */
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</body>
+</html>

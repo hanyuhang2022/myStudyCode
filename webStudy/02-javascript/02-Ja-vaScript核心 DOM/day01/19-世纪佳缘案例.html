@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世纪佳缘案例</title>
+    <style>
+        button {
+            background-color: blue;
+            border: 0px;
+            color: honeydew;
+        }
+        input {
+            color: #999;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="txt" value="邮箱/ID/手机号">
+    <input type="text" name="" class="psd" value="密码">
+    <button>登录</button>
+    <script>
+        var txt = document.querySelector('.txt');
+        var psd = document.querySelector('.psd');
+        txt.onfocus = function() {
+            if(this.value === '邮箱/ID/手机号') {
+                this.value = ' ';
+            }
+            this.style.color = '#333';
+            this.style.border = '1px solid pink';
+        }
+        txt.onblur = function() {
+            if(this.value === ' ') {
+                this.value = '邮箱/ID/手机号';
+            }
+            this.style.color = '#999';
+            this.style.border = '1px solid #333';
+        }
+        psd.onfocus = function() {
+            if(this.value === '密码') {
+                this.value = ' ';
+            }
+            this.style.color = '#333';
+            this.style.border = '1px solid pink';
+        }
+        psd.onblur = function() {
+            if(this.value === ' ') {
+                this.value = '密码';
+            }
+            this.style.color = '#999';
+            this.style.border = '1px solid #333';
+        }
+    </script>
+</body>
+</html>

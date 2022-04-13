@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动布局练习</title>
+    <style>
+        /* 因为ul有内外边距所以需要清除 */
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .box li {
+            list-style: none;
+        }
+        .box {
+            width: 1226px;
+            height: 285px;
+            background-color: pink;
+            margin: 0px auto;
+        }
+        .box li {
+            height: 285px;
+            width: 296px;
+            background-color: red;
+            float: left;
+        }
+        .box li {
+            margin-right: 14px;
+        }
+        .box .box4 {
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="box">
+        <li class="box1"></li>
+        <li class="box2"></li>
+        <li class="box3"></li>
+        <li class="box4"></li>
+    </ul>
+</body>
+</html>

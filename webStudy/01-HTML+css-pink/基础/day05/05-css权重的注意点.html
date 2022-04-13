@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css权重的注意点</title>
+    <style>
+        #father {
+            /* 父亲的权重是 100 */
+            color: darkred!important;
+        }
+        /* p继承的权重为0 */
+        /* 所以以后我们看标签到底执行哪个样式，就先看这个标签有没有被选出来 */
+        p {
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div id="father">
+        <P>继承的权重为0</P>
+    </div>
+</body>
+</html>

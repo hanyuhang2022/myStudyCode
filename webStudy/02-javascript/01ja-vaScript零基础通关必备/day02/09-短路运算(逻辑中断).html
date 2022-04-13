@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>短路运算(逻辑终端)</title>
+    <script>
+        // 1.用我们的布尔值参与的逻辑运算 true && flase == flase
+        // 2.123 && 456 是值 或者是 表达式 参与逻辑运算?
+        // 3.逻辑与短路运算 如果表达式1 结果为真 则返回表达式2 如果表达式结果为假 则返回表达式1
+        console.log(123 && 456); //456
+        console.log(0 && 456); //0
+        console.log(0 && 1 + 2 && 456 * 56789); //0
+        console.log('' && 1 + 2 && 456 * 56789); //''
+        // 若有空的或者否定的为假 其余是真的 0 '' null undefined NaN
+
+        // 4.逻辑或短路运算 如果表达式1 结果为真 则返回的是表达式1 弱国表达式1结果为假 则返回表达式2
+        console.log(123 || 456); //123
+        console.log(123 || 456 || 123 + 456); //123
+        console.log(0 || 456 || 456 + 123); //456
+        // 例题
+        var num = 0;
+        console.log(123 || num++); //这里123为真直接输出123 短路 后边的num++不再运算
+        console.log(num); //0
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

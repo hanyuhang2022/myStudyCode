@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classList使用</title>
+    <style>
+        .bg {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <button>开关灯</button>
+    <div class="one two"></div>
+    <script>
+        var div = document.querySelector('div');
+        // console.log(div.classList);
+        console.log(div.classList[1]);
+        // 1.添加类名 实在后面追加类名不会覆盖以前的类名
+        div.classList.add('three'); //不用加.
+        // 2.移除类名
+        div.classList.remove('one');
+        // 3.切换类
+        var btn = document.querySelector('button');
+        btn.onclick = function() {
+            // 有该类名就会去移除，没有则追加
+            document.body.classList.toggle('bg');
+        }
+    </script>
+</body>
+</html>

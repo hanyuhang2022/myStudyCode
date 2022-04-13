@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>同步/异步原理</title>
+    <script>
+        // 异步的底层原理
+            // js的异步就是单线程加事件队列，js是单线程的(就是代码从上往下按顺序执行)，
+            // 事件队列相当于一个容器，里面存储的是回调函数
+            // 当js代码执行完毕后 js才会访问事件队列来调用里面的函数
+            // window.onload/ btn.onclick/input.onblur 这些都是回调函数
+            // 当ajax中的open()中使用true时为异步,js虽然是单线程但是浏览器不是单线程 到send()这一步js就会请求浏览器进行网络数据的请求
+        window.onload = function() {
+            setTimeout(function() {
+                console.log("定时函数代码执行完毕");
+            },0);
+            var str = '';
+            for(var i = 0; i < 10000; i++) {
+                str += '';
+            }
+            console.log("正常代码执行完毕");
+        };
+    </script>
+</head>
+<body>
+
+</body>
+</html>

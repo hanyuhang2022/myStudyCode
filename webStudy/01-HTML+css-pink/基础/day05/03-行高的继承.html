@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行高的继承</title>
+    <style>
+        body {
+            font: 12px/1.5 'Microsoft YaHei';
+                    /* 1.5指的是当前字体大小的1.5倍像素即该元素的行高 
+                     (这样的写法最大的优势就是里面子元素可以根据自己文字大小自动调整行高)*/
+            color: blue;
+        }
+        div {
+            font-size: 16px;
+            color: brown;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div>行高的继承</div>
+    <p>行高的继承</p>
+    <!-- ①li没有手动指定文字大小，则会继承父亲的 文字大小 body 12px 则所有li的文字大小为12px
+         ②当前li的行高就是 12 * 1.5 = 18px   -->
+    <ul>
+        <li>没有指定文字大小</li>
+    </ul>
+</body>
+</html>

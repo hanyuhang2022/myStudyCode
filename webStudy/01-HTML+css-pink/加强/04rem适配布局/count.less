@@ -1,0 +1,19 @@
+@baseFont: 50px;
+html {
+    font-size: @baseFont;
+}
+@border: 5px + 5px;
+div {
+    // 运算符的左右两侧用空格隔开
+    height: 200 - 20px;
+    width: 200 * 1.5px;
+    border: @border solid red;
+    background-color: #666 - #444;
+}
+img {
+    width: 82rem / @baseFont;
+    height: 82rem / @baseFont;
+}
+// 1.我们运算符的左右两侧必须敲一个空格隔开
+// 2.两个数参与运算 如果只有一个树有单位，而且不一样的单位 则最后的结果就以这个为单位
+// 3.两个数参与运算，如果2个数都有单位 最后的结果以第一个单位为准

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新浪下拉菜单案例</title>
+</head>
+<body>
+    <style>
+        ul,li{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .lis{
+            display: flex;
+        }
+        .btn{
+            width: 80px;
+            text-align: center;
+            margin: 5px;
+            background-color: #eee;
+            position: relative;
+        }
+  
+        .item{
+            display: block;
+            position: absolute;
+        }
+        .item li{
+            border: 1px solid #e4a616;
+            margin: 0;
+            padding: 0;
+            border-top: none;
+            line-height: 30px;
+            width: 80px;
+            height: 30px;
+        }
+        .item li:hover{
+            background-color: #faf1da;
+            color: #cc9107;
+            cursor: pointer;
+        }
+
+    </style>
+    <div class="xiala">
+        <ul class="lis">
+            <li class="btn">微博
+                <ul class="item">
+                    <li>私信</li>
+                    <li>评论</li>
+                    <li>@我</li>
+                </ul>
+            </li>
+            
+        </ul>
+
+    </div>
+    <script>
+        // var lis = document.querySelector('.lis').children
+        // for (let i = 0;i < lis.length; i++){
+        //     lis[i].onmouseover = function(){
+        //         this.querySelector('.item').style.display = 'block'
+        //     }
+        //     lis[i].onmouseout = function(){
+        //         this.querySelector('.item').style.display = 'none'
+        //     }
+        // }
+        var btn = document.querySelector('.btn');
+        var item = document.querySelector('.item');
+        btn.onmouseover = function() {
+            item.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

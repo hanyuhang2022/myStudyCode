@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圆角边框常用写法</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            /* 做圆形需要借助正方形，像素取值为边长的一半即可 */
+            /* border-radius: 100px; */
+            border-radius: 50%;  /* 百分比写法 */
+        }
+        .box1 {
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+            /* 圆角矩形的做法，设置为高度的一半： */
+            border-radius: 50px;
+        }
+        .box3 {
+            width: 300px;
+            height: 200px;
+            background-color: pink;
+            /* 设置不同的圆角，四个数值顺时针分部(两个数值就是对角分布)： */
+            border-radius: 10px 20px 30px 40px;
+            
+            /* 还可以分别设置： */
+            /* border-top-left-radius: 左上角;
+            border-top-right-radius:右上角;
+            border-bottom-left-radius:左下角;
+            border-bottom-right-radius:右下角; */
+        }
+    </style>
+</head>
+<body>
+    圆的做法:
+    <div class="box"></div>
+    圆角矩形的做法：
+    <div class="box1"></div>
+    设置不同的圆角：
+    <div class="box3"></div>
+</body>
+</html>

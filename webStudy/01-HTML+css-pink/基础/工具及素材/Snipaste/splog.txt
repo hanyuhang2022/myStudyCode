@@ -1,0 +1,1820 @@
+[2021-08-19 09:56:47.454] [I] ***************************************************************
+[2021-08-19 09:56:47.454] [I] Snipaste 2.5.6-Beta x64 (Desktop) (Qt 5.12.6)
+[2021-08-19 09:56:47.454] [I] OS: Windows 10 (10.0) [10.0.19042]
+[2021-08-19 09:56:47.455] [I] Cores: 4
+[2021-08-19 09:56:47.455] [I] Elevated: false
+[2021-08-19 09:56:47.455] [I] Main thread id: 0x914
+[2021-08-19 09:56:47.455] [I] Log level: 2
+[2021-08-19 09:56:47.455] [I] Application dir: D:/前端学习/工具及素材/Snipaste
+[2021-08-19 09:56:47.455] [I] Working dir: D:/前端学习/工具及素材/Snipaste
+[2021-08-19 09:56:47.455] [I] Config: D:/前端学习/工具及素材/Snipaste/config.ini
+[2021-08-19 09:56:47.455] [I] Library paths: (D:/前端学习/工具及素材/Snipaste)
+[2021-08-19 09:56:47.455] [I] Screen scale: 1
+[2021-08-19 09:56:47.455] [I] Retina factor: 1
+[2021-08-19 09:56:47.455] [I] Screens: 1
+[2021-08-19 09:56:47.455] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 09:56:47.533] [I] Desktops: 1
+[2021-08-19 09:56:47.533] [I] About to import settings from: D:/前端学习/工具及素材/Snipaste/config.ini
+[2021-08-19 09:56:47.537] [I] Settings imported
+[2021-08-19 09:56:47.578] [I] Breakpad initialized
+[2021-08-19 09:56:47.581] [I] Process priority: 1
+[2021-08-19 09:56:47.581] [I] Initializing Snipaste...
+[2021-08-19 09:57:01.878] [I] Prefetch...
+[2021-08-19 09:57:01.899] [I] Preloaded 20 files: 21 ms
+[2021-08-19 09:57:01.991] [I] Load default ssl configuration: 111 ms
+[2021-08-19 09:57:01.998] [I] About to apply settings...
+[2021-08-19 09:57:02.315] [I] Settings applied
+[2021-08-19 09:57:02.345] [I] Log level set to: 2
+[2021-08-19 09:57:02.618] [I] History dir: D:/前端学习/工具及素材/Snipaste/history
+[2021-08-19 09:57:02.618] [W] Failed to open history file "D:/前端学习/工具及素材/Snipaste/history/.sp0" for reading
+[2021-08-19 09:57:02.618] [I] Add group
+[2021-08-19 09:57:02.758] [I] Request to switch to group 0
+[2021-08-19 09:57:03.072] [I] About to restore pasters...
+[2021-08-19 09:57:03.072] [I] Group 0 [QQ35QB]: "默认"
+[2021-08-19 09:57:03.072] [I] Record version: 186
+[2021-08-19 09:57:03.072] [I] To restore: 0
+[2021-08-19 09:57:03.073] [I] Pasters touched
+[2021-08-19 09:57:03.073] [I] All pasters activated: true
+[2021-08-19 09:57:03.393] [I] Unref images: 0 (0 removed)
+[2021-08-19 09:57:03.393] [I] Unref dirs: 0 (0 removed)
+[2021-08-19 09:57:03.394] [I] Empty history info files: 0 (0 removed)
+[2021-08-19 09:57:03.394] [I] Pasters restored
+[2021-08-19 09:57:03.394] [I] Launch time: 15950 ms
+[2021-08-19 09:57:32.427] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 09:57:32.450] [I] Snip request: 0 (dest: 0)
+[2021-08-19 09:57:32.450] [I] Snipper: preparing...
+[2021-08-19 09:57:32.566] [I] Screens: 1
+[2021-08-19 09:57:32.566] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 09:57:32.566] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 09:57:32.566] [I] Background size: QSize(1366, 768)
+[2021-08-19 09:57:32.585] [I] Focus set
+[2021-08-19 09:57:32.597] [I] Snipper: preparation done (0)
+[2021-08-19 09:57:32.597] [I] Snipper: about to appear...
+[2021-08-19 09:57:32.597] [I] Snipper: prepare to show...
+[2021-08-19 09:57:32.911] [I] Snipper: shown
+[2021-08-19 09:57:33.018] [I] Snipper: focus in
+[2021-08-19 09:57:33.018] [I] Snipper: ready [0.5670000000000001 s]
+[2021-08-19 09:57:40.826] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-19 09:57:40.841] [I] Screenshot (847, 208, 210 x 156) destination: pin, 
+[2021-08-19 09:57:40.841] [I] Paste image: QPoint(847, 208)
+[2021-08-19 09:57:40.945] [I] Screenshot successfully saved: pin, 
+[2021-08-19 09:57:41.044] [I] Snipper: about to quit...
+[2021-08-19 09:57:41.152] [I] Snipper: focus out [3]
+[2021-08-19 09:57:41.153] [I] Snipper: hidden
+[2021-08-19 09:57:41.154] [I] Snipper: quit
+[2021-08-19 09:57:41.305] [I] Snipper: scene saved
+[2021-08-19 09:57:48.503] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 09:57:48.504] [I] Snip request: 0 (dest: 0)
+[2021-08-19 09:57:48.504] [I] Snipper: preparing...
+[2021-08-19 09:57:48.552] [I] Screens: 1
+[2021-08-19 09:57:48.552] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 09:57:48.552] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 09:57:48.552] [I] Background size: QSize(1366, 768)
+[2021-08-19 09:57:48.563] [I] Focus set
+[2021-08-19 09:57:48.564] [I] Snipper: preparation done (0)
+[2021-08-19 09:57:48.565] [I] Snipper: about to appear...
+[2021-08-19 09:57:48.565] [I] Snipper: prepare to show...
+[2021-08-19 09:57:48.585] [I] Snipper: shown
+[2021-08-19 09:57:48.603] [I] Snipper: focus in
+[2021-08-19 09:57:48.603] [I] Snipper: ready [0.099 s]
+[2021-08-19 09:58:23.566] [I] Snipper: focus out [3]
+[2021-08-19 09:58:27.296] [I] Snipper: focus in
+[2021-08-19 09:58:27.296] [I] Screenshot (68, 236, 1018 x 255) destination: none
+[2021-08-19 09:58:27.296] [I] Snipper: about to quit...
+[2021-08-19 09:58:27.312] [I] Snipper: focus out [3]
+[2021-08-19 09:58:27.316] [I] Snipper: hidden
+[2021-08-19 09:58:27.318] [I] Snipper: quit
+[2021-08-19 09:58:38.025] [I] Silent feed checking finished
+[2021-08-19 09:58:38.025] [I] No available update
+[2021-08-19 09:59:52.264] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 09:59:52.265] [I] Snip request: 0 (dest: 0)
+[2021-08-19 09:59:52.265] [I] Snipper: preparing...
+[2021-08-19 09:59:52.326] [I] Screens: 1
+[2021-08-19 09:59:52.326] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 09:59:52.326] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 09:59:52.326] [I] Background size: QSize(1366, 768)
+[2021-08-19 09:59:52.346] [I] Focus set
+[2021-08-19 09:59:52.347] [I] Snipper: preparation done (0)
+[2021-08-19 09:59:52.348] [I] Snipper: about to appear...
+[2021-08-19 09:59:52.348] [I] Snipper: prepare to show...
+[2021-08-19 09:59:52.389] [I] Snipper: shown
+[2021-08-19 09:59:52.400] [I] Snipper: focus in
+[2021-08-19 09:59:52.400] [I] Snipper: ready [0.136 s]
+[2021-08-19 10:00:38.917] [I] Color copied
+[2021-08-19 10:00:38.917] [I] Screenshot (7, 119, 232 x 41) destination: none
+[2021-08-19 10:00:38.917] [I] Snipper: about to quit...
+[2021-08-19 10:00:38.930] [I] Snipper: focus out [3]
+[2021-08-19 10:00:38.955] [I] Snipper: hidden
+[2021-08-19 10:00:38.957] [I] Snipper: quit
+[2021-08-19 10:02:43.945] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 10:02:43.946] [I] Snip request: 0 (dest: 0)
+[2021-08-19 10:02:43.946] [I] Snipper: preparing...
+[2021-08-19 10:02:44.008] [I] Screens: 1
+[2021-08-19 10:02:44.008] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 10:02:44.008] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 10:02:44.008] [I] Background size: QSize(1366, 768)
+[2021-08-19 10:02:44.028] [I] Focus set
+[2021-08-19 10:02:44.030] [I] Snipper: preparation done (0)
+[2021-08-19 10:02:44.031] [I] Snipper: about to appear...
+[2021-08-19 10:02:44.031] [I] Snipper: prepare to show...
+[2021-08-19 10:02:44.074] [I] Snipper: shown
+[2021-08-19 10:02:44.089] [I] Snipper: focus in
+[2021-08-19 10:02:44.089] [I] Snipper: ready [0.14300000000000002 s]
+[2021-08-19 10:02:49.404] [I] Color copied
+[2021-08-19 10:02:49.404] [I] Screenshot (0, 0, 1366 x 768) destination: none
+[2021-08-19 10:02:49.404] [I] Snipper: about to quit...
+[2021-08-19 10:02:49.420] [I] Snipper: focus out [3]
+[2021-08-19 10:02:49.440] [I] Snipper: hidden
+[2021-08-19 10:02:49.442] [I] Snipper: quit
+[2021-08-19 10:03:41.326] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 10:03:41.329] [I] Snip request: 0 (dest: 0)
+[2021-08-19 10:03:41.329] [I] Snipper: preparing...
+[2021-08-19 10:03:41.386] [I] Screens: 1
+[2021-08-19 10:03:41.386] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 10:03:41.386] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 10:03:41.386] [I] Background size: QSize(1366, 768)
+[2021-08-19 10:03:41.408] [I] Focus set
+[2021-08-19 10:03:41.410] [I] Snipper: preparation done (0)
+[2021-08-19 10:03:41.411] [I] Snipper: about to appear...
+[2021-08-19 10:03:41.411] [I] Snipper: prepare to show...
+[2021-08-19 10:03:41.447] [I] Snipper: shown
+[2021-08-19 10:03:41.458] [I] Snipper: focus in
+[2021-08-19 10:03:41.458] [I] Snipper: ready [0.128 s]
+[2021-08-19 10:03:42.991] [I] Color copied
+[2021-08-19 10:03:42.991] [I] Screenshot (0, 0, 1366 x 768) destination: none
+[2021-08-19 10:03:42.991] [I] Snipper: about to quit...
+[2021-08-19 10:03:43.000] [I] Snipper: focus out [3]
+[2021-08-19 10:03:43.008] [I] Snipper: hidden
+[2021-08-19 10:03:43.009] [I] Snipper: quit
+[2021-08-19 10:05:43.831] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 10:05:43.831] [I] Snip request: 0 (dest: 0)
+[2021-08-19 10:05:43.831] [I] Snipper: preparing...
+[2021-08-19 10:05:43.885] [I] Screens: 1
+[2021-08-19 10:05:43.885] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 10:05:43.885] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 10:05:43.885] [I] Background size: QSize(1366, 768)
+[2021-08-19 10:05:43.906] [I] Focus set
+[2021-08-19 10:05:43.907] [I] Snipper: preparation done (0)
+[2021-08-19 10:05:43.912] [I] Snipper: about to appear...
+[2021-08-19 10:05:43.912] [I] Snipper: prepare to show...
+[2021-08-19 10:05:43.950] [I] Snipper: shown
+[2021-08-19 10:05:43.964] [I] Snipper: focus in
+[2021-08-19 10:05:43.964] [I] Snipper: ready [0.133 s]
+[2021-08-19 10:05:56.225] [I] Color copied
+[2021-08-19 10:05:56.225] [I] Screenshot (0, 0, 1366 x 768) destination: none
+[2021-08-19 10:05:56.225] [I] Snipper: about to quit...
+[2021-08-19 10:05:56.246] [I] Snipper: focus out [3]
+[2021-08-19 10:05:56.263] [I] Snipper: hidden
+[2021-08-19 10:05:56.265] [I] Snipper: quit
+[2021-08-19 10:06:07.895] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 10:06:07.896] [I] Snip request: 0 (dest: 0)
+[2021-08-19 10:06:07.896] [I] Snipper: preparing...
+[2021-08-19 10:06:07.960] [I] Screens: 1
+[2021-08-19 10:06:07.960] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 10:06:07.960] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 10:06:07.960] [I] Background size: QSize(1366, 768)
+[2021-08-19 10:06:07.987] [I] Focus set
+[2021-08-19 10:06:07.988] [I] Snipper: preparation done (0)
+[2021-08-19 10:06:07.990] [I] Snipper: about to appear...
+[2021-08-19 10:06:07.990] [I] Snipper: prepare to show...
+[2021-08-19 10:06:08.012] [I] Snipper: shown
+[2021-08-19 10:06:08.026] [I] Snipper: focus in
+[2021-08-19 10:06:08.026] [I] Snipper: ready [0.129 s]
+[2021-08-19 10:06:11.449] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-19 10:06:11.451] [I] Screenshot (6, 88, 236 x 275) destination: pin, 
+[2021-08-19 10:06:11.452] [I] Paste image: QPoint(6, 88)
+[2021-08-19 10:06:11.546] [I] Screenshot successfully saved: pin, 
+[2021-08-19 10:06:11.615] [I] Snipper: about to quit...
+[2021-08-19 10:06:11.645] [I] Snipper: focus out [3]
+[2021-08-19 10:06:11.647] [I] Snipper: hidden
+[2021-08-19 10:06:11.649] [I] Snipper: quit
+[2021-08-19 10:06:11.787] [I] Snipper: scene saved
+[2021-08-19 10:07:02.877] [I] Preloaded 20 files: 263 ms [every 10.0 m]
+[2021-08-19 10:14:33.639] [I] Preloaded 20 files: 774 ms [every 7.5 m]
+[2021-08-19 10:20:12.399] [I] Preloaded 20 files: 761 ms [every 5.6 m]
+[2021-08-19 10:24:26.298] [I] Preloaded 20 files: 893 ms [every 4.2 m]
+[2021-08-19 10:27:36.298] [I] Preloaded 20 files: 10 ms [every 3.2 m]
+[2021-08-19 10:31:33.300] [I] Preloaded 20 files: 14 ms [every 4.0 m]
+[2021-08-19 10:36:31.090] [I] Preloaded 20 files: 798 ms [every 4.9 m]
+[2021-08-19 10:40:13.780] [I] Preloaded 20 files: 685 ms [every 3.7 m]
+[2021-08-19 10:43:01.805] [I] Preloaded 20 files: 1031 ms [every 2.8 m]
+[2021-08-19 10:45:07.867] [I] Preloaded 20 files: 1041 ms [every 2.1 m]
+[2021-08-19 10:46:41.948] [I] Preloaded 20 files: 54 ms [every 1.6 m]
+[2021-08-19 10:48:39.767] [I] Preloaded 20 files: 812 ms [every 2.0 m]
+[2021-08-19 10:50:08.749] [I] Preloaded 20 files: 984 ms [every 1.5 m]
+[2021-08-19 10:51:14.799] [I] Preloaded 20 files: 42 ms [every 1.1 m]
+[2021-08-19 10:52:36.834] [I] Preloaded 20 files: 46 ms [every 1.4 m]
+[2021-08-19 10:54:19.894] [I] Preloaded 20 files: 47 ms [every 1.7 m]
+[2021-08-19 10:56:28.942] [I] Preloaded 20 files: 42 ms [every 2.1 m]
+[2021-08-19 10:59:10.003] [I] Preloaded 20 files: 51 ms [every 2.7 m]
+[2021-08-19 11:02:32.167] [I] Preloaded 20 files: 1161 ms [every 3.4 m]
+[2021-08-19 11:05:04.136] [I] Preloaded 20 files: 952 ms [every 2.5 m]
+[2021-08-19 11:06:57.122] [I] Preloaded 0 files: 2 ms [every 1.9 m]
+[2021-08-19 11:09:19.126] [I] Preloaded 0 files: 1 ms [every 2.4 m]
+[2021-08-19 11:12:16.116] [I] Preloaded 0 files: 2 ms [every 2.9 m]
+[2021-08-19 11:15:57.162] [I] Preloaded 0 files: 4 ms [every 3.7 m]
+[2021-08-19 11:20:34.169] [I] Preloaded 0 files: 0 ms [every 4.6 m]
+[2021-08-19 11:26:20.167] [I] Preloaded 0 files: 1 ms [every 5.8 m]
+[2021-08-19 11:33:32.175] [I] Preloaded 0 files: 1 ms [every 7.2 m]
+[2021-08-19 11:42:32.211] [I] Preloaded 0 files: 0 ms [every 9.0 m]
+[2021-08-19 11:53:47.203] [I] Preloaded 0 files: 2 ms [every 11.3 m]
+[2021-08-19 12:07:51.201] [I] Preloaded 0 files: 3 ms [every 14.1 m]
+[2021-08-19 12:25:26.209] [I] Preloaded 0 files: 3 ms [every 17.6 m]
+[2021-08-19 12:47:25.225] [I] Preloaded 0 files: 5 ms [every 22.0 m]
+[2021-08-19 13:14:53.272] [I] Preloaded 0 files: 1 ms [every 27.5 m]
+[2021-08-19 13:44:53.306] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-19 14:14:53.320] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-19 14:44:56.250] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 15:14:56.256] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-19 15:44:56.260] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-19 16:14:56.270] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-19 16:44:56.295] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-19 17:14:56.295] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 17:44:56.306] [I] Preloaded 0 files: 6 ms [every 30.0 m]
+[2021-08-19 18:00:13.954] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 18:00:14.297] [I] Snip request: 0 (dest: 0)
+[2021-08-19 18:00:14.324] [I] Snipper: preparing...
+[2021-08-19 18:00:14.786] [I] Screens: 1
+[2021-08-19 18:00:14.826] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 18:00:14.827] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 18:00:14.827] [I] Background size: QSize(1366, 768)
+[2021-08-19 18:00:15.360] [I] Focus set
+[2021-08-19 18:00:15.794] [I] Snipper: preparation done (0)
+[2021-08-19 18:00:16.211] [I] Snipper: about to appear...
+[2021-08-19 18:00:16.224] [I] Snipper: prepare to show...
+[2021-08-19 18:00:16.752] [I] Snipper: shown
+[2021-08-19 18:00:16.899] [I] Snipper: focus in
+[2021-08-19 18:00:16.922] [I] Snipper: ready [2.611 s]
+[2021-08-19 18:00:22.113] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-19 18:00:22.170] [I] Screenshot (170, 247, 643 x 111) destination: pin, 
+[2021-08-19 18:00:22.186] [I] Paste image: QPoint(170, 247)
+[2021-08-19 18:00:22.765] [I] Screenshot successfully saved: pin, 
+[2021-08-19 18:00:23.201] [I] Snipper: about to quit...
+[2021-08-19 18:00:23.592] [I] Snipper: focus out [3]
+[2021-08-19 18:00:23.593] [I] Snipper: hidden
+[2021-08-19 18:00:23.716] [I] Snipper: quit
+[2021-08-19 18:00:23.859] [I] Snipper: scene saved
+[2021-08-19 18:02:47.131] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-19 18:02:47.131] [I] Snip request: 0 (dest: 0)
+[2021-08-19 18:02:47.131] [I] Snipper: preparing...
+[2021-08-19 18:02:47.177] [I] Screens: 1
+[2021-08-19 18:02:47.177] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-19 18:02:47.177] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-19 18:02:47.177] [I] Background size: QSize(1366, 768)
+[2021-08-19 18:02:47.217] [I] Focus set
+[2021-08-19 18:02:47.217] [I] Snipper: preparation done (0)
+[2021-08-19 18:02:47.218] [I] Snipper: about to appear...
+[2021-08-19 18:02:47.219] [I] Snipper: prepare to show...
+[2021-08-19 18:02:47.459] [I] Snipper: shown
+[2021-08-19 18:02:47.473] [I] Snipper: focus in
+[2021-08-19 18:02:47.473] [I] Snipper: ready [0.342 s]
+[2021-08-19 18:02:53.225] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-19 18:02:53.228] [I] Screenshot (177, 191, 876 x 187) destination: pin, 
+[2021-08-19 18:02:53.233] [I] Paste image: QPoint(177, 191)
+[2021-08-19 18:02:53.334] [I] Screenshot successfully saved: pin, 
+[2021-08-19 18:02:53.443] [I] Snipper: about to quit...
+[2021-08-19 18:02:53.470] [I] Snipper: focus out [3]
+[2021-08-19 18:02:53.471] [I] Snipper: hidden
+[2021-08-19 18:02:53.472] [I] Snipper: quit
+[2021-08-19 18:02:53.656] [I] Snipper: scene saved
+[2021-08-19 18:14:56.305] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 18:44:56.305] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 19:14:56.415] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-19 19:44:56.469] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 20:14:56.478] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 20:44:56.528] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 21:14:56.534] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-19 21:44:56.547] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-19 22:14:56.552] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 22:44:56.560] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 23:14:56.561] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-19 23:44:56.577] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-20 00:14:56.569] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-20 00:44:56.635] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-20 01:14:56.641] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 01:44:56.679] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-20 02:14:56.743] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 02:44:56.759] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-20 03:14:56.764] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-20 03:44:56.758] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-20 04:14:56.767] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-20 04:44:56.800] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 05:14:56.800] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 05:44:56.818] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 06:14:56.820] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 06:44:56.895] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 07:14:56.885] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 07:44:56.879] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 08:14:56.885] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 08:44:56.880] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 09:14:56.881] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 09:44:56.886] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 09:58:39.261] [I] Silent feed checking finished
+[2021-08-20 09:58:39.261] [I] No available update
+[2021-08-20 10:14:56.944] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-20 10:44:56.964] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-20 11:14:56.965] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 11:44:56.971] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 12:14:56.958] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 12:44:56.960] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 13:14:56.966] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 13:44:56.964] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 14:14:56.963] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 14:44:56.965] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 15:14:56.970] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 15:44:56.956] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 16:14:57.007] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 16:44:57.008] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 17:14:57.013] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 17:44:57.010] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 18:14:57.013] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 18:44:57.035] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 19:14:57.019] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 19:44:57.039] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 20:14:57.042] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 20:44:57.044] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 21:14:57.088] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 21:44:57.083] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 22:14:57.095] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 22:44:57.081] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 23:14:57.085] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-20 23:44:57.089] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 00:14:57.091] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 00:44:57.087] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 01:14:57.090] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 01:44:57.093] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 02:14:57.128] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 02:44:57.131] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 03:14:57.143] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 03:44:57.140] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 04:14:57.131] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 04:44:57.136] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 05:14:57.141] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 05:44:57.128] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 06:14:57.131] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 06:44:57.136] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 07:14:57.186] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 07:44:57.180] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 08:14:57.185] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 08:44:57.186] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 09:14:57.190] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 09:44:57.194] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 09:58:38.769] [I] Silent feed checking finished
+[2021-08-21 09:58:38.769] [I] No available update
+[2021-08-21 10:14:57.191] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 10:14:58.633] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-21 10:14:58.716] [I] Snip request: 0 (dest: 0)
+[2021-08-21 10:14:58.729] [I] Snipper: preparing...
+[2021-08-21 10:14:59.043] [I] Screens: 1
+[2021-08-21 10:14:59.052] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-21 10:14:59.052] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-21 10:14:59.052] [I] Background size: QSize(1366, 768)
+[2021-08-21 10:14:59.213] [I] Focus set
+[2021-08-21 10:14:59.381] [I] Snipper: preparation done (0)
+[2021-08-21 10:14:59.639] [I] Snipper: about to appear...
+[2021-08-21 10:14:59.639] [I] Snipper: prepare to show...
+[2021-08-21 10:15:00.169] [I] Snipper: shown
+[2021-08-21 10:15:00.252] [I] Snipper: focus in
+[2021-08-21 10:15:00.253] [I] Snipper: ready [1.542 s]
+[2021-08-21 10:15:03.928] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-21 10:15:03.967] [I] Screenshot (416, 80, 570 x 259) destination: pin, 
+[2021-08-21 10:15:03.969] [I] Paste image: QPoint(416, 80)
+[2021-08-21 10:15:04.964] [I] Screenshot successfully saved: pin, 
+[2021-08-21 10:15:05.208] [I] Snipper: about to quit...
+[2021-08-21 10:15:05.290] [I] Snipper: focus out [3]
+[2021-08-21 10:15:05.292] [I] Snipper: hidden
+[2021-08-21 10:15:05.294] [I] Snipper: quit
+[2021-08-21 10:15:05.508] [I] Snipper: scene saved
+[2021-08-21 10:44:57.199] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 11:14:57.197] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 11:44:57.200] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 12:14:57.205] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 12:45:01.701] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 13:15:01.703] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 13:45:01.708] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 14:15:01.726] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 14:45:01.754] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 15:15:01.752] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 15:45:01.777] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 16:15:01.765] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 16:45:01.766] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 17:15:02.029] [I] Preloaded 0 files: 91 ms [every 30.0 m]
+[2021-08-21 17:45:02.051] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 18:15:02.050] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-21 18:45:02.053] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-21 19:15:02.058] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-21 19:45:02.099] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-21 20:15:02.092] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-21 20:45:02.097] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 21:10:50.408] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-21 21:10:50.463] [I] Snip request: 0 (dest: 0)
+[2021-08-21 21:10:50.464] [I] Snipper: preparing...
+[2021-08-21 21:10:50.657] [I] Screens: 1
+[2021-08-21 21:10:50.664] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-21 21:10:50.664] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-21 21:10:50.664] [I] Background size: QSize(1366, 768)
+[2021-08-21 21:10:50.870] [I] Focus set
+[2021-08-21 21:10:50.947] [I] Snipper: preparation done (0)
+[2021-08-21 21:10:51.169] [I] Snipper: about to appear...
+[2021-08-21 21:10:51.169] [I] Snipper: prepare to show...
+[2021-08-21 21:10:51.663] [I] Snipper: shown
+[2021-08-21 21:10:51.740] [I] Snipper: focus in
+[2021-08-21 21:10:51.740] [I] Snipper: ready [1.2790000000000001 s]
+[2021-08-21 21:10:58.905] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-21 21:10:58.906] [I] Screenshot (4, 82, 520 x 484) destination: pin, 
+[2021-08-21 21:10:58.908] [I] Paste image: QPoint(4, 82)
+[2021-08-21 21:10:59.617] [I] Screenshot successfully saved: pin, 
+[2021-08-21 21:10:59.949] [I] Snipper: about to quit...
+[2021-08-21 21:11:00.030] [I] Snipper: focus out [3]
+[2021-08-21 21:11:00.030] [I] Snipper: hidden
+[2021-08-21 21:11:00.068] [I] Snipper: quit
+[2021-08-21 21:11:00.185] [I] Snipper: scene saved
+[2021-08-21 21:15:02.097] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 21:45:02.098] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-21 22:15:02.095] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-21 22:45:02.094] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-21 23:15:02.152] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-21 23:45:02.156] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-22 00:15:02.174] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-22 00:45:02.176] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 01:15:02.179] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 01:45:02.183] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 02:15:02.174] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-22 02:45:02.183] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-22 03:15:02.204] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-22 03:45:02.226] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-22 04:15:02.270] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 04:45:02.273] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 05:15:02.277] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 05:45:02.273] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 06:15:02.265] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 06:45:02.267] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-22 07:15:02.278] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-22 07:45:02.301] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 08:15:02.305] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 08:45:02.306] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 09:15:02.339] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 09:45:02.345] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 09:58:45.315] [I] Silent feed checking finished
+[2021-08-22 09:58:45.315] [I] No available update
+[2021-08-22 10:15:02.347] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 10:45:02.351] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 11:15:02.355] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 11:45:02.350] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-22 12:11:07.816] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-22 12:11:07.846] [I] Snip request: 0 (dest: 0)
+[2021-08-22 12:11:07.865] [I] Snipper: preparing...
+[2021-08-22 12:11:07.918] [I] Screens: 1
+[2021-08-22 12:11:07.918] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-22 12:11:07.918] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-22 12:11:07.918] [I] Background size: QSize(1366, 768)
+[2021-08-22 12:11:07.976] [I] Focus set
+[2021-08-22 12:11:08.030] [I] Snipper: preparation done (0)
+[2021-08-22 12:11:08.276] [I] Snipper: about to appear...
+[2021-08-22 12:11:08.276] [I] Snipper: prepare to show...
+[2021-08-22 12:11:08.688] [I] Snipper: shown
+[2021-08-22 12:11:08.798] [I] Snipper: focus in
+[2021-08-22 12:11:08.798] [I] Snipper: ready [0.9380000000000001 s]
+[2021-08-22 12:11:12.062] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-22 12:11:12.063] [I] Screenshot (0, 72, 322 x 300) destination: pin, 
+[2021-08-22 12:11:12.106] [I] Paste image: QPoint(0, 72)
+[2021-08-22 12:11:12.855] [I] Screenshot successfully saved: pin, 
+[2021-08-22 12:11:13.011] [I] Snipper: about to quit...
+[2021-08-22 12:11:13.070] [I] Snipper: focus out [3]
+[2021-08-22 12:11:13.071] [I] Snipper: hidden
+[2021-08-22 12:11:13.153] [I] Snipper: quit
+[2021-08-22 12:11:13.268] [I] Snipper: scene saved
+[2021-08-22 12:13:55.413] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-22 12:13:55.414] [I] Snip request: 0 (dest: 0)
+[2021-08-22 12:13:55.414] [I] Snipper: preparing...
+[2021-08-22 12:13:55.450] [I] Screens: 1
+[2021-08-22 12:13:55.450] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-22 12:13:55.450] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-22 12:13:55.450] [I] Background size: QSize(1366, 768)
+[2021-08-22 12:13:55.460] [I] Focus set
+[2021-08-22 12:13:55.474] [I] Snipper: preparation done (0)
+[2021-08-22 12:13:55.480] [I] Snipper: about to appear...
+[2021-08-22 12:13:55.480] [I] Snipper: prepare to show...
+[2021-08-22 12:13:55.516] [I] Snipper: shown
+[2021-08-22 12:13:55.534] [I] Snipper: focus in
+[2021-08-22 12:13:55.534] [I] Snipper: ready [0.12 s]
+[2021-08-22 12:14:06.508] [I] Color copied
+[2021-08-22 12:14:06.509] [I] Screenshot (0, 0, 1366 x 728) destination: none
+[2021-08-22 12:14:06.509] [I] Snipper: about to quit...
+[2021-08-22 12:14:06.520] [I] Snipper: focus out [3]
+[2021-08-22 12:14:06.525] [I] Snipper: hidden
+[2021-08-22 12:14:06.526] [I] Snipper: quit
+[2021-08-22 12:14:52.381] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-22 12:14:52.382] [I] Snip request: 0 (dest: 0)
+[2021-08-22 12:14:52.382] [I] Snipper: preparing...
+[2021-08-22 12:14:52.426] [I] Screens: 1
+[2021-08-22 12:14:52.426] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-22 12:14:52.426] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-22 12:14:52.426] [I] Background size: QSize(1366, 768)
+[2021-08-22 12:14:52.434] [I] Focus set
+[2021-08-22 12:14:52.435] [I] Snipper: preparation done (0)
+[2021-08-22 12:14:52.452] [I] Snipper: about to appear...
+[2021-08-22 12:14:52.452] [I] Snipper: prepare to show...
+[2021-08-22 12:14:52.476] [I] Snipper: shown
+[2021-08-22 12:14:52.488] [I] Snipper: focus in
+[2021-08-22 12:14:52.489] [I] Snipper: ready [0.109 s]
+[2021-08-22 12:14:57.969] [I] Snipper: focus out [3]
+[2021-08-22 12:14:59.980] [I] Snipper: focus in
+[2021-08-22 12:15:01.306] [I] Screenshot (0, 0, 1366 x 728) destination: none
+[2021-08-22 12:15:01.306] [I] Snipper: about to quit...
+[2021-08-22 12:15:01.313] [I] Snipper: focus out [3]
+[2021-08-22 12:15:01.317] [I] Snipper: hidden
+[2021-08-22 12:15:01.318] [I] Snipper: quit
+[2021-08-22 12:15:02.352] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 12:15:03.117] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-22 12:15:03.118] [I] Snip request: 0 (dest: 0)
+[2021-08-22 12:15:03.118] [I] Snipper: preparing...
+[2021-08-22 12:15:03.160] [I] Screens: 1
+[2021-08-22 12:15:03.160] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-22 12:15:03.160] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-22 12:15:03.160] [I] Background size: QSize(1366, 768)
+[2021-08-22 12:15:03.171] [I] Focus set
+[2021-08-22 12:15:03.172] [I] Snipper: preparation done (0)
+[2021-08-22 12:15:03.173] [I] Snipper: about to appear...
+[2021-08-22 12:15:03.173] [I] Snipper: prepare to show...
+[2021-08-22 12:15:03.190] [I] Snipper: shown
+[2021-08-22 12:15:03.203] [I] Snipper: focus in
+[2021-08-22 12:15:03.203] [I] Snipper: ready [0.096 s]
+[2021-08-22 12:15:04.921] [I] Color copied
+[2021-08-22 12:15:04.921] [I] Screenshot (0, 0, 1366 x 728) destination: none
+[2021-08-22 12:15:04.921] [I] Snipper: about to quit...
+[2021-08-22 12:15:04.930] [I] Snipper: focus out [3]
+[2021-08-22 12:15:04.935] [I] Snipper: hidden
+[2021-08-22 12:15:04.936] [I] Snipper: quit
+[2021-08-22 12:15:06.453] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-22 12:15:06.454] [I] Snip request: 0 (dest: 0)
+[2021-08-22 12:15:06.454] [I] Snipper: preparing...
+[2021-08-22 12:15:06.493] [I] Screens: 1
+[2021-08-22 12:15:06.493] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-22 12:15:06.493] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-22 12:15:06.493] [I] Background size: QSize(1366, 768)
+[2021-08-22 12:15:06.502] [I] Focus set
+[2021-08-22 12:15:06.503] [I] Snipper: preparation done (0)
+[2021-08-22 12:15:06.504] [I] Snipper: about to appear...
+[2021-08-22 12:15:06.504] [I] Snipper: prepare to show...
+[2021-08-22 12:15:06.521] [I] Snipper: shown
+[2021-08-22 12:15:06.535] [I] Snipper: focus in
+[2021-08-22 12:15:06.535] [I] Snipper: ready [0.093 s]
+[2021-08-22 12:15:35.897] [I] Snipper: focus out [3]
+[2021-08-22 12:15:36.826] [I] Snipper: focus in
+[2021-08-22 12:15:37.422] [I] Screenshot (7, 78, 551 x 187) destination: none
+[2021-08-22 12:15:37.422] [I] Snipper: about to quit...
+[2021-08-22 12:15:37.425] [I] Snipper: focus out [3]
+[2021-08-22 12:15:37.430] [I] Snipper: hidden
+[2021-08-22 12:15:37.431] [I] Snipper: quit
+[2021-08-22 12:17:46.301] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-22 12:17:46.301] [I] Snip request: 0 (dest: 0)
+[2021-08-22 12:17:46.302] [I] Snipper: preparing...
+[2021-08-22 12:17:46.355] [I] Screens: 1
+[2021-08-22 12:17:46.355] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-22 12:17:46.355] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-22 12:17:46.355] [I] Background size: QSize(1366, 768)
+[2021-08-22 12:17:46.366] [I] Focus set
+[2021-08-22 12:17:46.367] [I] Snipper: preparation done (0)
+[2021-08-22 12:17:46.368] [I] Snipper: about to appear...
+[2021-08-22 12:17:46.368] [I] Snipper: prepare to show...
+[2021-08-22 12:17:46.390] [I] Snipper: shown
+[2021-08-22 12:17:46.406] [I] Snipper: focus in
+[2021-08-22 12:17:46.406] [I] Snipper: ready [0.107 s]
+[2021-08-22 12:17:47.454] [I] Color copied
+[2021-08-22 12:17:47.454] [I] Screenshot (0, 0, 1366 x 728) destination: none
+[2021-08-22 12:17:47.454] [I] Snipper: about to quit...
+[2021-08-22 12:17:47.458] [I] Snipper: focus out [3]
+[2021-08-22 12:17:47.463] [I] Snipper: hidden
+[2021-08-22 12:17:47.465] [I] Snipper: quit
+[2021-08-22 12:45:02.343] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 13:15:02.345] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 13:45:02.345] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 14:15:02.351] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 14:45:02.345] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 15:15:00.836] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 15:45:00.837] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-22 16:15:00.853] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 16:45:00.853] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 17:15:00.856] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 17:45:00.856] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-22 18:15:00.857] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 18:45:00.857] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 19:15:00.873] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 19:45:00.905] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-22 20:15:00.896] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 20:45:00.909] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 21:15:00.985] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 21:45:01.016] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 22:15:01.008] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 22:45:01.017] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 23:15:01.018] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-22 23:45:01.022] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 00:15:01.041] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 00:45:01.034] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 01:15:01.044] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 01:45:01.048] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 02:15:01.133] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 02:45:01.135] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 03:15:01.137] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 03:45:01.133] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 04:15:01.130] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 04:45:01.128] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 05:15:01.134] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 05:45:01.135] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 06:15:01.134] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 06:45:01.130] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 07:15:01.173] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 07:45:01.168] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 08:15:01.173] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 08:45:01.175] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 09:15:01.170] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 09:45:01.174] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 09:58:53.340] [W] Feed error: 下载更新源失败。网络错误：3
+[2021-08-23 09:58:53.356] [W] Feed error: 下载更新源失败。网络错误：3
+[2021-08-23 09:58:53.364] [E] 下载更新源失败。网络错误：3
+[2021-08-23 10:15:01.168] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 10:45:01.204] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 11:15:01.201] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 11:45:01.202] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 12:15:01.201] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 12:45:01.211] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 13:15:01.206] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 13:45:01.211] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 14:15:01.213] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 14:45:02.303] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 15:15:02.304] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 15:45:02.311] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 16:15:02.315] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 16:45:02.342] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 17:15:02.331] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 17:45:02.342] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 18:15:02.331] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 18:45:02.355] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 19:15:02.384] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 19:45:02.381] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 20:15:02.387] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 20:45:02.381] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 21:15:02.386] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-23 21:45:02.379] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-23 22:15:02.394] [I] Preloaded 0 files: 7 ms [every 30.0 m]
+[2021-08-23 22:45:02.394] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-23 23:15:02.406] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-23 23:45:02.408] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 00:15:02.408] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 00:45:02.419] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 01:15:02.424] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 01:45:02.456] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 02:15:02.477] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 02:45:02.487] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 03:15:02.489] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 03:45:02.510] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 04:15:02.507] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 04:45:02.514] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 05:15:02.531] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 05:45:02.537] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-24 06:15:02.545] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 06:45:02.580] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 07:15:02.580] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 07:45:02.581] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 08:15:02.582] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 08:45:02.584] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 09:15:02.588] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 09:45:02.587] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 09:58:42.840] [W] Feed error: 下载更新源失败。网络错误：3
+[2021-08-24 09:58:42.842] [W] Feed error: 下载更新源失败。网络错误：3
+[2021-08-24 09:58:42.851] [E] 下载更新源失败。网络错误：3
+[2021-08-24 10:15:02.591] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 10:45:02.603] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 11:15:02.600] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 11:45:02.601] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 12:15:02.607] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-24 12:45:02.636] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-24 13:15:02.641] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 13:45:02.649] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 14:15:02.656] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 14:45:02.687] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-24 15:15:03.902] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 15:45:03.898] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 16:15:03.903] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-24 16:45:03.938] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 17:15:03.942] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 17:45:03.987] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-24 18:15:04.012] [I] Preloaded 0 files: 6 ms [every 30.0 m]
+[2021-08-24 18:45:04.087] [I] Preloaded 0 files: 6 ms [every 30.0 m]
+[2021-08-24 19:15:04.088] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 19:45:04.093] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-24 20:15:04.164] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-24 20:45:04.229] [I] Preloaded 0 files: 49 ms [every 30.0 m]
+[2021-08-24 21:15:04.229] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 21:45:04.227] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 22:15:04.226] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 22:45:04.226] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 23:15:04.229] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-24 23:45:04.234] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 00:15:04.263] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 00:45:04.277] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-25 01:15:04.359] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-25 01:45:04.366] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 02:15:04.388] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-25 02:45:04.399] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-25 03:15:04.405] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 03:45:04.416] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-25 04:15:04.419] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 04:45:04.418] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-25 05:15:04.419] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-25 05:45:04.431] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-25 06:15:04.494] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-25 06:45:04.504] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-25 07:15:04.515] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-25 07:45:04.525] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-25 08:15:04.522] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-25 08:45:04.529] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-25 09:15:04.541] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-25 09:19:43.248] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-25 09:19:43.578] [I] Snip request: 0 (dest: 0)
+[2021-08-25 09:19:43.649] [I] Snipper: preparing...
+[2021-08-25 09:19:44.070] [I] Screens: 1
+[2021-08-25 09:19:44.085] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-25 09:19:44.085] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-25 09:19:44.085] [I] Background size: QSize(1366, 768)
+[2021-08-25 09:19:44.529] [I] Focus set
+[2021-08-25 09:19:44.985] [I] Snipper: preparation done (0)
+[2021-08-25 09:19:45.543] [I] Snipper: about to appear...
+[2021-08-25 09:19:45.561] [I] Snipper: prepare to show...
+[2021-08-25 09:19:46.570] [I] Snipper: shown
+[2021-08-25 09:19:46.745] [I] Snipper: focus in
+[2021-08-25 09:19:46.754] [I] Snipper: ready [3.1750000000000003 s]
+[2021-08-25 09:19:56.727] [I] Screenshot (9, 79, 320 x 299) destination: none
+[2021-08-25 09:19:56.733] [I] Snipper: about to quit...
+[2021-08-25 09:19:56.764] [I] Snipper: focus out [3]
+[2021-08-25 09:19:56.770] [I] Snipper: hidden
+[2021-08-25 09:19:56.804] [I] Snipper: quit
+[2021-08-25 09:20:11.988] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-25 09:20:11.990] [I] Snip request: 0 (dest: 0)
+[2021-08-25 09:20:11.990] [I] Snipper: preparing...
+[2021-08-25 09:20:12.021] [I] Screens: 1
+[2021-08-25 09:20:12.021] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-25 09:20:12.021] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-25 09:20:12.021] [I] Background size: QSize(1366, 768)
+[2021-08-25 09:20:12.033] [I] Focus set
+[2021-08-25 09:20:12.034] [I] Snipper: preparation done (0)
+[2021-08-25 09:20:12.035] [I] Snipper: about to appear...
+[2021-08-25 09:20:12.035] [I] Snipper: prepare to show...
+[2021-08-25 09:20:12.059] [I] Snipper: shown
+[2021-08-25 09:20:12.072] [I] Snipper: focus in
+[2021-08-25 09:20:12.072] [I] Snipper: ready [0.083 s]
+[2021-08-25 09:20:21.993] [I] Screenshot (6, 77, 320 x 323) destination: none
+[2021-08-25 09:20:21.993] [I] Snipper: about to quit...
+[2021-08-25 09:20:21.996] [I] Snipper: focus out [3]
+[2021-08-25 09:20:22.000] [I] Snipper: hidden
+[2021-08-25 09:20:22.001] [I] Snipper: quit
+[2021-08-25 09:20:55.552] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-25 09:20:55.553] [I] Snip request: 0 (dest: 0)
+[2021-08-25 09:20:55.553] [I] Snipper: preparing...
+[2021-08-25 09:20:55.624] [I] Screens: 1
+[2021-08-25 09:20:55.624] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-25 09:20:55.624] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-25 09:20:55.624] [I] Background size: QSize(1366, 768)
+[2021-08-25 09:20:55.636] [I] Focus set
+[2021-08-25 09:20:55.637] [I] Snipper: preparation done (0)
+[2021-08-25 09:20:55.639] [I] Snipper: about to appear...
+[2021-08-25 09:20:55.639] [I] Snipper: prepare to show...
+[2021-08-25 09:20:55.656] [I] Snipper: shown
+[2021-08-25 09:20:55.670] [I] Snipper: focus in
+[2021-08-25 09:20:55.670] [I] Snipper: ready [0.11800000000000001 s]
+[2021-08-25 09:21:04.017] [I] Screenshot (6, 81, 339 x 319) destination: none
+[2021-08-25 09:21:04.017] [I] Snipper: about to quit...
+[2021-08-25 09:21:04.020] [I] Snipper: focus out [3]
+[2021-08-25 09:21:04.024] [I] Snipper: hidden
+[2021-08-25 09:21:04.026] [I] Snipper: quit
+[2021-08-25 09:45:04.552] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-25 09:58:48.645] [I] Silent feed checking finished
+[2021-08-25 09:58:48.645] [I] No available update
+[2021-08-25 10:15:04.560] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 10:25:00.615] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-25 10:25:00.618] [I] Snip request: 0 (dest: 0)
+[2021-08-25 10:25:00.663] [I] Snipper: preparing...
+[2021-08-25 10:25:00.760] [I] Screens: 1
+[2021-08-25 10:25:00.760] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-25 10:25:00.760] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-25 10:25:00.760] [I] Background size: QSize(1366, 768)
+[2021-08-25 10:25:00.791] [I] Focus set
+[2021-08-25 10:25:00.792] [I] Snipper: preparation done (0)
+[2021-08-25 10:25:00.795] [I] Snipper: about to appear...
+[2021-08-25 10:25:00.795] [I] Snipper: prepare to show...
+[2021-08-25 10:25:00.828] [I] Snipper: shown
+[2021-08-25 10:25:00.842] [I] Snipper: focus in
+[2021-08-25 10:25:00.842] [I] Snipper: ready [0.178 s]
+[2021-08-25 10:25:04.581] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-25 10:25:04.639] [I] Screenshot (898, 81, 393 x 250) destination: pin, 
+[2021-08-25 10:25:04.658] [I] Paste image: QPoint(898, 81)
+[2021-08-25 10:25:06.734] [I] Screenshot successfully saved: pin, 
+[2021-08-25 10:25:07.420] [I] Snipper: about to quit...
+[2021-08-25 10:25:07.856] [I] Snipper: focus out [3]
+[2021-08-25 10:25:07.857] [I] Snipper: hidden
+[2021-08-25 10:25:07.923] [I] Snipper: quit
+[2021-08-25 10:25:08.103] [I] Snipper: scene saved
+[2021-08-25 10:36:45.152] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-25 10:36:45.227] [I] Snip request: 0 (dest: 0)
+[2021-08-25 10:36:45.227] [I] Snipper: preparing...
+[2021-08-25 10:36:45.275] [I] Screens: 1
+[2021-08-25 10:36:45.275] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-25 10:36:45.275] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-25 10:36:45.275] [I] Background size: QSize(1366, 768)
+[2021-08-25 10:36:45.285] [I] Focus set
+[2021-08-25 10:36:45.286] [I] Snipper: preparation done (0)
+[2021-08-25 10:36:45.297] [I] Snipper: about to appear...
+[2021-08-25 10:36:45.298] [I] Snipper: prepare to show...
+[2021-08-25 10:36:45.353] [I] Snipper: shown
+[2021-08-25 10:36:45.368] [I] Snipper: focus in
+[2021-08-25 10:36:45.368] [I] Snipper: ready [0.155 s]
+[2021-08-25 10:37:10.426] [I] Screenshot (76, 105, 42 x 28) destination: none
+[2021-08-25 10:37:10.426] [I] Snipper: about to quit...
+[2021-08-25 10:37:10.434] [I] Snipper: focus out [3]
+[2021-08-25 10:37:10.440] [I] Snipper: hidden
+[2021-08-25 10:37:10.443] [I] Snipper: quit
+[2021-08-25 10:45:04.566] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-25 11:15:04.643] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-25 11:45:04.658] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-25 12:15:04.683] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 12:45:04.677] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-25 13:15:04.687] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 13:45:04.696] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 14:15:04.707] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 14:45:04.714] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 15:15:04.722] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 15:45:04.747] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-25 16:15:04.809] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 16:45:04.799] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 17:15:04.807] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 17:45:04.802] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 18:15:04.811] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 18:45:04.826] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 19:15:04.843] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-25 19:45:04.853] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 20:15:04.847] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 20:45:04.854] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-25 21:15:04.867] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-25 21:45:04.865] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-25 22:15:04.871] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 22:45:04.871] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 23:15:04.870] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-25 23:45:04.862] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 00:15:04.876] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 00:45:04.888] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 01:15:04.875] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 01:45:04.875] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 02:15:04.930] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 02:45:04.934] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 03:15:04.926] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 03:45:04.930] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 04:15:04.924] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 04:45:04.927] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 05:15:04.934] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 05:45:04.927] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 06:15:04.936] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 06:45:04.939] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 07:15:04.997] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 07:45:05.029] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 08:15:05.021] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 08:45:05.061] [I] Preloaded 0 files: 25 ms [every 30.0 m]
+[2021-08-26 09:15:05.065] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 09:45:05.067] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 09:58:48.318] [W] Feed error: 下载更新源失败。网络错误：3
+[2021-08-26 09:58:48.568] [W] Feed error: 下载更新源失败。网络错误：3
+[2021-08-26 09:58:48.615] [E] 下载更新源失败。网络错误：3
+[2021-08-26 10:15:05.400] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 10:15:06.063] [I] System suspended
+[2021-08-26 10:16:32.027] [I] System resumes
+[2021-08-26 10:16:32.235] [I] Preloaded 0 files: 0 ms
+[2021-08-26 10:45:05.518] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-26 11:15:05.598] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-26 11:45:05.674] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 12:15:05.738] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 12:45:05.803] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 13:15:05.916] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 13:45:05.908] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 14:15:06.015] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-26 14:45:06.017] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 15:15:06.094] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-26 15:45:06.220] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 16:15:06.282] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 16:45:06.378] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 17:15:06.381] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 17:45:06.431] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-26 18:15:06.496] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-26 18:45:06.544] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-26 19:15:06.568] [I] Preloaded 0 files: 6 ms [every 30.0 m]
+[2021-08-26 19:45:06.572] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-26 20:15:06.583] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-26 20:21:35.660] [I] System suspended
+[2021-08-26 20:24:51.628] [I] System resumes
+[2021-08-26 20:24:51.630] [I] Preloaded 0 files: 1 ms
+[2021-08-26 20:45:07.293] [I] Preloaded 0 files: 204 ms [every 30.0 m]
+[2021-08-26 21:07:38.356] [I] Preloaded 0 files: 29 ms [every 22.5 m]
+[2021-08-26 21:35:46.424] [I] Preloaded 0 files: 2 ms [every 28.1 m]
+[2021-08-26 22:01:32.054] [I] System suspended
+[2021-08-26 22:08:58.521] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 22:09:12.392] [I] System resumes
+[2021-08-26 22:09:13.020] [I] Preloaded 0 files: 2 ms
+[2021-08-26 22:39:01.087] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 23:09:01.089] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-26 23:39:01.156] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-27 00:09:01.222] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 00:39:01.296] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 01:09:01.302] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 01:39:01.301] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 02:09:01.345] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 02:39:01.347] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 03:09:01.357] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 03:39:01.344] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 04:09:01.347] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 04:39:01.353] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 05:09:01.360] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 05:39:01.373] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 06:09:01.394] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 06:39:01.402] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 07:09:01.422] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 07:39:01.442] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 08:09:01.465] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 08:39:01.459] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 09:09:01.459] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 09:39:01.461] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 09:58:51.200] [I] Silent feed checking finished
+[2021-08-27 09:58:51.200] [I] No available update
+[2021-08-27 10:09:01.464] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 10:39:01.479] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 11:09:01.539] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 11:39:01.546] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 12:09:01.553] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 12:39:01.552] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 13:09:01.548] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 13:39:01.552] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 14:09:01.558] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 14:39:01.554] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 15:09:01.548] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 15:37:42.633] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-27 15:37:42.790] [I] Snip request: 0 (dest: 0)
+[2021-08-27 15:37:42.812] [I] Snipper: preparing...
+[2021-08-27 15:37:43.153] [I] Screens: 1
+[2021-08-27 15:37:43.179] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-27 15:37:43.179] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-27 15:37:43.179] [I] Background size: QSize(1366, 768)
+[2021-08-27 15:37:43.527] [I] Focus set
+[2021-08-27 15:37:43.984] [I] Snipper: preparation done (0)
+[2021-08-27 15:37:44.820] [I] Snipper: about to appear...
+[2021-08-27 15:37:44.834] [I] Snipper: prepare to show...
+[2021-08-27 15:37:45.717] [I] Snipper: shown
+[2021-08-27 15:37:45.953] [I] Snipper: focus in
+[2021-08-27 15:37:46.163] [I] Snipper: ready [3.303 s]
+[2021-08-27 15:37:52.792] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-27 15:37:52.860] [I] Screenshot (5, 78, 284 x 354) destination: pin, 
+[2021-08-27 15:37:52.879] [I] Paste image: QPoint(5, 78)
+[2021-08-27 15:37:54.955] [I] Screenshot successfully saved: pin, 
+[2021-08-27 15:37:55.420] [I] Snipper: about to quit...
+[2021-08-27 15:37:56.428] [I] Snipper: focus out [3]
+[2021-08-27 15:37:56.431] [I] Snipper: hidden
+[2021-08-27 15:37:56.529] [I] Snipper: quit
+[2021-08-27 15:37:56.856] [I] Snipper: scene saved
+[2021-08-27 15:39:01.575] [I] Preloaded 0 files: 21 ms [every 30.0 m]
+[2021-08-27 15:51:47.693] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-27 15:51:47.704] [I] Snip request: 0 (dest: 0)
+[2021-08-27 15:51:47.704] [I] Snipper: preparing...
+[2021-08-27 15:51:47.754] [I] Screens: 1
+[2021-08-27 15:51:47.754] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-27 15:51:47.754] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-27 15:51:47.754] [I] Background size: QSize(1366, 768)
+[2021-08-27 15:51:47.775] [I] Focus set
+[2021-08-27 15:51:47.801] [I] Snipper: preparation done (0)
+[2021-08-27 15:51:47.809] [I] Snipper: about to appear...
+[2021-08-27 15:51:47.819] [I] Snipper: prepare to show...
+[2021-08-27 15:51:48.040] [I] Snipper: shown
+[2021-08-27 15:51:48.074] [I] Snipper: focus in
+[2021-08-27 15:51:48.074] [I] Snipper: ready [0.37 s]
+[2021-08-27 15:51:56.274] [I] Snipper: focus out [3]
+[2021-08-27 15:51:57.751] [I] Snipper: focus in
+[2021-08-27 15:51:57.838] [I] Screenshot (7, 78, 209 x 35) destination: none
+[2021-08-27 15:51:57.838] [I] Snipper: about to quit...
+[2021-08-27 15:51:57.844] [I] Snipper: focus out [3]
+[2021-08-27 15:51:57.849] [I] Snipper: hidden
+[2021-08-27 15:51:57.851] [I] Snipper: quit
+[2021-08-27 15:52:27.643] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-27 15:52:27.710] [I] Snip request: 0 (dest: 0)
+[2021-08-27 15:52:27.710] [I] Snipper: preparing...
+[2021-08-27 15:52:27.760] [I] Screens: 1
+[2021-08-27 15:52:27.760] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-27 15:52:27.760] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-27 15:52:27.769] [I] Background size: QSize(1366, 768)
+[2021-08-27 15:52:27.781] [I] Focus set
+[2021-08-27 15:52:27.782] [I] Snipper: preparation done (0)
+[2021-08-27 15:52:27.783] [I] Snipper: about to appear...
+[2021-08-27 15:52:27.783] [I] Snipper: prepare to show...
+[2021-08-27 15:52:27.799] [I] Snipper: shown
+[2021-08-27 15:52:27.811] [I] Snipper: focus in
+[2021-08-27 15:52:27.811] [I] Snipper: ready [0.1 s]
+[2021-08-27 15:52:33.590] [I] Snipper: focus out [3]
+[2021-08-27 15:52:34.972] [I] Snipper: focus in
+[2021-08-27 15:52:35.032] [I] Screenshot (213, 79, 63 x 33) destination: none
+[2021-08-27 15:52:35.032] [I] Snipper: about to quit...
+[2021-08-27 15:52:35.036] [I] Snipper: focus out [3]
+[2021-08-27 15:52:35.040] [I] Snipper: hidden
+[2021-08-27 15:52:35.041] [I] Snipper: quit
+[2021-08-27 15:53:03.646] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-27 15:53:03.669] [I] Snip request: 0 (dest: 0)
+[2021-08-27 15:53:03.669] [I] Snipper: preparing...
+[2021-08-27 15:53:03.704] [I] Screens: 1
+[2021-08-27 15:53:03.704] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-27 15:53:03.704] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-27 15:53:03.727] [I] Background size: QSize(1366, 768)
+[2021-08-27 15:53:03.738] [I] Focus set
+[2021-08-27 15:53:03.739] [I] Snipper: preparation done (0)
+[2021-08-27 15:53:03.740] [I] Snipper: about to appear...
+[2021-08-27 15:53:03.740] [I] Snipper: prepare to show...
+[2021-08-27 15:53:03.758] [I] Snipper: shown
+[2021-08-27 15:53:03.773] [I] Snipper: focus in
+[2021-08-27 15:53:03.773] [I] Snipper: ready [0.10400000000000001 s]
+[2021-08-27 15:53:15.448] [I] Screenshot (6, 78, 267 x 351) destination: none
+[2021-08-27 15:53:15.448] [I] Snipper: about to quit...
+[2021-08-27 15:53:15.509] [I] Snipper: focus out [3]
+[2021-08-27 15:53:15.512] [I] Snipper: hidden
+[2021-08-27 15:53:15.513] [I] Snipper: quit
+[2021-08-27 15:55:26.904] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-27 15:55:26.904] [I] Snip request: 0 (dest: 0)
+[2021-08-27 15:55:26.904] [I] Snipper: preparing...
+[2021-08-27 15:55:26.946] [I] Screens: 1
+[2021-08-27 15:55:26.946] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-27 15:55:26.946] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-27 15:55:26.946] [I] Background size: QSize(1366, 768)
+[2021-08-27 15:55:26.952] [I] Focus set
+[2021-08-27 15:55:26.953] [I] Snipper: preparation done (0)
+[2021-08-27 15:55:26.954] [I] Snipper: about to appear...
+[2021-08-27 15:55:26.954] [I] Snipper: prepare to show...
+[2021-08-27 15:55:27.362] [I] Snipper: shown
+[2021-08-27 15:55:27.375] [I] Snipper: focus in
+[2021-08-27 15:55:27.375] [I] Snipper: ready [0.47000000000000003 s]
+[2021-08-27 15:55:36.166] [I] Snipper: focus out [3]
+[2021-08-27 15:55:37.324] [I] Snipper: focus in
+[2021-08-27 15:55:37.463] [I] Screenshot (770, 88, 212 x 32) destination: none
+[2021-08-27 15:55:37.463] [I] Snipper: about to quit...
+[2021-08-27 15:55:37.473] [I] Snipper: focus out [3]
+[2021-08-27 15:55:37.485] [I] Snipper: hidden
+[2021-08-27 15:55:37.488] [I] Snipper: quit
+[2021-08-27 16:09:01.579] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-27 16:15:20.918] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-27 16:15:20.919] [I] Snip request: 0 (dest: 0)
+[2021-08-27 16:15:20.919] [I] Snipper: preparing...
+[2021-08-27 16:15:21.029] [I] Screens: 1
+[2021-08-27 16:15:21.029] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-27 16:15:21.054] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-27 16:15:21.054] [I] Background size: QSize(1366, 768)
+[2021-08-27 16:15:21.083] [I] Focus set
+[2021-08-27 16:15:21.085] [I] Snipper: preparation done (0)
+[2021-08-27 16:15:21.086] [I] Snipper: about to appear...
+[2021-08-27 16:15:21.086] [I] Snipper: prepare to show...
+[2021-08-27 16:15:21.207] [I] Snipper: shown
+[2021-08-27 16:15:21.222] [I] Snipper: focus in
+[2021-08-27 16:15:21.222] [I] Snipper: ready [0.303 s]
+[2021-08-27 16:15:38.500] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-27 16:15:38.501] [I] Screenshot (0, 82, 428 x 176) destination: pin, 
+[2021-08-27 16:15:38.503] [I] Paste image: QPoint(0, 82)
+[2021-08-27 16:15:38.796] [I] Screenshot successfully saved: pin, 
+[2021-08-27 16:15:38.962] [I] Snipper: about to quit...
+[2021-08-27 16:15:39.048] [I] Snipper: focus out [3]
+[2021-08-27 16:15:39.049] [I] Snipper: hidden
+[2021-08-27 16:15:39.096] [I] Snipper: quit
+[2021-08-27 16:15:39.262] [I] Snipper: scene saved
+[2021-08-27 16:39:01.604] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 17:09:01.606] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-27 17:39:01.635] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 18:09:01.632] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 18:39:01.637] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 19:09:01.629] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 19:39:01.628] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 20:09:01.705] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 20:39:01.708] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 21:09:01.714] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 21:39:01.722] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 22:09:01.723] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-27 22:39:01.732] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-27 23:09:01.784] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-27 23:39:01.787] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 00:09:01.782] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 00:39:01.787] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 01:09:01.800] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 01:39:06.356] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 02:09:06.349] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 02:39:06.354] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 03:09:06.362] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 03:39:06.366] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 04:09:06.417] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 04:39:06.409] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 05:09:06.425] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 05:39:06.426] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 06:09:06.448] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-28 06:39:06.453] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 07:09:06.447] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 07:39:06.446] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 08:09:06.449] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 08:39:06.444] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 09:09:06.502] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 09:39:06.506] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 09:58:54.498] [W] Feed error: 下载更新源失败。网络错误：3
+[2021-08-28 09:58:54.542] [W] Feed error: 下载更新源失败。网络错误：3
+[2021-08-28 09:58:54.579] [E] 下载更新源失败。网络错误：3
+[2021-08-28 10:09:06.508] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 10:39:06.532] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 11:09:06.536] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 11:39:06.543] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 12:09:06.540] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 12:39:06.976] [I] Preloaded 0 files: 148 ms [every 30.0 m]
+[2021-08-28 13:01:37.344] [I] Preloaded 0 files: 0 ms [every 22.5 m]
+[2021-08-28 13:29:45.341] [I] Preloaded 0 files: 2 ms [every 28.1 m]
+[2021-08-28 13:59:45.338] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-28 14:29:45.334] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-28 14:59:45.341] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 15:29:45.342] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 15:59:45.344] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 16:29:45.336] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-28 16:59:45.340] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 17:29:45.395] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 17:59:45.402] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 18:29:45.399] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 18:59:45.408] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 19:29:45.417] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 19:59:45.411] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-28 20:29:45.424] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 20:59:45.433] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 21:29:45.429] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 21:59:45.433] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 22:29:45.501] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 22:59:45.503] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-28 23:29:45.508] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-28 23:59:45.514] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 00:29:45.511] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 00:59:45.517] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 01:29:45.530] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 01:59:45.533] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 02:29:45.548] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 02:59:45.558] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 03:30:50.557] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 04:00:50.560] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 04:30:50.561] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 05:00:50.555] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 05:30:50.555] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 06:00:50.551] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 06:30:50.558] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 07:00:50.555] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 07:30:50.587] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 08:00:50.585] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 08:30:50.622] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 09:00:50.618] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 09:30:50.622] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 10:02:45.969] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 10:02:52.154] [I] Silent feed checking finished
+[2021-08-29 10:02:52.154] [I] No available update
+[2021-08-29 10:32:46.019] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 11:02:46.025] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 11:32:46.029] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 12:02:46.034] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 12:32:46.101] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 13:02:46.101] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 13:32:46.104] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-29 14:02:46.109] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 14:32:46.101] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 15:02:46.106] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 15:32:46.104] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 16:02:46.100] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 16:32:46.104] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 17:02:46.098] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 17:32:46.152] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 18:02:46.145] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 18:32:46.156] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 19:02:46.150] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 19:32:46.158] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 20:02:46.228] [I] Preloaded 0 files: 65 ms [every 30.0 m]
+[2021-08-29 20:32:46.231] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 21:02:46.232] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 21:32:46.234] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 22:02:46.225] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-29 22:32:46.284] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 23:02:46.290] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-29 23:32:46.301] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-30 00:02:46.301] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-30 00:32:46.305] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-30 01:02:46.304] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-30 01:32:46.316] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-30 02:02:46.329] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 02:32:46.343] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-30 03:02:46.341] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-30 03:32:46.361] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-30 03:51:01.806] [I] System suspended
+[2021-08-30 08:58:41.504] [I] Preloaded 0 files: 207 ms [every 30.0 m]
+[2021-08-30 08:58:55.481] [I] System resumes
+[2021-08-30 08:58:56.204] [I] Preloaded 0 files: 0 ms
+[2021-08-30 09:21:16.122] [I] Preloaded 0 files: 0 ms [every 22.5 m]
+[2021-08-30 09:26:45.170] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-30 09:26:46.711] [I] Snip request: 0 (dest: 0)
+[2021-08-30 09:26:47.286] [I] Snipper: preparing...
+[2021-08-30 09:26:49.875] [I] Screens: 1
+[2021-08-30 09:26:50.266] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-30 09:26:50.267] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-30 09:26:50.267] [I] Background size: QSize(1366, 768)
+[2021-08-30 09:26:55.789] [I] Focus set
+[2021-08-30 09:26:58.156] [I] Snipper: preparation done (0)
+[2021-08-30 09:27:00.106] [I] Snipper: about to appear...
+[2021-08-30 09:27:00.190] [I] Snipper: prepare to show...
+[2021-08-30 09:27:03.058] [I] Snipper: shown
+[2021-08-30 09:27:03.254] [I] Snipper: focus in
+[2021-08-30 09:27:03.357] [I] Snipper: ready [16.591 s]
+[2021-08-30 09:27:09.625] [I] Screenshot (0, 71, 1366 x 657) destination: none
+[2021-08-30 09:27:09.625] [I] Snipper: about to quit...
+[2021-08-30 09:27:09.686] [I] Snipper: focus out [3]
+[2021-08-30 09:27:09.691] [I] Snipper: hidden
+[2021-08-30 09:27:09.860] [I] Snipper: quit
+[2021-08-30 09:28:48.937] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-30 09:28:48.990] [I] Snip request: 0 (dest: 0)
+[2021-08-30 09:28:48.990] [I] Snipper: preparing...
+[2021-08-30 09:28:49.031] [I] Screens: 1
+[2021-08-30 09:28:49.031] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-30 09:28:49.031] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-30 09:28:49.031] [I] Background size: QSize(1366, 768)
+[2021-08-30 09:28:49.043] [I] Focus set
+[2021-08-30 09:28:49.045] [I] Snipper: preparation done (0)
+[2021-08-30 09:28:49.046] [I] Snipper: about to appear...
+[2021-08-30 09:28:49.046] [I] Snipper: prepare to show...
+[2021-08-30 09:28:49.094] [I] Snipper: shown
+[2021-08-30 09:28:49.118] [I] Snipper: focus in
+[2021-08-30 09:28:49.118] [I] Snipper: ready [0.129 s]
+[2021-08-30 09:29:12.941] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-30 09:29:12.997] [I] Screenshot (10, 77, 446 x 43) destination: pin, 
+[2021-08-30 09:29:12.997] [I] Paste image: QPoint(10, 77)
+[2021-08-30 09:29:14.957] [I] Screenshot successfully saved: pin, 
+[2021-08-30 09:29:15.568] [I] Snipper: about to quit...
+[2021-08-30 09:29:15.828] [I] Snipper: focus out [3]
+[2021-08-30 09:29:15.829] [I] Snipper: hidden
+[2021-08-30 09:29:15.915] [I] Snipper: quit
+[2021-08-30 09:29:16.090] [I] Snipper: scene saved
+[2021-08-30 09:49:24.114] [I] Preloaded 0 files: 0 ms [every 28.1 m]
+[2021-08-30 10:02:48.950] [I] Silent feed checking finished
+[2021-08-30 10:02:48.980] [I] No available update
+[2021-08-30 10:19:24.119] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 10:47:54.004] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-30 10:47:54.014] [I] Snip request: 0 (dest: 0)
+[2021-08-30 10:47:54.014] [I] Snipper: preparing...
+[2021-08-30 10:47:54.082] [I] Screens: 1
+[2021-08-30 10:47:54.082] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-30 10:47:54.082] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-30 10:47:54.082] [I] Background size: QSize(1366, 768)
+[2021-08-30 10:47:54.113] [I] Focus set
+[2021-08-30 10:47:54.158] [I] Snipper: preparation done (0)
+[2021-08-30 10:47:54.213] [I] Snipper: about to appear...
+[2021-08-30 10:47:54.214] [I] Snipper: prepare to show...
+[2021-08-30 10:47:54.411] [I] Snipper: shown
+[2021-08-30 10:47:54.439] [I] Snipper: focus in
+[2021-08-30 10:47:54.439] [I] Snipper: ready [0.425 s]
+[2021-08-30 10:47:57.422] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-30 10:47:57.422] [I] Screenshot (293, 197, 771 x 148) destination: pin, 
+[2021-08-30 10:47:57.468] [I] Paste image: QPoint(293, 197)
+[2021-08-30 10:47:57.961] [I] Screenshot successfully saved: pin, 
+[2021-08-30 10:47:58.158] [I] Snipper: about to quit...
+[2021-08-30 10:47:58.303] [I] Snipper: focus out [3]
+[2021-08-30 10:47:58.303] [I] Snipper: hidden
+[2021-08-30 10:47:58.306] [I] Snipper: quit
+[2021-08-30 10:47:58.476] [I] Snipper: scene saved
+[2021-08-30 10:49:24.129] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 11:19:24.117] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 11:49:24.120] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 12:19:24.117] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-30 12:49:24.124] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 13:19:24.193] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 13:49:24.200] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-30 14:19:24.204] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-30 14:49:24.216] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-30 15:19:24.220] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 15:49:24.230] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 16:19:24.235] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 16:49:24.256] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-30 17:19:24.253] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-30 17:49:24.264] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 18:19:24.313] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 18:49:24.371] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 19:19:24.367] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 19:49:24.365] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 20:19:24.368] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 20:49:24.365] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 21:19:24.414] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 21:49:24.415] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 22:19:24.423] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 22:49:24.424] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 23:19:24.470] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-30 23:49:24.510] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 00:19:24.505] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 00:49:24.509] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 01:19:24.510] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 01:49:24.507] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 02:19:24.518] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 02:49:24.508] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 03:19:24.517] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 03:49:24.516] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 04:19:24.514] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 04:49:24.517] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 05:19:24.513] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 05:49:24.509] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 06:19:24.509] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 06:49:24.512] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 07:19:24.511] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 07:49:24.507] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 08:19:24.514] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 08:49:24.514] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 09:19:24.522] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 09:49:24.530] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 10:02:48.603] [I] Silent feed checking finished
+[2021-08-31 10:02:48.603] [I] No available update
+[2021-08-31 10:19:24.535] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 10:49:24.529] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 11:19:24.534] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 11:49:24.520] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 12:19:24.528] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 12:49:24.532] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 13:19:24.569] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 13:49:24.569] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 14:19:24.610] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 14:49:24.600] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 15:19:24.609] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 15:35:37.195] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-31 15:35:37.374] [I] Snip request: 0 (dest: 0)
+[2021-08-31 15:35:37.396] [I] Snipper: preparing...
+[2021-08-31 15:35:37.982] [I] Screens: 1
+[2021-08-31 15:35:37.995] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-31 15:35:37.996] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-31 15:35:38.012] [I] Background size: QSize(1366, 768)
+[2021-08-31 15:35:38.387] [I] Focus set
+[2021-08-31 15:35:38.701] [I] Snipper: preparation done (0)
+[2021-08-31 15:35:39.183] [I] Snipper: about to appear...
+[2021-08-31 15:35:39.197] [I] Snipper: prepare to show...
+[2021-08-31 15:35:39.917] [I] Snipper: shown
+[2021-08-31 15:35:40.111] [I] Snipper: focus in
+[2021-08-31 15:35:40.115] [I] Snipper: ready [2.743 s]
+[2021-08-31 15:35:51.681] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-31 15:35:51.713] [I] Screenshot (533, 170, 299 x 421) destination: pin, 
+[2021-08-31 15:35:51.716] [I] Paste image: QPoint(533, 170)
+[2021-08-31 15:35:53.000] [I] Screenshot successfully saved: pin, 
+[2021-08-31 15:35:53.756] [I] Snipper: about to quit...
+[2021-08-31 15:35:54.177] [I] Snipper: focus out [3]
+[2021-08-31 15:35:54.177] [I] Snipper: hidden
+[2021-08-31 15:35:54.329] [I] Snipper: quit
+[2021-08-31 15:35:54.507] [I] Snipper: scene saved
+[2021-08-31 15:49:24.599] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-31 16:19:24.613] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-08-31 16:49:24.624] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 17:00:13.919] [I] Parsing command arguments [1]: (sp, snip)
+[2021-08-31 17:00:14.037] [I] Snip request: 0 (dest: 0)
+[2021-08-31 17:00:14.037] [I] Snipper: preparing...
+[2021-08-31 17:00:14.208] [I] Screens: 1
+[2021-08-31 17:00:14.218] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-08-31 17:00:14.218] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-08-31 17:00:14.218] [I] Background size: QSize(1366, 768)
+[2021-08-31 17:00:14.298] [I] Focus set
+[2021-08-31 17:00:14.323] [I] Snipper: preparation done (0)
+[2021-08-31 17:00:14.417] [I] Snipper: about to appear...
+[2021-08-31 17:00:14.424] [I] Snipper: prepare to show...
+[2021-08-31 17:00:14.915] [I] Snipper: shown
+[2021-08-31 17:00:14.966] [I] Snipper: focus in
+[2021-08-31 17:00:14.966] [I] Snipper: ready [0.928 s]
+[2021-08-31 17:00:27.972] [I] Parsing command arguments [1]: (sp, paste)
+[2021-08-31 17:00:28.050] [I] Screenshot (532, 171, 316 x 414) destination: pin, 
+[2021-08-31 17:00:28.052] [I] Paste image: QPoint(532, 171)
+[2021-08-31 17:00:29.543] [I] Screenshot successfully saved: pin, 
+[2021-08-31 17:00:29.829] [I] Snipper: about to quit...
+[2021-08-31 17:00:30.029] [I] Snipper: focus out [3]
+[2021-08-31 17:00:30.042] [I] Snipper: hidden
+[2021-08-31 17:00:30.071] [I] Snipper: quit
+[2021-08-31 17:00:30.203] [I] Snipper: scene saved
+[2021-08-31 17:19:24.635] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-08-31 17:49:24.630] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 18:19:24.633] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 18:49:24.632] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 19:19:24.640] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-08-31 19:49:24.643] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-08-31 20:19:24.648] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-31 20:49:24.698] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-31 21:19:24.704] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-08-31 21:49:24.719] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-31 22:19:24.714] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-31 22:49:24.724] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-31 23:19:24.738] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-08-31 23:49:24.748] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 00:19:24.744] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 00:49:24.741] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 01:19:24.745] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 01:49:24.789] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 02:19:24.797] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 02:49:24.793] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 03:19:24.787] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 03:49:24.788] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 04:19:24.795] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 04:49:24.798] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-09-01 05:19:24.809] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 05:49:24.807] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-09-01 06:19:24.816] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 06:49:24.859] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 07:19:24.860] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 07:49:24.874] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 08:19:24.865] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 08:49:24.874] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 09:00:16.080] [I] Parsing command arguments [1]: (sp, snip)
+[2021-09-01 09:00:16.239] [I] Snip request: 0 (dest: 0)
+[2021-09-01 09:00:16.240] [I] Snipper: preparing...
+[2021-09-01 09:00:16.452] [I] Screens: 1
+[2021-09-01 09:00:16.460] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-09-01 09:00:16.470] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-09-01 09:00:16.470] [I] Background size: QSize(1366, 768)
+[2021-09-01 09:00:16.641] [I] Focus set
+[2021-09-01 09:00:16.723] [I] Snipper: preparation done (0)
+[2021-09-01 09:00:17.246] [I] Snipper: about to appear...
+[2021-09-01 09:00:17.246] [I] Snipper: prepare to show...
+[2021-09-01 09:00:17.839] [I] Snipper: shown
+[2021-09-01 09:00:17.974] [I] Snipper: focus in
+[2021-09-01 09:00:17.974] [I] Snipper: ready [1.734 s]
+[2021-09-01 09:00:58.296] [I] Parsing command arguments [1]: (sp, paste)
+[2021-09-01 09:00:58.354] [I] Screenshot (159, 259, 318 x 210) destination: pin, 
+[2021-09-01 09:00:58.355] [I] Paste image: QPoint(159, 259)
+[2021-09-01 09:00:59.412] [I] Screenshot successfully saved: pin, 
+[2021-09-01 09:00:59.687] [I] Snipper: about to quit...
+[2021-09-01 09:00:59.908] [I] Snipper: focus out [3]
+[2021-09-01 09:00:59.909] [I] Snipper: hidden
+[2021-09-01 09:01:00.012] [I] Snipper: quit
+[2021-09-01 09:01:00.209] [I] Snipper: scene saved
+[2021-09-01 09:05:35.871] [I] Parsing command arguments [1]: (sp, snip)
+[2021-09-01 09:05:35.949] [I] Snip request: 0 (dest: 0)
+[2021-09-01 09:05:35.961] [I] Snipper: preparing...
+[2021-09-01 09:05:36.176] [I] Screens: 1
+[2021-09-01 09:05:36.176] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-09-01 09:05:36.176] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-09-01 09:05:36.176] [I] Background size: QSize(1366, 768)
+[2021-09-01 09:05:36.185] [I] Focus set
+[2021-09-01 09:05:36.186] [I] Snipper: preparation done (0)
+[2021-09-01 09:05:36.187] [I] Snipper: about to appear...
+[2021-09-01 09:05:36.187] [I] Snipper: prepare to show...
+[2021-09-01 09:05:36.216] [I] Snipper: shown
+[2021-09-01 09:05:36.250] [I] Snipper: focus in
+[2021-09-01 09:05:36.250] [I] Snipper: ready [0.289 s]
+[2021-09-01 09:05:54.377] [I] Screenshot (159, 261, 327 x 213) destination: none
+[2021-09-01 09:05:54.377] [I] Snipper: about to quit...
+[2021-09-01 09:05:54.385] [I] Snipper: focus out [3]
+[2021-09-01 09:05:54.388] [I] Snipper: hidden
+[2021-09-01 09:05:54.389] [I] Snipper: quit
+[2021-09-01 09:19:24.877] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 09:49:24.888] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 10:02:48.443] [I] Silent feed checking finished
+[2021-09-01 10:02:48.461] [I] No available update
+[2021-09-01 10:19:24.889] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-09-01 10:49:24.888] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 11:19:24.898] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 11:49:24.885] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 12:19:24.880] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 12:49:24.887] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 13:19:24.894] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 13:49:24.897] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 14:19:24.902] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 14:49:24.917] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 15:19:24.915] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 15:49:24.915] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 16:19:24.924] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 16:49:24.924] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 17:19:24.932] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-01 17:49:24.941] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 18:19:24.947] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-01 18:49:24.942] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-01 19:19:25.008] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 19:49:25.030] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 20:19:25.025] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 20:49:25.023] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 21:19:25.027] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 21:49:25.028] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 22:19:25.034] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 22:49:25.026] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 23:19:25.028] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-01 23:49:25.032] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 00:19:25.033] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 00:49:25.092] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 01:19:25.139] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 01:49:25.137] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 02:19:25.142] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 02:49:25.132] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 03:19:25.137] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 03:49:25.138] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 04:19:25.136] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 04:49:25.143] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 05:19:25.143] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 05:49:25.204] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 06:19:25.202] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 06:49:25.196] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 07:19:25.205] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 07:49:25.194] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 08:19:25.199] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 08:49:25.197] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 09:19:25.252] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-02 09:49:25.266] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 10:02:49.308] [I] Silent feed checking finished
+[2021-09-02 10:02:49.334] [I] No available update
+[2021-09-02 10:19:25.265] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-09-02 10:28:47.243] [I] Parsing command arguments [1]: (sp, snip)
+[2021-09-02 10:28:47.325] [I] Snip request: 0 (dest: 0)
+[2021-09-02 10:28:47.341] [I] Snipper: preparing...
+[2021-09-02 10:28:47.512] [I] Screens: 1
+[2021-09-02 10:28:47.512] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-09-02 10:28:47.512] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-09-02 10:28:47.512] [I] Background size: QSize(1366, 768)
+[2021-09-02 10:28:47.813] [I] Focus set
+[2021-09-02 10:28:47.855] [I] Snipper: preparation done (0)
+[2021-09-02 10:28:48.283] [I] Snipper: about to appear...
+[2021-09-02 10:28:48.283] [I] Snipper: prepare to show...
+[2021-09-02 10:28:48.676] [I] Snipper: shown
+[2021-09-02 10:28:48.792] [I] Snipper: focus in
+[2021-09-02 10:28:48.792] [I] Snipper: ready [1.468 s]
+[2021-09-02 10:28:52.836] [I] Parsing command arguments [1]: (sp, paste)
+[2021-09-02 10:28:52.876] [I] Screenshot (183, 450, 943 x 71) destination: pin, 
+[2021-09-02 10:28:52.894] [I] Paste image: QPoint(183, 450)
+[2021-09-02 10:28:54.155] [I] Screenshot successfully saved: pin, 
+[2021-09-02 10:28:54.598] [I] Snipper: about to quit...
+[2021-09-02 10:28:54.875] [I] Snipper: focus out [3]
+[2021-09-02 10:28:54.876] [I] Snipper: hidden
+[2021-09-02 10:28:55.056] [I] Snipper: quit
+[2021-09-02 10:28:55.201] [I] Snipper: scene saved
+[2021-09-02 10:49:25.262] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 11:19:25.259] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 11:49:25.271] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 12:19:25.260] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 12:49:25.264] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 13:19:25.313] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 13:49:25.308] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 14:19:25.309] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 14:49:25.318] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 15:19:25.311] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 15:49:25.313] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 16:19:25.311] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 16:49:25.313] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-02 17:19:25.360] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-02 17:49:25.400] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-02 18:19:25.423] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-02 18:49:25.481] [I] Preloaded 0 files: 48 ms [every 30.0 m]
+[2021-09-02 19:19:25.480] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-02 19:49:25.482] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-02 20:19:25.476] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-02 20:49:25.484] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-02 21:19:25.482] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-02 21:49:25.483] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-02 22:19:25.483] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-02 22:49:25.486] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-02 23:19:25.541] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-02 23:49:25.550] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 00:19:25.561] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 00:49:25.565] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 01:19:25.571] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 01:49:25.583] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 02:19:25.639] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-03 02:49:25.645] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 03:19:25.654] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 03:49:25.656] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 04:19:25.725] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 04:49:25.739] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-03 05:19:25.743] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-03 05:49:25.744] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 06:19:25.739] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-03 06:49:25.748] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 07:19:25.752] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 07:49:25.761] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 08:19:25.762] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 08:49:25.762] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 09:19:25.821] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 09:49:25.876] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 10:02:50.457] [I] Silent feed checking finished
+[2021-09-03 10:02:50.457] [I] No available update
+[2021-09-03 10:19:25.936] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 10:49:25.933] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-03 11:19:25.935] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 11:49:25.931] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 12:19:25.935] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 12:49:25.938] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 13:19:25.986] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 13:49:25.980] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 14:19:25.976] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 14:49:25.977] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 15:19:25.979] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 15:49:25.983] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 16:19:26.026] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 16:49:26.023] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 17:19:26.022] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 17:28:07.118] [I] Parsing command arguments [1]: (sp, snip)
+[2021-09-03 17:28:07.396] [I] Snip request: 0 (dest: 0)
+[2021-09-03 17:28:07.484] [I] Snipper: preparing...
+[2021-09-03 17:28:07.975] [I] Screens: 1
+[2021-09-03 17:28:07.988] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-09-03 17:28:07.989] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-09-03 17:28:07.989] [I] Background size: QSize(1366, 768)
+[2021-09-03 17:28:08.338] [I] Focus set
+[2021-09-03 17:28:08.532] [I] Snipper: preparation done (0)
+[2021-09-03 17:28:08.877] [I] Snipper: about to appear...
+[2021-09-03 17:28:08.891] [I] Snipper: prepare to show...
+[2021-09-03 17:28:09.121] [I] Snipper: shown
+[2021-09-03 17:28:09.246] [I] Snipper: focus in
+[2021-09-03 17:28:09.287] [I] Snipper: ready [1.8780000000000001 s]
+[2021-09-03 17:28:14.853] [I] Parsing command arguments [1]: (sp, paste)
+[2021-09-03 17:28:14.916] [I] Screenshot (177, 178, 901 x 98) destination: pin, 
+[2021-09-03 17:28:14.929] [I] Paste image: QPoint(177, 178)
+[2021-09-03 17:28:16.020] [I] Screenshot successfully saved: pin, 
+[2021-09-03 17:28:16.488] [I] Snipper: about to quit...
+[2021-09-03 17:28:16.634] [I] Snipper: focus out [3]
+[2021-09-03 17:28:16.635] [I] Snipper: hidden
+[2021-09-03 17:28:16.752] [I] Snipper: quit
+[2021-09-03 17:28:16.944] [I] Snipper: scene saved
+[2021-09-03 17:28:22.155] [I] Parsing command arguments [1]: (sp, snip)
+[2021-09-03 17:28:22.156] [I] Snip request: 0 (dest: 0)
+[2021-09-03 17:28:22.156] [I] Snipper: preparing...
+[2021-09-03 17:28:22.215] [I] Screens: 1
+[2021-09-03 17:28:22.215] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-09-03 17:28:22.215] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-09-03 17:28:22.215] [I] Background size: QSize(1366, 768)
+[2021-09-03 17:28:22.225] [I] Focus set
+[2021-09-03 17:28:22.225] [I] Snipper: preparation done (0)
+[2021-09-03 17:28:22.227] [I] Snipper: about to appear...
+[2021-09-03 17:28:22.227] [I] Snipper: prepare to show...
+[2021-09-03 17:28:22.236] [I] Snipper: shown
+[2021-09-03 17:28:22.251] [I] Snipper: focus in
+[2021-09-03 17:28:22.251] [I] Snipper: ready [0.10200000000000001 s]
+[2021-09-03 17:28:25.506] [I] Parsing command arguments [1]: (sp, paste)
+[2021-09-03 17:28:25.550] [I] Screenshot (170, 483, 734 x 62) destination: pin, 
+[2021-09-03 17:28:25.551] [I] Paste image: QPoint(170, 483)
+[2021-09-03 17:28:25.799] [I] Screenshot successfully saved: pin, 
+[2021-09-03 17:28:25.912] [I] Snipper: about to quit...
+[2021-09-03 17:28:25.934] [I] Snipper: focus out [3]
+[2021-09-03 17:28:25.934] [I] Snipper: hidden
+[2021-09-03 17:28:25.937] [I] Snipper: quit
+[2021-09-03 17:28:26.070] [I] Snipper: scene saved
+[2021-09-03 17:41:20.408] [I] Parsing command arguments [1]: (sp, snip)
+[2021-09-03 17:41:20.409] [I] Snip request: 0 (dest: 0)
+[2021-09-03 17:41:20.409] [I] Snipper: preparing...
+[2021-09-03 17:41:20.602] [I] Screens: 1
+[2021-09-03 17:41:20.602] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-09-03 17:41:20.602] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-09-03 17:41:20.615] [I] Background size: QSize(1366, 768)
+[2021-09-03 17:41:20.627] [I] Focus set
+[2021-09-03 17:41:20.628] [I] Snipper: preparation done (0)
+[2021-09-03 17:41:20.630] [I] Snipper: about to appear...
+[2021-09-03 17:41:20.630] [I] Snipper: prepare to show...
+[2021-09-03 17:41:20.687] [I] Snipper: shown
+[2021-09-03 17:41:20.700] [I] Snipper: focus in
+[2021-09-03 17:41:20.700] [I] Snipper: ready [0.29 s]
+[2021-09-03 17:41:24.848] [I] Parsing command arguments [1]: (sp, paste)
+[2021-09-03 17:41:24.849] [I] Screenshot (158, 169, 954 x 149) destination: pin, 
+[2021-09-03 17:41:24.849] [I] Paste image: QPoint(158, 169)
+[2021-09-03 17:41:24.925] [I] Screenshot successfully saved: pin, 
+[2021-09-03 17:41:25.092] [I] Snipper: about to quit...
+[2021-09-03 17:41:25.128] [I] Snipper: focus out [3]
+[2021-09-03 17:41:25.129] [I] Snipper: hidden
+[2021-09-03 17:41:25.135] [I] Snipper: quit
+[2021-09-03 17:41:25.252] [I] Snipper: scene saved
+[2021-09-03 17:49:26.027] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 18:12:04.944] [I] Parsing command arguments [1]: (sp, snip)
+[2021-09-03 18:12:05.016] [I] Snip request: 0 (dest: 0)
+[2021-09-03 18:12:05.030] [I] Snipper: preparing...
+[2021-09-03 18:12:05.063] [I] Screens: 1
+[2021-09-03 18:12:05.063] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-09-03 18:12:05.063] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-09-03 18:12:05.063] [I] Background size: QSize(1366, 768)
+[2021-09-03 18:12:05.075] [I] Focus set
+[2021-09-03 18:12:05.078] [I] Snipper: preparation done (0)
+[2021-09-03 18:12:05.086] [I] Snipper: about to appear...
+[2021-09-03 18:12:05.086] [I] Snipper: prepare to show...
+[2021-09-03 18:12:05.107] [I] Snipper: shown
+[2021-09-03 18:12:05.123] [I] Snipper: focus in
+[2021-09-03 18:12:05.123] [I] Snipper: ready [0.095 s]
+[2021-09-03 18:12:14.498] [I] Parsing command arguments [1]: (sp, paste)
+[2021-09-03 18:12:14.544] [I] Screenshot (152, 223, 492 x 384) destination: pin, 
+[2021-09-03 18:12:14.549] [I] Paste image: QPoint(152, 223)
+[2021-09-03 18:12:14.658] [I] Screenshot successfully saved: pin, 
+[2021-09-03 18:12:14.789] [I] Snipper: about to quit...
+[2021-09-03 18:12:14.820] [I] Snipper: focus out [3]
+[2021-09-03 18:12:14.821] [I] Snipper: hidden
+[2021-09-03 18:12:14.824] [I] Snipper: quit
+[2021-09-03 18:12:14.919] [I] Snipper: scene saved
+[2021-09-03 18:19:26.032] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-03 18:21:32.137] [I] Parsing command arguments [1]: (sp, snip)
+[2021-09-03 18:21:32.139] [I] Snip request: 0 (dest: 0)
+[2021-09-03 18:21:32.139] [I] Snipper: preparing...
+[2021-09-03 18:21:32.180] [I] Screens: 1
+[2021-09-03 18:21:32.180] [I]     QRect(0, 0, 1366 x 768), DPI = 96 , DPR = 1
+[2021-09-03 18:21:32.180] [I] Desktop: QRect(0, 0, 1366 x 768)
+[2021-09-03 18:21:32.180] [I] Background size: QSize(1366, 768)
+[2021-09-03 18:21:32.191] [I] Focus set
+[2021-09-03 18:21:32.207] [I] Snipper: preparation done (0)
+[2021-09-03 18:21:32.209] [I] Snipper: about to appear...
+[2021-09-03 18:21:32.209] [I] Snipper: prepare to show...
+[2021-09-03 18:21:32.255] [I] Snipper: shown
+[2021-09-03 18:21:32.273] [I] Snipper: focus in
+[2021-09-03 18:21:32.273] [I] Snipper: ready [0.134 s]
+[2021-09-03 18:21:38.249] [I] Parsing command arguments [1]: (sp, paste)
+[2021-09-03 18:21:38.306] [I] Screenshot (156, 206, 509 x 361) destination: pin, 
+[2021-09-03 18:21:38.307] [I] Paste image: QPoint(156, 206)
+[2021-09-03 18:21:38.414] [I] Screenshot successfully saved: pin, 
+[2021-09-03 18:21:38.500] [I] Snipper: about to quit...
+[2021-09-03 18:21:38.520] [I] Snipper: focus out [3]
+[2021-09-03 18:21:38.521] [I] Snipper: hidden
+[2021-09-03 18:21:38.525] [I] Snipper: quit
+[2021-09-03 18:21:38.635] [I] Snipper: scene saved
+[2021-09-03 18:49:27.558] [I] Preloaded 0 files: 642 ms [every 30.0 m]
+[2021-09-03 19:11:58.057] [I] Preloaded 0 files: 53 ms [every 22.5 m]
+[2021-09-03 19:40:06.059] [I] Preloaded 0 files: 1 ms [every 28.1 m]
+[2021-09-03 20:10:06.054] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 20:40:06.056] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-03 21:10:06.109] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-03 21:40:06.099] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-03 22:10:06.101] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 22:40:06.103] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-03 23:10:06.256] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-03 23:40:06.266] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 00:10:06.271] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-04 00:40:06.278] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 01:10:06.274] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 01:40:06.273] [I] Preloaded 0 files: 5 ms [every 30.0 m]
+[2021-09-04 02:10:06.323] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 02:40:06.330] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 03:10:06.342] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 03:40:06.339] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 04:10:06.340] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 04:40:06.348] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 05:10:06.350] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 05:40:06.357] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-04 06:10:06.352] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 06:40:06.355] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 07:10:06.412] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 07:40:06.422] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 08:10:06.450] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 08:40:06.460] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 09:10:06.466] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 09:40:06.469] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 10:02:53.364] [I] Silent feed checking finished
+[2021-09-04 10:02:53.364] [I] No available update
+[2021-09-04 10:10:06.475] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 10:40:06.485] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 11:10:06.502] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-09-04 11:40:06.520] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-09-04 12:10:11.941] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 12:40:11.947] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 13:10:11.956] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 13:40:11.961] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 14:10:11.961] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-04 14:40:11.957] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-04 15:10:11.959] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 15:40:11.960] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 16:10:12.016] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 16:40:12.023] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 17:10:12.022] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 17:40:12.017] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 18:10:12.030] [I] Preloaded 0 files: 4 ms [every 30.0 m]
+[2021-09-04 18:40:12.033] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-04 19:10:12.041] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 19:40:12.095] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 20:10:12.107] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 20:40:12.104] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 21:10:12.137] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 21:40:12.133] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 22:10:12.129] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-04 22:40:12.134] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-04 23:10:12.132] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-04 23:40:12.133] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 00:10:12.140] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 00:40:12.143] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 01:10:12.150] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-05 01:40:12.148] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 02:10:12.199] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 02:40:12.199] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 03:10:12.204] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 03:40:12.211] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 04:10:12.218] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 04:40:12.228] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 05:10:12.223] [I] Preloaded 0 files: 0 ms [every 30.0 m]
+[2021-09-05 05:40:12.226] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 06:10:12.228] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 06:40:12.226] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 07:10:12.273] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 07:40:12.275] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 08:10:12.281] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 08:40:12.296] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 09:10:12.293] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 09:40:12.306] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 10:02:57.643] [I] Silent feed checking finished
+[2021-09-05 10:02:57.643] [I] No available update
+[2021-09-05 10:10:12.309] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-05 10:40:12.301] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-05 11:10:12.352] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 11:40:12.348] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 12:10:12.357] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-05 12:40:12.345] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 13:10:12.360] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 13:40:12.360] [I] Preloaded 0 files: 1 ms [every 30.0 m]
+[2021-09-05 14:10:12.366] [I] Preloaded 0 files: 3 ms [every 30.0 m]
+[2021-09-05 14:40:12.371] [I] Preloaded 0 files: 2 ms [every 30.0 m]
+[2021-09-05 15:10:12.383] [I] Preloaded 0 files: 3 ms [every 3

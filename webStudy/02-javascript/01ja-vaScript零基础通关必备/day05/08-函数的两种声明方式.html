@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>函数的两种声明方式</title>
+    <script>
+        // 1.利用函数关键字定义函数
+        function fn() {
+
+        }
+        fn();
+        // 2.函数表达式(匿名函数)
+        //  var fun = function() {};
+        var fun = function(aru) {
+            console.log('这是函数表达式');
+            console.log(aru);
+        }
+        fun('韩宇航');
+        // (1) fun 是变量名 不是函数名
+        // (2) 函数表达式声明方式和声明变量差不多,只不过变量里面存在的是值 而 函数表达式里面存的是函数
+        // (3) 函数表达式也可以进行传递参数
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

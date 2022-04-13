@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS三角制作</title>
+    <style>
+        .box {
+            width: 0px;
+            height: 0px;
+            border-top: 10px solid pink;
+            border-right: 10px solid green;
+            border-bottom: 10px solid blue;
+            border-left: 10px solid red;
+        }
+        .box1 {
+            width: 0px;
+            height: 0px;
+            border: 50px solid transparent;
+            border-top: 50px solid red;
+            margin: 100px auto;
+        }
+
+        .jd {
+            position: relative;
+            width: 100px;
+            height: 200px;
+            background-color: pink;
+        }
+        .box2 {
+            position: absolute;
+            right: 15px;
+            top: -20px;
+            width: 0px;
+            height: 0px;
+            /* 照顾兼容性 */
+            line-height: 0px;
+            font-size: 0px;
+
+            border: 10px solid transparent;
+            border-bottom: 10px solid pink ;
+        }
+
+        .xm {
+            position: relative;
+            width: 600px;
+            height: 200px;
+            background-color: deepskyblue;
+            margin: 100px auto;
+        }
+        .box3 {
+            position: absolute;
+            top: 70px;
+            right: -60px;
+            width: 0px;
+            height: 0px;
+            line-height: 0px;
+            font-style: 0px;
+            border: 30px solid transparent;
+            border-left: 30px solid deepskyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box1">2</div>
+
+    <!-- 京东三角 -->
+    <div class="jd">京东三角
+        <span class="box2"></span>
+    </div>
+
+    <!-- 小米三角 -->
+    <div class="xm">小米三角
+        <span class="box3"></span>
+    </div>
+</body>
+</html>

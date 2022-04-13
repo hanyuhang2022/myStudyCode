@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>显示与隐藏之display</title>
+    <style>
+        /* 
+            display 属性用于设置元素如何显示
+                display :none; 隐藏对象
+                display :block; 除转换为块级元素之外,同时还有显示元素的意思。
+                 
+                 display隐藏元素后,不在占有原来位置。
+         */
+        div {
+            height: 200px;
+            width: 200px;
+        }
+        .box1 {
+            /* 隐藏对象 */
+            display: none;
+
+            /* 显示对象 */
+            display: block;
+            background-color: pink;
+        }
+        .box2 {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+</body>
+</html>

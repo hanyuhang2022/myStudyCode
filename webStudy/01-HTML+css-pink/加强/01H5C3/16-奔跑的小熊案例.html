@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奔跑的小熊案例</title>
+    <style>
+        body {
+            position: relative;
+            background-color: #ccc;
+        }
+        /* div {
+            position: absolute;
+        } */
+        .box {
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            background: url(images/bear.jpg);
+            /* 我们的元素可以添加多个动画，用逗号隔开即可 */
+            animation: bear 1.5s steps(8) infinite,move 2s forwards;
+        }
+        
+        .box1 {
+            /* position: absolute;
+            bottom: 0px; */
+            height: 384px;
+            background: url(images/mountain1.jpg);
+            animation: mountain1 65s linear infinite;
+        }
+        .box2 {
+            bottom: 0px;
+            height: 569px;
+            background: url(images/mountain2.jpg);
+            animation: mountain2 65s linear infinite;
+        }
+        .box3 {
+            bottom: 0px;
+            height: 336px;
+            background: url(images/mountain3.jpg);
+            animation: mountain 65s linear infinite;
+        }
+        
+        @keyframes bear {
+            0% {
+                background-position: 0,0;
+            }
+            100% {
+                background-position: -1600px,0px;
+            }
+        }
+        @keyframes move {
+            0% {
+                left: 0px;
+            }
+            100% {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        @keyframes mountain {
+            0% {
+                background-position: 0px,0px;
+            }
+            100% {
+                background-position: -3840px 0;
+            }
+        }
+        @keyframes mountain1 {
+            0% {
+                background-position: 0px,0px;
+            }
+            100% {
+                background-position: -3840px 0;
+            }
+        }
+        @keyframes mountain2 {
+            0% {
+                background-position: 0px,0px;
+            }
+            100% {
+                background-position: -3840px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

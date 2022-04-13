@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>链式编程</title>
+    <style>
+        button{
+            margin-left: 20px;
+        }
+    </style>
+    <script src="jQuery.min.js"></script>
+    <script>
+        $(function() {
+            // 1.隐式迭代 给所有的按钮都绑定了点击事件
+            $('button').click(function() {
+                // 2.让所有的元素颜色变为红色
+                // $(this).css('color', 'red');
+                // 3.让其余兄弟元素不变色
+                // $(this).siblings().css('color', '');
+
+                // 链式编程
+                $(this).css('color', 'red').siblings().css('color', '');  //我的颜色为红色兄弟颜色为空
+                // $(this).siblings().css('color', 'red'); 我的兄弟变红 我本身不变色
+                $(this).siblings().parent().css('color', 'blue');
+            })
+        })
+    </script>
+</head>
+<body>
+    我是body的字体
+    <button>快速</button><button>快速</button><button>快速</button><button>快速</button><button>快速</button><button>快速</button>
+</body>
+</html>

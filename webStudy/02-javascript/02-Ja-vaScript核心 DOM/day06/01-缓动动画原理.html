@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>缓动动画原理</title>
+    <style>
+        span {
+            position: absolute;
+            top: 150px;
+            left: 0px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn500">点击使红色盒子移动500</button>
+    <button class="btn800">点击使红色盒子移动800</button>
+    <span></span>
+    <script>
+        var btn500 = document.querySelector('.btn500');
+        var btn800 = document.querySelector('.btn800');
+        var span = document.querySelector('span');
+        function animate(obj, target) {
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function() {
+                // 步长值写到定时器里面
+                // 我们把步长值改为整数 不要出现小数问题
+                var step = (target - obj.offsetLeft) / 10;
+                step = step > 0? Math.ceil(step) : Math.floor(step);
+                if(obj.offsetLeft == target) {
+                    clearInterval(timer);
+                }
+                // 把每次加1 这个步长值改为一个慢慢变小的值 步长公式：(目标值 - 现在的位置) / 10
+                obj.style.left = obj.offsetLeft + step + 'px';
+            }, 30);
+        }
+        btn500.addEventListener('click', function() {
+            animate(span, 500);
+        });
+        btn800.addEventListener('click', function() {
+            animate(span, 800);
+        });
+        // 匀速动画就是 盒子当前的位置 + 固定的值 10
+        // 缓动动画就是 盒子当前的位置 + 变化的值(目标值 - 现在的位置) / 10
+    </script>
+</body>
+</html>

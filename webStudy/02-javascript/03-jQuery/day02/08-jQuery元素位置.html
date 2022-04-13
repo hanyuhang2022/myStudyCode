@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery元素位置</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .father {
+            position: relative;;
+            width: 400px;
+            height: 400px;
+            background-color: pink;
+            margin: 100px;
+            overflow: hidden;
+        }
+        .son {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 150px;
+            height: 150px;
+            background-color: purple;
+        }
+    </style>
+    <script src="jQuery.min.js"></script>
+</head>
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+    <script>
+        $(function() {
+            // 1.获取/设置 距离文档的位置 (偏移) offset()
+            console.log($(".son").offset());
+            console.log($(".son").offset().top); //获取div:.son 的top值
+                //设置高度和宽度(以对象形式设置) 
+            // $(".son").offset({
+                // top: 200,
+                // left: 200
+            // });
+
+            // 2.获取带有定位父级位置（偏移） position 如果没有带有定位的父级,则以文档为准
+            console.log($(".son").position());
+                // 该方法只能获取不能设置偏移
+            $(".son").position({
+                top: 200,
+                left: 200
+            });
+        });
+    </script>
+</body>
+</html>

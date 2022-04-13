@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>操作元素之改变元素内容</title>
+    <style>
+        div,p{
+            width: 300px;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <button id = "button">显示当前系统时间</button>
+    <div id = "div">某个时间</div>
+    <p>1123</p>
+    <script>
+        // 利用element.innerText操作元素
+        var btn = document.getElementById('button');
+        var div = document.getElementById('div');
+        btn.onclick = function() {
+            div.innerText = getTime();
+        }
+        function getTime() {
+            var date = new Date();
+            var y = date.getFullYear();
+            var m = date.getMonth() + 1;
+            var d = date.getDate();
+            var arr = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+            var a = date.getDay();
+            var time = +new Date();
+            return ('现在时间:' + y + '年' + m + '月' + d + '日' + ' ' +  arr[a]);
+        }
+        // 可以不用绑定事件(直接刷新页面就可以实现事件)
+        var p = document.querySelector('p');
+        p.innerText = getTime();
+    </script>
+</body>
+</html>

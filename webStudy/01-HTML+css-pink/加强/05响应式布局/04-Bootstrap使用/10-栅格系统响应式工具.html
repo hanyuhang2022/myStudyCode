@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>栅格系统响应式工具</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        .row div {
+            height: 250px;
+            background-color: cyan;
+        }
+        .row div:nth-child(3) {
+            background-color: pink;
+        }
+        span {
+            font-size: 50px;
+            color:#fff
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        hidden-xs 超小屏幕下隐藏
+        hidden-sm 小屏幕下隐藏
+        hidden-md 中等屏幕下隐藏
+        hidden-lg 大屏幕下隐藏
+
+        visible-xs 超小屏幕下显示
+        visible-xs 小屏幕下显示
+        visible-xs 中等屏幕下显示
+        visible-xs 大屏幕下显示
+     -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                <span class="visable-lg">大屏下永远显示</span>
+            </div>
+            <div class="col-xs-3">2</div>
+            <div class="col-xs-3 hidden-md">中等屏幕是隐藏</div>
+            <div class="col-xs-3 hidden-md hidden-lg">中等屏幕和大屏幕时隐藏</div>
+        </div>
+    </div>
+</body>
+</html>

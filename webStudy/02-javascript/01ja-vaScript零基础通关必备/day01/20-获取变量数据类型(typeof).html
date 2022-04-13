@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typeof-获取变量数据类型</title>
+    <script>
+        var num = 1;
+        console.log(typeof num);//number
+        var str = 'pink';
+        console.log(typeof str); //string
+        var variable = undefined;
+        console.log(typeof variable); //undefined
+        var bool = true;
+        console.log(typeof bool);//boolean
+        var timer = null;
+        console.log(typeof timer);//object
+
+        //prompt取过来的值是字符型 无法进行加减运算
+        var age = prompt('请输入您的年龄');
+        console.log(age);
+        console.log(typeof age);//string
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

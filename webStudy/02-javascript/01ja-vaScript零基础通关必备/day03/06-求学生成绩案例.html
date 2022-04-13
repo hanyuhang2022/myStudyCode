@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>求学生成绩案例</title>
+    <script>
+        // 弹出输入框输入总的班级人数(stu)
+        // 依次输入学生的成绩（保存起来score），此时我们需要用到
+        // for循环，弹出的次数跟班级总人数有关系 条件表达式 i <= stu
+        // 进行业务处理；计算成绩。先求总成绩(sum) , 之后求平均成绩(average)
+        // 弹出结果
+        var stu = prompt('请输入学生总人数：'); //stu是总的班级人数
+        var sum = 0; //求和的变量
+        var average = 0; //求平均值的变量
+        var score = 0; //几位同学的各自成绩
+        for (i = 1; i <= parseFloat(stu); i++) {
+            // 从prompt取过来的是字符型，得转换成数值型
+            score = parseFloat(prompt('请输入第' + i + '学生的成绩：'));
+            sum = sum + score;
+        }
+        average = sum / stu;
+        alert('班级总的成绩是：' + sum);
+        alert('这' + stu + '名同学的平均值为'+ average +'分');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

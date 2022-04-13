@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品模块</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        body {
+            background-color: #F5F5F5;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .box {
+            width: 298px;
+            height: 415px;
+            margin: 100px auto;
+            background-color: #FFFFFF;
+        }
+        .box img {
+            /* 图片的宽度和父亲一样宽 */
+            width: 100%;
+        }
+        .pinglun {
+            height: 70px;
+            font-size: 14px;
+            /* 因为这个盒子没有width属性所以设置padding属性不会影响父盒子大小 */
+            padding: 0px 28px;
+            margin-top: 30px;
+        }
+        .pingjia {
+            color: #b0b0b0;
+            font-size: 12px;
+            padding: 0px 28px;
+            margin-top: 20px;
+        }
+        .info {
+            padding: 0px 28px;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .info h4{
+            font-weight: 400;
+            display: inline-block;
+        }
+        .info span{
+            color: orangered;
+        }
+        .info em {
+            font-style: normal;
+            color: gray;
+            margin: 0px 6px 0px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="images/img.jpg">
+        <div class="pinglun">快递牛,整体不错蓝牙可以说秒连。红米给力</div>
+        <div class="pingjia">来自于 123456789 的评价</div>
+        <div class="info">
+            <h4> <a href="#">Redmi AirDots真无线蓝...</a></h4>
+            <em>|</em>
+            <span> 99.9元</span>
+     </div>
+    </div>
+</body>
+</html>

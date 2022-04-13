@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作业</title>
+    <script>
+        // 1、求1~100之间所有数的总和与平均值
+        var sum = 0;
+        var average = 0;
+        for (var i = 1; i <= 100; i++) {
+            sum = sum + i;
+        }
+        console.log(sum);
+        average = sum / 100;
+        console.log(average);
+        // 2、求1~100之间所有偶数的总和
+        var sum1 = 0;
+        for (var i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                sum1 = sum1 + i;
+            }
+        }
+        console.log(sum1);
+        // 3、求1~100之间所有7的倍数的总和
+        var sum2 = 0;
+        for (var i = 1; i <= 100; i++) {
+            if (i % 7 == 0) {
+                sum2 = sum2 + i;
+            }
+        }
+        console.log(sum2);
+
+        // 4、使用for循环打印星星武行五列
+        var str = '';
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 1; j <= 5; j++) {
+                str = str + '⭐';
+            }
+            str = str + '\n';
+        }
+        console.log(str);
+
+        // 5、使用for循环打印正三角形
+        var str1 = '';
+        for (var i = 1; i <= 5; i++) {
+            for (var j = 1; j <= i; j++) {
+                str1 = str1 + '⭐';
+            }
+            str1 = str1 + '\n';
+        }
+        console.log(str1);
+
+        // 6、使用for循环九九乘法
+        var str2 = '';
+        for (var i = 1; i <= 9; i++) {
+            for (var j = 1; j <= i; j++) {
+                str2 = str2 + j + '×' + i + '=' + i * j + '\t';
+            }
+            str2 = str2 + '\n';
+        }
+        console.log(str2);
+
+        // 7、接受用户输入的用户名 若用户名为"anmin",密码为123456，
+        // 则提示用户登陆成功! 否则，让用户一直输入
+        /* do {
+            var username = prompt('请输入用户名：');
+            var password = parseInt(prompt('请输入密码：'));
+        } while (username !== 'admin' || password !== 123456);
+        alert('恭喜登录成功'); */
+
+        // 8、求整数1~100的累加值，但要跳过所有个位为3的数(用continue实现)
+        var sum4 = 0;
+        for (var i = 1; i <= 100; i++) {
+            if (i % 10 == 3) {
+                continue;
+            }
+            sum4 = sum4 + i;
+        }
+        console.log(sum4);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

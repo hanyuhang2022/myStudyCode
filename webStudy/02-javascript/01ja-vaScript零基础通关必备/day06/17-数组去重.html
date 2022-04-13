@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组去重</title>
+    <script>
+        /* 思路: (1) 目标: 把旧数组里面不重要的数组元素取出来放到新数组中,重复的元素只留一个,放到新数组中去重
+              (2) 核心算法: 遍历旧数组,然后拿着就数组元素去查询新数组,如果该元素在新数组里面没有出现过,我们就添加 否则不添加
+              (3) 知道该元素是否在新数组中存在的方法: 利用indexOf(数组元素) 如果返回 -1 就说明新数组中没有该元素 */
+        // unique独一无二的
+        function unique(arr) {
+            var newarr = [];
+            for(var i = 0; i < arr.length; i++) {
+                if(newarr.indexOf(arr[i]) === -1) {
+                    newarr.push(arr[i]);
+                }
+            }
+            return newarr;
+        }
+        console.log(unique(['c','a','z','a','x','a','x','c','b']));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景图片</title>
+        <style>
+            .box {
+                height: 300px;
+                width: 300px;
+                background-image: url(images/logo.png); 
+                /* 页面元素可以添加背景元素也可以添加背景图片 只不过背景图片会压住背景颜色 */
+                background-color: pink;
+                /* background-repeat 背景平铺，默认是repeat(平铺) */
+                background-repeat: no-repeat; /* 不平铺 */  
+            }
+            .box1 {
+                height: 300px;
+                width: 300px;
+                background-image: url(images/logo.png); 
+                background-repeat: repeat; /* 平铺 */  
+            }
+            .box2 {
+                height: 300px;
+                width: 300px;
+                background-image: url(images/logo.png); 
+                background-repeat: repeat-x; /* 沿X轴平铺(横向平铺) */  
+            }
+            .box3 {
+                height: 300px;
+                width: 300px;
+                background-image: url(images/logo.png); 
+                background-repeat: repeat-y; /* 沿Y轴平铺(垂直平铺) */ 
+            }
+        </style>
+</head>
+<body>
+    <div class="box"></div>
+    <br><br>
+    <div class="box1"></div>
+    <br><br>
+    <div class="box2"></div>
+    <br><br>
+    <div class="box3"></div>
+</body>
+</html>

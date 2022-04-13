@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>显示隐藏元素之overflow</title>
+    <style>
+
+        /* !!!  有定位的盒子慎用overflow:hidden */
+
+        .box {
+            /* 显示溢出部分(默认) */
+            /* overflow: visible; */
+
+            /* 隐藏溢出的部分 */
+            /* overflow: hidden; */
+
+            /* scroll 溢出的部分显示滚动条 不溢出的部分也显示滚动条 */
+            /* overflow: scroll; */
+
+            /* 溢出的时候才显示滚动条，不溢出的时候不显示 */
+            overflow: auto;
+
+            width: 200px;
+            height: 200px;
+            border: 3px solid pink;
+            margin: 100px auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Accusamus exercitationem adipisci sit quae quo impedit id optio delectus ex
+          recusandae repellendus voluptate est repellat,
+         aperiam veritatis tempora tempore, saepe earum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Accusamus exercitationem adipisci sit quae quo impedit id optio
+          delectus ex recusandae repellendus voluptate est repellat, aperiam veritatis tempora tempore, saepe earum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus 
+        exercitationem adipisci sit quae quo impedit id optio delectus ex recusandae repellendus voluptate est repellat, aperiam veritatis tempora tempore, saepe earum!
+    </div>
+</body>
+</html>

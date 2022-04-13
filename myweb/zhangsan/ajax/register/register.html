@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <script>
+        window.addEventListener('load',function() {
+            var btn = document.querySelector('#btn');
+            btn.addEventListener('click', function() {
+                var username = document.querySelector('#username').value;
+                // 接下来 使用js代码进行 checkUsername.php 这个文件的访问，将username传递给这个文件才能进行用户名唯一性的校验(ajax就是在这种场景使用的)
+                    // 使用分为四步
+                    //（1）创建XMLHttpRequest()异步对象,由该对象进行php验证用户名文件的请求
+                            // 先验证浏览器的兼容性
+                    var xhr = null;
+                    if(window.XMLHttpRequest) {
+                        xhr = new XMLHttpRequest();
+                    } else {
+                        // IE6浏览器
+                        xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    // (2)准备发送  使用xhr对象进行open()方法的调用,给该对象指定访问的文件是哪一个,里面有3个参数
+                        //      ①get/post: 请求方式  ②要访问的文件的url地址 checkUsername.php是地址,q
+                        //      前边用的get提交 get提交的特点是 把参数放在地址栏的后边所以需要跟上 ? 后面跟上参数(参数的key值叫什么取决于服务器的接口通过什么接口获取参数值(username)) 然后加上用户输入的value值
+                        //      ③true 代表异步 false 代表同步(默认异步)
+                        // xhr.open("get","checkUsername.php?username=" + username, true); //get写法
+                           xhr.open("post", "checkUsername.php", true); //post写法(因为post方式传递的参数不在url地址栏而是在请求体中)
+                    //  (3) 执行发送(固定写法)
+                        // xhr.send(null); //get写法
+                        var param = "username=" + username;
+                        // 设置请求头信息, 此步骤只针对于post请求
+                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                        xhr.send(param); //post写法 将参数放到请求体中
+                    //  (4)设置回调函数获取heckUsername.php返回来的值
+                            // 相当于指定了一个回调函数
+                        xhr.addEventListener('readystatechange', function() {
+                                //xhr.readyState == 4 代表xhr的状态 
+                            if(xhr.readyState == 4) {
+                                // xhr.status == 200 代表 服务器所返回的状态
+                                if(xhr.status == 200) {
+                                    // 相关数据通过responseText(就是一个字符串)得到(得到数据的写法)
+                                    // 还有另一种写法 responseXML(xml数据格式 采用这种写法)
+                                    var result = xhr.responseText;
+                                    // 当前界面的局部刷新操作
+                                    document.getElementById("result").innerText = result;
+                                }
+                            }
+                        });
+                });
+        });
+    </script>
+</head>
+<body>
+    <h1>注册界面</h1>
+    <form action="register.php" method="get">
+        用户名：<input type="text" name="username" id="username">
+        <input type="button" value="验证用户名" id="btn">
+        <span id="result"></span>
+        <br>
+        密码：<input type="password" name="psd"><br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>

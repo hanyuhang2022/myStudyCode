@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遍历对象</title>
+    <script>
+        var obj = {
+            uname: '韩宇航',
+            age: 22,
+            sex: '男'
+        }
+        /* console.log(obj.uname);
+        console.log(obj['age']);
+        console.log(obj.sex); */
+        for(var k in obj) {
+           // console.log(k); // k 变量 输出得到 变量名
+            console.log(obj[k]); //必须是obj[k] 得到的是属性值
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

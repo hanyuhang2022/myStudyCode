@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝对定位</title>
+    <style> 
+        /* 绝对定位： 是元素在移动位置的时候，是相对于他父元素来说的
+                特点：
+                ①若没有父元素 或 父元素没有定位(标准流或浮动的盒子) 则以浏览器1为准定位(Document文档)
+                ③绝对定位不在占有以前的位置(脱标)。
+         */
+        .box1 {
+            /* 没有父元素的情况 */
+            position: absolute;
+            top: 100px;
+            right: 100px;
+            
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        /* 父元素没有定位的情况 */
+        .father {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin-left: 100px;
+        }
+        .son {
+            position: absolute;
+            top: 0px;
+            left: 400px;
+            
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        123
+    </div>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</body>
+</html>

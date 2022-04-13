@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片文字垂直居中</title>
+    <!-- 
+        图片文字垂直居中(行内块元素都可以使用)：
+            vertical-baseline ——> 默认。元素怒放在父元素的基线上 
+            vertical-top      ——> 把元素顶端与行中最高元素顶端对齐
+            vertical-middle   ——> 把此元素怒旘在父元素的中部
+            vertical-bottom   ——> 把元素额顶端与行中最低元素顶端对齐
+
+     -->
+    <style>
+        .box img {
+            vertical-align: baseline;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="images/ldh.jpg" alt="">pink
+    </div>
+
+    <textarea name="" id="" cols="30" rows="10" style="vertical-align: middle; resize: none;"></textarea>请输入内容 
+</body>
+</html>

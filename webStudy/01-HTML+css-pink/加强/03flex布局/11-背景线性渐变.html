@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景线性渐变</title>
+    <style>
+        div {
+            width: 600px;
+            height: 300px;
+            background-color: red;
+            /* 背景渐变必须添加浏览器私有前缀 */
+            background: -webkit-linear-gradient(left ,red ,blue);
+            /* 默认的方位是top */
+            background: -webkit-linear-gradient(green ,blue);
+            /* 对角线渐变 */
+            background: -webkit-linear-gradient(top left,red, blue);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

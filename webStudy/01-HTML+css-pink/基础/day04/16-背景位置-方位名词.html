@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景位置-方位名词</title>
+    <style>
+        div {
+            height: 300px;
+            width: 300px;
+            background-repeat: no-repeat;
+            background-image: url(images/logo.png);
+        }
+
+        .box1 {
+            /* 背景图片方位语法规范:
+                  background-position: x(水平方向) y(垂直方向); */
+            
+            background-position: right center;  /* 图片在居中靠右 */
+            background-color: red;
+        } 
+
+        .box2 {
+            /* 图片在剧中底部 */
+            background-position: center bottom;
+            background-color: orange;
+        }
+
+        .box3 {
+            /* x,y颠倒顺序不会影响显示 */
+            background-position: center right;  /* 也是图片在居中靠右 */
+            background-color: yellow;
+        }
+
+        .box4 {
+            /* 如果只写一个方位名词，那么 y轴 默认垂直居中显示 */
+            background-position: left;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设置元素转换中心点</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: pink;
+            margin: 100px auto;
+            transition: all 2.5s;
+
+            /* transform-origin 设置元素转换中心 默认是 50% 50% 等价于 center center */
+                
+            /* 1、用方位名词表示 */
+            transform-origin: center bottom;
+
+            /* 2、可以用像素来设置 */
+            transform-origin: 50px 50px;
+
+        }
+        div:hover {
+            transform: rotate(720deg);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

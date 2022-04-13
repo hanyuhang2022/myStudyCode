@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动画属性</title>
+    <style>
+        @keyframes move {
+            from {
+                transform: translate(0px,0px);
+            }
+            to {
+                transform: translate(1000px,0px);
+            }
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            /* 动画名称 */
+            animation-name: move;
+
+            /* 动画完成一个周期的时间 */
+            animation-duration: 2s;
+
+            /* 动画的速度曲线，默认是ease */
+            animation-timing-function: ease;
+
+            /* 规定动画合适开始，默认是0 */
+            animation-delay: 1s;
+
+            /* 规定动画被播放的次数，默认是1，infinite是无限循环 */
+            /* animation-iteration-count: infinite; */
+
+            /* 规定动画下一周期逆向播放，normal是默认值，alternate是逆向 */
+            /* animation-direction: alternate; */
+
+            /* 动画结束后的状态 默认是backwords(回到起始状态) 如果想停留在结束状态就用 forwords */
+            animation-fill-mode: forwards;
+        }
+        div:hover {
+            /* 鼠标经过div 让这个div 停止动画，鼠标离开就继续动画 */
+            animation-play-state: paused;
+        }
+
+        @keyframes firstmove {
+            from {
+                transform: translate(0,0);
+            }
+            to {
+                transform: translate(1000px,0);
+            }
+        }
+        .box1 {
+            margin-top: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+                        /* 动画名称  持续时间 何时开始  播放次数  是否反方向  动画起始或结束的状态 */
+            animation: firstmove 2s linear alternate forwards;
+            /* 前两个属性 name 和 duration 一定要写 */
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+</body>
+</html>

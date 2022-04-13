@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax封装</title>
+    <script src="myutils.js"></script>
+    <script>
+        window.onload = function() {
+            var username = document.querySelector("#username");
+            var email = document.querySelector("#email");
+            var phone = document.querySelector("#phone");
+            // onblur光标焦点事件
+            // 1.验证用户名
+            username.onblur = function() {
+                var usernameValue = username.value;
+                var type = "get";
+                var url = "./server/checkUsername.php";
+                var params = "uname=" + usernameValue;
+                var dataType = "text";
+                myAjax(type,url,params,dataType,function(result) {
+                    var username_result = document.querySelector("#username_result");
+                    if(result == 'ok') {
+                        username_result.innerText = "用户名可以使用";
+                    } else {
+                        username_result.innerText = "用户名已存在";
+                    }
+                },false);
+            };
+            
+            // 2.验证邮箱
+            email.onblur = function() {
+                var emailValue = email.value;
+                
+                var type = "post";
+                var url = "./server/checkEmail.php";
+                var params = "e=" + emailValue;
+                var dataType = "text";
+                myAjax(type,url,params,dataType,function(result) {
+                    var email_result = document.querySelector("#email_result");
+                    if(result == 0) {
+                        email_result.innerText = "邮箱可以使用";
+                    } else {
+                        email_result.innerText = "邮箱不可以使用";
+                    }
+                },true);
+            };
+        
+            // 3.
+            phone.onblur = function(){
+				var phoneValue = phone.value;
+                var type = "post";
+                var url = "./server/checkPhone.php";
+                var params = "phonenumber="+phoneValue;
+                var dataType = "json";
+                myAjax(type,url,params,dataType,function (result) {
+                    var phone_result = document.querySelector("#phone_result");
+							if(result.status == 0) {
+								//代表手机号码可用
+								phone_result.innerText = result.message.tips + "," + result.message.phonefrom;
+							} else if(result.status == 1) {
+								//代表手机号码不可用
+								phone_result.innerText = result.message;
+							}                  
+                },true); 
+                
+
+			};
+
+        };
+    </script>
+</head>
+<body>
+    <h1>注册界面</h1>
+    <form action="">
+        用户名:<input type="text" id="username" ><span id="username_result"></span><br>
+        邮箱:<input type="text" id="email"><span id="email_result"></span><br>
+        手机号: <input type="text" name="" id="phone" ><span id="phone_result"></span><br>
+    </form>
+</body>
+</html>

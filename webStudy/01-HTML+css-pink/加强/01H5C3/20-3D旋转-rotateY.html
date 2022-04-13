@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotateY</title>
+    <style>
+        body {
+            perspective: 500px;
+        }
+        img {
+            display: block;
+            margin: 150px auto;
+            transition: all 1s;
+        }
+        img:hover {
+            /* 
+                左手法则：左手拇指指向Y轴正方向，
+                其余手指的弯曲方向就是高元素沿着Y轴旋转的方向
+            */
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+    <img src="images/img.jpg" alt="">
+</body>
+</html>

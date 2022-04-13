@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>返回值案例</title>
+    <script>
+        // 1.求两个数的最大值
+        function getMax(num1, num2) {
+            // if (num1 > num2) {
+            //     return(num1);
+            // } else {
+            //     return(num2);
+            // }
+            return num1 > num2? num1: num2;
+        }
+        console.log(getMax(1, 2));
+        console.log(getMax(11, 3));
+
+        // 2.求数组[5，2，99，101，67，77]中的最大值
+         function getArrMax(arr) {
+            var max = arr[0];
+            for (var i = 1; i <= arr.length; i++) {
+                if (arr[i] > max) {
+                    max = arr[i];
+                }
+            }
+            return max;
+        }
+        //getArrMax([5, 2, 99, 101, 67, 77]); //实参是一个数组传过去
+        // 在我们实际开发中 我们经常用一个变量来接受 函数的返回结果 使用更简单
+        var re = getArrMax([5, 2, 99, 101, 67, 77]);
+        console.log(re);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

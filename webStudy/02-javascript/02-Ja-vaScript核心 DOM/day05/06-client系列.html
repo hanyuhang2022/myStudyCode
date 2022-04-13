@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>client系列</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            border: 10px solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <script>
+        var box = document.querySelector('.box');
+        // 单独获取上边框大小10px
+        console.log(box.clientTop);
+        // 单独获取左边框大小10px
+        console.log(box.clientLeft);
+        // client 宽度 和我们offsetWidth 最大的区别就是 不包含边框 但是包含padding
+        console.log(box.clientWidth);
+        // client 宽度 和我们offsetWidth 最大的区别就是 不包含边框 但是包含padding
+        console.log(box.clientHeight);
+    </script>
+</body>
+</html>

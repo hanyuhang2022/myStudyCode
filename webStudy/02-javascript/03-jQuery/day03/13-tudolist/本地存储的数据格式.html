@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本地存储的数据格式</title>
+</head>
+<body>
+    <script>
+        //核心思路：不管按下回车，还是点击复选框，都把本地存储的数据加载到页面中，这样保证刷新关闭页面不会丢失数据
+
+        // 创建数组对象来存储
+        var todolist = [{
+            title: '学习jQuery的第三天',
+            done: false
+        },
+        {
+            title: '今晚吃什么',
+            done: false
+        },]
+        localStorage.setItem("todo", todolist);
+        // 1.本地存储(localStorage)里面只能存储字符串的数据格式 把我们的数组对象转换为字符串格式 JSON.stringify()
+        localStorage.setItem("todo", JSON.stringify(todolist)); //现在为字符串格式
+        var data  = localStorage.getItem("todo");
+        console.log(typeof data); //string
+        console.log(data[0].title); //undefined
+        // 因为存进去的是字符串取出来也是字符串 字符串不能使用todolist里的title方法
+        // 2.要想获取本地的数据(存进去的字符串) 需要把里面的字符串数据转换为 对象格式 用JSON.parse()
+        data = JSON.parse(data);
+        console.log(data);
+    
+    </script>
+</body>
+</html>

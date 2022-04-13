@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用arguments求任意个数的最大值</title>
+    <script>
+        function getMax() {
+            var max = arguments[0];
+            for (var i = 1; i < arguments.length; i++) {
+                if (arguments[i] > max) {
+                    max = arguments[i];
+                }
+            }
+            return max;
+        }
+        console.log(getMax(1, 4, 6));
+        console.log(getMax(666, 3, 43, 888));
+        console.log(getMax(34, 1, 32, 33, 77));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

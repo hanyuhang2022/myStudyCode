@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll系列</title>
+    <style> 
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            border: 10px solid red;
+            padding: 10px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 
+        我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 我是内容 
+        我是内容 我是内容 我是内容 我是内容 我是内容 我是内容我是内容 我是内容 我是内容 我是内容 我是内容 我是内容
+    </div>
+    <script>
+        // scrollHeight scrollWidth 返回值包括padding 不包含 border
+        var div = document.querySelector('div');
+        console.log(div.scrollHeight);
+
+        // scroll滚动事件 当我们滚动条发生变化会触发事件
+        div.addEventListener('scroll', function() {
+            // scrollTop 返回下拉滚动条时上边被卷去的部分
+            console.log(this.scrollTop);
+        });
+    </script>
+</body>
+</html>

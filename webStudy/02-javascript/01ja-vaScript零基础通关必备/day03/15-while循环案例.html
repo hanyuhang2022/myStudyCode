@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while循环案例</title>
+    <script>
+        // 1、打印从一岁到10岁
+        var age = 1;
+        while (age <= 10) {
+            console.log('这个人今年'+ age + '岁了');
+            age++;
+        }
+        // 2、计算1~100直接按所有整数的和
+        var sum = 0;
+        var n = 1;
+        while (n <= 100) {
+            sum = sum + n;
+            n++;
+        }
+        console.log(sum);
+        // 3、弹出一个提示框 是真的吗？ 输入真的就结束 否则一直提问
+        var str = prompt('是真的吗？');
+        while (str !== '真的') {
+            str = prompt('是真的吗?');
+        } 
+        alert('恭喜通过');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

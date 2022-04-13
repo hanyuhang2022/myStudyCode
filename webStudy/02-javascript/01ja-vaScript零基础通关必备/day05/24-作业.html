@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作业</title>
+    <script>
+       /*  var computer = {
+            color: 'black',
+            weight: '10kg',
+        }
+        console.log(computer.color);
+
+        function fun(arr) {
+            var newArr = [];
+            for(var i = arr.length - 1; i >= 0; i--) {
+                    newArr[newArr.length] = arr[i];
+            }
+            return newArr;
+        }
+        console.log(fun([1, 2, 3, 4, 5]));
+
+        function fn(arr) {
+            var temp;
+            for(var i = 0; i < arr.length - 1; i++) {
+                for(var j = 0; j < arr.length - i - 1; j++) {
+                    if(arr[j] < arr[j + 1]) {
+                    temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+                }
+            }
+            return arr;
+        }
+        console.log(fn([1, 2, 4, 9, 7])); */
+
+        // 运算器
+        while(true) {
+            function fun() {
+            var a = Number(prompt('欢迎使用简易计算器:\n 1.加法运算: \n 2.减法运算: \n 3.乘法运算: \n 4.除法运算: \n 5.退出: \n 请输入您的选项'));
+            if(a == 1) {
+                alert(fn1());
+            } else if(a == 2) {
+                alert(fn2());
+            } else if(a == 3) {
+                alert(fn3());
+            } else if(a == 4) {
+                alert(fn4());
+            } 
+        }
+        if(a == 5) 
+        fun();
+        }
+
+        // 加法
+        function fn1() {
+            var num1 = Number(prompt('请输入一个数1:'));
+            var num2 = Number(prompt('请再输入一个数1:'));
+            return(num1 + num2);
+        }
+        // alert(fn1());
+
+        // 减法
+        function fn2() {
+            var num1 = Number(prompt('请输入一个数2:'));
+            var num2 = Number(prompt('请再输入一个数2:'));
+            return(num1 - num2);
+        }
+        // alert(fn2());
+
+        // 乘法
+        function fn3() {
+            var num1 = Number(prompt('请输入一个数:'));
+            var num2 = Number(prompt('请再输入一个数:'));
+            return(num1 * num2);
+        }
+        // alert(fn3());
+
+        // 除法
+        function fn4() {
+            var num1 = Number(prompt('请输入一个数:'));
+            var num2 = Number(prompt('请再输入一个数:'));
+            return(num1 / num2);
+        }
+        // alert(fn4());
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

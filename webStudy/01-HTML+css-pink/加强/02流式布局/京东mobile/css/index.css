@@ -1,0 +1,215 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0px auto;
+    font-size: 14px;
+    font-family: -apple-system,Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.5;
+}
+/* 点击高亮清除 */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+/* 在移动端浏览器默认的外观在ios上加上这个属性才能给按钮和输入框自定义样式 */
+input {
+    -webkit-appearance: none;
+}
+/* 禁止长安页面弹出菜单 */
+a,
+img {
+    -webkit-touch-callout: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+img {
+    /* 去除图片底侧的空白缝隙 */
+    vertical-align: middle;
+}
+.app {
+    height: 45px;
+    
+}
+.app ul li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+}
+.app ul li:nth-child(1) {
+    width: 8%;
+}
+.app ul li:nth-child(1) img {
+    width: 10px;
+}
+.app ul li:nth-child(2) {
+    width: 10%;
+}
+.app ul li:nth-child(2) img {
+    width: 30px;
+    /* 图片和文字居中对齐 */
+    vertical-align: middle;
+}
+.app ul li:nth-child(3) {
+    width: 57%;
+}
+.app ul li:nth-child(4) {
+    width: 25%;
+    background-color: #f63515
+}
+/* 搜索部分 */
+.search_wrap {
+    position: fixed;
+    /* 固定定位的盒子必须添加固定宽度 */
+    width: 100%;
+    height: 44px;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 630px;
+}
+.search_btn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 44px;
+}
+.search_btn::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 18px;
+    background: url(../images/s-btn.png);
+    background-size: 20px 18px;
+    margin: 14px 0px 0px 15px;
+}
+.search_login {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 44px;
+    color: #fff;
+    line-height: 44px;
+}
+.search {
+    position: relative;
+    height: 30px;
+    background-color: #fff;
+    margin: 0px 50px;
+    margin-top: 7px;
+    border-radius: 15px;
+}
+.jd-icon {
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    width: 20px;
+    height: 15px;
+    background-color: aqua;
+    background: url(../images/jd.png);
+    background-size: 20px 15px;
+}
+.jd-icon::after {
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+}
+.sou {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    width: 18px;
+    height: 15px;
+    /* background-color: #f63515; */
+    background: url(../images/jd-sprites.png) no-repeat -83px 0px;
+    background-size: 200px 200px;
+}
+input {
+    float: right;
+    height: 30px;
+    width: 460px;
+    /* background-color: #f63515; */
+    border: none;
+    border-radius: 15px;
+    /* 去除input的点击边框 */
+    outline: none;
+}
+.slider img {
+    width: 100%;
+}
+/* 品牌日 */
+.brand {
+    /* 因为加border-radius时给盒子切的圆角，图片还是直角，所以用overflow:hidden来隐藏 */
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.brand div {
+    float: left;
+    width: 33.33%;
+}
+.brand div img {
+    width: 100%;
+}
+/* nav部分 */
+nav {
+    padding-top: 5px;
+}
+nav a {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav a img {
+    width: 40px;
+    margin: 10px 0px;
+}
+nav a span {
+    display: block;
+}
+/* news部分 */
+.news a {
+    float: left;
+    box-sizing: border-box;
+}
+.news a img {
+    width: 100%;
+}
+.news a:nth-child(1) {
+    width: 50%;
+}
+
+/* .news a:nth-child(2) {
+    width: 25%;
+}
+.news a:nth-child(3) {
+    width: 25%;
+} */
+
+/* .news a:nth-child(2),
+.news a:nth-child(3) {
+    width: 25%;
+} */
+
+/* 从第二个开始算 */
+.news a:nth-child(n+2) {
+    width: 25%;
+    border-left: 1px solid #ccc;
+}

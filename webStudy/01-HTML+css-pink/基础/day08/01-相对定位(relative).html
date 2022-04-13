@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>相对定位</title>
+    <style>
+        /* 定位 = 定位模式 + 边偏移 */
+        .box {
+            /* 相对定位：
+                    ①他是相对与自己原来的位置移动的
+                    ②原来在标准流的位置继续占有，后面的盒子依然以标准流的方式对待它。
+                    (不脱标，继续保留在原来的位置)
+            */
+            position: relative;  /* 定位模式 */
+
+            top: 100px;  /* 边偏移 */
+            left: 100px;
+
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+        }
+        .box1 {
+            height: 200px;
+            width: 200px;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+</body>
+</html>

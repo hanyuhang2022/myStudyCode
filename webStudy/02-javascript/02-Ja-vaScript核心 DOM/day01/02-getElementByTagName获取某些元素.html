@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementsBytagName获取某些元素</title>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <!-- <li>2</li>
+        <li>3</li>
+        <li>4</li> -->
+    </ul>
+
+    <ol>
+        <li>生僻字</li>
+        <li>生僻字</li>
+        <li>生僻字</li>
+        <li>生僻字</li>
+    </ol>
+
+    <ol id = "spz">
+        <li>生僻字1</li>
+        <li>生僻字1</li>
+        <li>生僻字1</li>
+        <li>生僻字1</li>
+    </ol>
+    <script>
+        // 1.返回的是 获取过来元素对象的集合 以伪数组的形式存储的
+        var lis = document.getElementsByTagName('li');
+        console.log(lis);
+        console.log(lis[0]);
+        // 2.我们先要依次打印里面的元素对象可以采用遍历的方式
+        for(var i = 0; i < lis.length; i++){
+            console.log(lis[i]);
+        }
+        // 3.如果页面里只有一个li 返回的还是伪数组的形式
+        // 4.如果页面中没有该元素,返回的是一个空的伪数组 长度为0
+        
+        
+            // 若想值获取ol中的li可以采用:
+        // 5.element.getElementsBytagName('标签名');
+            //   相当于: 父元素名字.getElementsBytagName('子元素');
+            
+            //var ol = document.getElementsByTagName('ol'); //先获取整个文档的ol元素 ([ol] 不能让这种伪数组元素作为父元素 会报错)
+            //console.log(ol[0].getElementsByTagName('li')); //然后指出是指出是获取第几个ol中的li (ol[0])
+
+            // 利用id获取某元素的子元素
+            var ol1 = document.getElementById('spz');
+            console.log(ol1.getElementsByTagName('li'));
+    </script>
+</body>
+</html>

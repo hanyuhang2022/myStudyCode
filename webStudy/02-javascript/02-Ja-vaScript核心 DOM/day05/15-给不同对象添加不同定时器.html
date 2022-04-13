@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给不同对象添加不同定时器</title>
+        <style>
+            div {
+                position: absolute;
+                left: 0px;
+                width: 100px;
+                height: 100px;
+                background-color: pink;
+            }
+            span {
+                position: absolute;
+                top: 150px;
+                left: 0px;
+                display: block;
+                width: 100px;
+                height: 100px;
+                background-color: red;
+            }
+        </style>
+</head>
+<body>
+    <button>点击使红色盒子移动</button>
+    <div></div>
+    <span></span>
+    <script>
+        var div = document.querySelector('div');
+        var span = document.querySelector('span');
+        var btn = document.querySelector('button');
+
+        // 简单动画函数封装 obj(目标对象) target(目标位置)
+        function animate(obj, target) {
+            // var obj = {};
+            // obj.name = 'andy';
+            // 让我们元素只有一个定时器执行,先清除以前的定时器,只保留当前一个定时器执行
+            clearInterval(obj.timer);
+            // 给不同元素指定了不同定时器
+            obj.timer = setInterval(function() {
+                if(obj.offsetLeft > target) {
+                    // 停止动画 本身是停止定时器
+                    clearInterval(timer);
+                }
+                obj.style.left = obj.offsetLeft + 1 + 'px';
+            }, 30)
+        }
+        // 调用函数
+        animate(div, 200);
+        // 会存在bug(当频繁点击btn时会频繁触发定时器 使盒子移动加快因为开启了太多定时器,解决办法是加上clearInterval)
+        btn.addEventListener('click', function() {
+            animate(span, 300);
+        });
+    </script>
+</body>
+</html>

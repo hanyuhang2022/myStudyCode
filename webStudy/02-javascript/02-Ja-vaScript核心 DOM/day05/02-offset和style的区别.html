@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>offset和style的区别</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" style="width: 300px;"></div>
+    <script>
+        // offset 和 style的区别
+        var box = document.querySelector('.box');
+        // offset是只读属性 style是读写属性
+        console.log(box.offsetWidth);
+        console.log(box.style.width); //空
+        box.style.height = '300px';
+    </script> 
+</body>
+</html>

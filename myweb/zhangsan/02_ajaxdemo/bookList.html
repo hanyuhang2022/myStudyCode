@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>书籍列表</title>
+	<style>
+		div{
+			width: 800px;
+			margin: 20px auto;
+		}
+		table{
+			width: 800px;
+			margin: 20px auto;
+			border-collapse: collapse;
+		}
+		th{
+			background-color: #0094ff;
+			color:white;
+			font-size: 16px;
+			padding: 5px;
+			text-align: center;
+			border: 1px solid black;
+		}
+		td{
+			padding: 5px;
+			text-align: center;
+			border: 1px solid black;
+		}
+	</style>
+	<script>
+		window.onload = function() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("get", "./server/getBooks.php", true);
+			xhr.send(null);
+			xhr.onreadystatechange = function() {
+				if(xhr.readyState == 4) {
+					if(xhr.status == 200) {
+						var result = xhr.responseXML;
+						// 先得到table的初始值然后for循环追加tr
+						var books = result.getElementsByTagName("booklist")[0].getElementsByTagName("book");
+						var newHtml = document.getElementById("bookContainer").innerHTML;
+						// books获取过来是数组形式,则需要遍历
+						for(var i =0; i < books.length; i++) {
+							var itemBook = books[i]; 
+							// 获取书名
+							var name = itemBook.getElementsByTagName("name")[0].innerHTML;
+							// 获取作者
+							var author = itemBook.getElementsByTagName("author")[0].innerHTML;
+							// 获取描述
+							var desc = itemBook.getElementsByTagName("desc")[0].innerHTML;
+							var tempHtml = "<tr><td>"+ name +"</td><td>"+ author +"</td><td>"+ desc +"</td></tr>"; 
+							newHtml += tempHtml;
+						}
+						document.getElementById("bookContainer").innerHTML = newHtml;
+					}
+				}
+			}
+		};
+	</script>
+</head>
+<body>
+	<div>
+		<table id="bookContainer">
+			<tr>
+				<th>书名</th>
+				<th>作者</th>
+				<th>描述</th>
+			</tr>
+			
+		</table>
+	</div>
+</body>
+</html>

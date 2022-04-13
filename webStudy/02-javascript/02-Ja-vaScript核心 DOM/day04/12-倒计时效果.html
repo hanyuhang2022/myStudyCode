@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>倒计时效果</title>
+    <style>
+         div {
+            margin: 200px;
+        }
+        
+        span {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #333;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span class="hour"></span>
+        <span class="minute"></span>
+        <span class="second"></span>
+    </div>
+    <script>
+        // var hour = document.querySelector('.hour');
+        // var minute = document.querySelector('.minute');
+        // var second = document.querySelector('.second');
+        // var inputTime = +new Date('2022-1-10 18:00:00');
+        // countDown();
+        // setInterval(countDown, 1000);
+        // function countDown() {
+        //     var nowTime = +new Date();
+        //     var time = (inputTime - nowTime) / 1000;
+        //     var h = parseInt(time / 60 / 60 % 24);
+        //     h = h < 10? '0' + h : h;
+        //     hour.innerHTML = h;
+        //     var m = parseInt(time / 60 % 60);
+        //     m = m < 10? '0' + m : m;
+        //     minute.innerHTML = m;
+        //     var s = parseInt(time % 60);
+        //     s = s < 10? '0' + s : s;
+        //     second.innerHTML = s;
+        // } 
+
+        var d1 = +new Date();
+        var d2 = +new Date('2022-1-10 18:00:00');
+        console.log(parseInt(d1 /1000/60/60/24%24));
+        console.log(parseInt(d2 /1000/60/60/24%24));
+        // console.log(d1);
+        // console.log(d2);
+        // console.log(d2 - d1);
+    </script>
+</body>
+</html>

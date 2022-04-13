@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件委托</title>
+</head>
+<body>
+    <ul>
+        <li>点击</li>
+        <li>点击</li>
+        <li>点击</li>
+        <li>点击</li>
+        <li>点击</li>
+    </ul>
+    <script>
+        // 事件按委托的核心原理: 给父节点添加侦听器, 利用事件冒泡影响每一个子节点
+        var ul = document.querySelector('ul');
+        ul.addEventListener('click', function(e) {
+        //     alert('点击');
+        //     e.target 这个可以得到我们点击的对象
+            e.target.style.backgroundColor = 'pink';
+        });
+
+        // 排他思想
+        var lis = document.querySelectorAll('li');
+        for(var i = 0; i < lis.length; i++) {
+            lis[i].onclick = function() {
+                for(var i = 0; i < lis.length; i++) {
+                    lis[i].style.backgroundColor = '';
+                }
+                this.style.backgroundColor = '';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML新增表单属性</title>
+    <style>
+        input::placeholder {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <!-- autofocus 自动聚焦
+         required   内容不能为空
+         autocomplete 关闭历史输入提示(需要配合name属性使用)
+    -->
+    <input type="search" name="sear" id=""
+    required = "required"
+    placeholder="请输入搜索内容"
+    autofocus = "autofocus"
+    autocomplete="off"
+>
+<input type="file" multiple = "multiple">
+<input type="submit" value="提交">
+    </form>
+</body>
+</html>

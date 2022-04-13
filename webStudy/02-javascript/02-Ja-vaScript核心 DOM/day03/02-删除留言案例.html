@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>删除留言案例</title>
+    <style>
+        li {
+            list-style: none;
+            width: 200px;
+            background-color: pink;
+            height: 30px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+        li a {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <button class="btn1">发布</button>
+    <ul>
+    </ul>
+    <script>
+        var text = document.querySelector('textarea');
+        var btn1 = document.querySelector('.btn1');
+        var ul = document.querySelector('ul');
+        btn1.onclick = function() {
+            if (text.value == '') {
+                alert('请你输入内容');
+                return false;
+            } else {
+                var li = document.createElement('li');
+                ul.insertBefore(li, ul.children[0]);
+                // href="javascript:; 这样点击链接地址栏就不会有地址
+                ul.children[0].innerHTML = text.value + '<a href="javascript:;">删除</a>';
+                var as = document.querySelectorAll('a');
+                for (var i = 0; i < as.length; i++) {
+                    as[i].onclick = function() {
+                        // node.removeChild(child); 删除的是li 当前a所在的li this.parentNode;
+                    ul.removeChild(this.parentNode);
+                }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

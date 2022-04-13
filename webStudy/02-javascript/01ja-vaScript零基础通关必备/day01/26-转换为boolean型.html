@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>转换为boolean型</title>
+    <script>
+        // 代表 空 否定的值 会被转换成false 如'' , 0 , NaN , null , undefined
+        // 其余的之都会转化为true
+        console.log(Boolean('')); //false
+        console.log(Boolean(NaN)); //false
+        console.log(Boolean(undefined)); //false
+        console.log(Boolean(0)); //false
+        console.log(Boolean(null)); //false
+        console.log('--------------------');
+        console.log(Boolean('123'));
+        console.log(Boolean('小白'));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

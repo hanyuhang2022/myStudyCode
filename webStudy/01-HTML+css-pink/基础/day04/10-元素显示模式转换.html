@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元素显示模式转换</title>
+    <style>
+        a {
+            background-color: tomato;
+            width: 300px;
+            height: 50px;
+            /* 把行内元素 a 转换为块级元素 */
+            display:block;
+        }
+        div {
+            background-color: green;
+            width: 500px;
+            height: 100px;
+            /* 把块级元素转换为行内元素 */
+            display:inline;
+        }
+        span {
+            background-color: skyblue;
+            width: 300px;
+            height: 50px;
+            /* 把行内元素转换为行内块元素 */
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">元素显示模式转换用display:block</a>
+    <br><br>
+    <a href="#">元素显示模式转换用display:block</a>
+    <div>块元素转行内用display:inline</div>
+    <div>块元素转行内用display:inline</div>
+    <span>行内元素转换为行内块元素</span>
+    <span>行内元素转换为行内块元素</span>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪元素选择器</title>
+    <style>
+        /* 维亚u盛怒选择器是行内元素，权重为1 */
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+        div::before {
+            display:inline-block;
+            /* content属性必须有，否则为元素选择器不生效 */
+            content: '我';
+            width: 30px;
+            height: 40px;
+            background-color: red;
+        }
+        div::after {
+            content: 'hyh';
+        }
+    </style>
+</head>
+<body>
+    <div>
+        是
+    </div>
+</body>
+</html>

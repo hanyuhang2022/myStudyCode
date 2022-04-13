@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex设置子元素在主轴上的分布</title>
+    <style>
+        div {
+            display: flex;
+            height: 300px;
+            width: 800px;
+            background-color: pink;
+            /* 先设置主轴 */
+            flex-direction: column;
+            /* justify-content: ; 设置主轴上子元素地排列方式 */
+            /* X轴方向左对齐 */
+            justify-content: flex-start;
+            /* X方向右对齐 */
+            justify-content: flex-end;
+            /* 居中对齐 */
+            justify-content: center;
+            /* 平分空间 */
+            justify-content: space-around;
+            /* 两边的盒子左右对齐，剩下中间的盒子平分剩余空间 */
+            justify-content: space-between;
+        }
+        div span {
+            width: 150px;
+            height: 50px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+    </div>
+</body>
+</html>

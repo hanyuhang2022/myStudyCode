@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>返回字符案例</title>
+    <script>
+        var str = 'abcoefoxyozzopp';
+        /* for(var i = 0; i < str.length; i++){
+            console.log(str.indexOf('o', i));
+            a = str.indexOf('o', i);
+        }  */
+        var num = 0;
+        var index = str.indexOf('o');
+        while (index !== -1) {
+            console.log(index);
+            num++;
+            index = str.indexOf('o', index + 1);
+        }
+        console.log('o出现的次数是：'+ num);
+
+        var  arr = ['red', 'blue', 'red', 'green', 'pink', 'red'];
+        var a = arr.indexOf('red');
+        var num1 = 0;
+        while(a !== -1) {
+            console.log(a);
+            a = arr.indexOf('red', a +1);
+            num1++;
+        }
+        console.log(num1);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

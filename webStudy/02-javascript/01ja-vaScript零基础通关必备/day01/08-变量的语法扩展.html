@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>变量的语法扩展</title>
+</head>
+<body>
+    <script>
+        // 1、更新变量
+        var myname = '韩宇航';
+        alert(myname);
+        myname = 'hanyuhang';
+        alert(myname);
+        // 2、声明多个变量
+        var age = 18;
+        var address = '木叶村';
+        gz = 2000;
+
+        // 3、声明变量的特殊情况
+        // 3.1只声明不赋值 结果是undefined 未定义的
+        var sex
+        alert(sex);
+        // 3.2不声明,不赋值直接使用某个变量会报错
+        // aler(tel);
+        // 3.3不声明 直接赋值使用 可以输出但是不能这样用
+        qq = 110;
+        alert(qq);
+    </script>
+</body>
+</html>

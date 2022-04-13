@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerHTML字符数组效率测试</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function fn() {
+        var d1 = +new Date();
+        var arr = [];
+    for (var i = 0; i < 1000; i++) {
+        arr.push('<a href = "#">百度</a>');
+    }
+    document.body.innerHTML = arr.join('');
+    var d2 = +new Date();
+    console.log(d2 - d1);
+    }
+    fn()
+</script>
+</html>

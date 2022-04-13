@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易ATM机</title>
+    <script>
+        /*  请输入需要的操作：
+             1. 存钱
+             2. 取钱
+             3. 显示余额
+             4. 退出 */
+        /* 
+                要求：  里面先存有一百块钱
+                        如果存钱， 就用输入钱数， 之后显示余额提示框
+                        如果取钱， 就减去取得钱数， 之后弹出显示余额提示框
+                        如果显示余额就输出余额
+                        如果退出， 就弹出退出信息提示框 */
+
+    var money = 100;
+        while (true) {
+            // while(true)作为无限循环，经常在不知道循环次数的时候使用，
+            // 并且需要在循环内使用break才会停止。
+            var chose = Number(prompt('请输入需要的操作：\n1. 存钱 \n2. 取钱 \n3. 显示余额 \n4. 退出'));
+            // 这里的操作要写在while里面，写在外面不会重新选择操作，
+            // 而是一直循环你第一个选择的操作
+            switch (chose) {
+                case 1:
+                    var save = prompt('请输入存钱金额');
+                    money += parseInt(save); 
+                    alert('你本次存了' + save + '元钱，你的账户余额为' + money + '元钱');
+                    break;
+                case 2:
+                    var draw = prompt('请输入取钱金额');
+                    if (draw < money) {
+                        money -= parseInt(draw); 
+                        alert('你本次取了' + draw + '元钱，你的账户余额为' + money + '元钱');
+                        break;
+                    } else {
+                        alert('你钱不够，只剩' + money + '元钱了');
+                        break;
+                    }
+                case 3:
+                    alert('你的账户余额为' + money + '元钱');
+                    break;
+                case 4:
+                    alert('你已退出系统');
+                    break;
+                default:
+                    alert('请选择你的操作');
+            }
+            if (chose == 4) {
+                break;
+            }
+            // 真正的跳出while循环
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery效果之滑动(上下)</title>
+    <style> 
+        button {
+            margin-right: 10px;
+        }
+            div {
+                width: 160px;
+                height: 350px;
+                background-color: pink;
+                display: none;
+            }
+        </style>
+        <script src="jQuery.min.js"></script>
+    </head>
+    <body>
+        <button>上滑</button>
+        <button>下拉</button>
+        <button>切换</button>
+        <div></div>
+        <script>
+            $(function() {
+                // 下拉
+                $('button').eq(1).click(function() {
+                    $('div').slideDown(500);
+                })
+                // 上滑
+                $('button').eq(0).click(function() {
+                    $('div').slideUp(500);
+                })
+                // 切换
+                $('button').eq(2).click(function() {
+                    $('div').slideToggle(500);
+                })
+            })
+        </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景位置-精确单位</title>
+    <style>
+        div {
+            height: 300px;
+            width: 300px;
+            background-image: url(images/logo.png);
+            background-repeat: no-repeat;
+            background-color: pink;
+            /* 20px 50px; x轴一定是20px，y轴一定是50px。顺序不能颠倒 */
+            /* background-position: 20px 50px; */
+
+            /* 若只写一个x轴的值，那么y轴的值默认为center */
+            background-position: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

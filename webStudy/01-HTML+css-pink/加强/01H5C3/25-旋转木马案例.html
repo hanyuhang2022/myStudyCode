@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旋转木马案例</title>
+    <style>
+        body{
+            perspective: 1000px;
+        }
+        section {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            margin: 150px auto;
+            /* background: url(images/img.jpg) no-repeat; */
+            transform-style: preserve-3d;
+            animation: rotates 10s linear infinite;
+        }
+        section:hover {
+            /* 鼠标放入section停止动画 */
+            animation-play-state: paused;
+        }
+        div {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            background: url(images/img.jpg);
+        }
+        section div:nth-child(1) {
+            transform: translateZ(300px);
+        }
+        section div:nth-child(2) {
+            /* 这个是先旋转好了在移动距离 */
+            transform: rotateY(60deg) translateZ(300px); 
+        }
+        section div:nth-child(3) {
+            transform: rotateY(120deg) translateZ(300px); 
+        }
+        .box {
+            transform: rotateY(180deg) translateZ(300px); 
+        }
+        section div:nth-child(5) {
+            transform: rotateY(240deg) translateZ(300px); 
+        }
+        section div:nth-child(6) {
+            transform: rotateY(300deg) translateZ(300px); 
+        }
+        @keyframes rotates {
+            from {
+                transform: rotatey(0deg);
+            }
+            to {
+                transform: rotatey(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="box"></div>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>

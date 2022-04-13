@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新浪导航</title>
+    <style>
+        .nav {
+            border-top: 3px solid orangered;
+            border-bottom: 1px solid #edeef0;
+            height: 41px;
+            background-color: #fcfcfc;
+            line-height: 41px;
+        }
+        .nav a {
+            /* 必须把a链接先转换成行内块元素然后设上高度，否则填不满div盒子 */
+            display: inline-block; 
+            height: 41px;
+            /* (因为前边设置了高度且字体垂直居中，所以无需再设置上下边距) */
+            padding: 0px 20px;  
+            color: #4c4c4c;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .nav a:hover{
+            background-color: #eee;
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">新浪导航</a>
+        <a href="#">手机新浪网</a>
+        <a href="#">移动客户端</a>
+        <a href="#">微博</a>
+        <a href="#">三个字</a>
+    </div>
+</body>
+</html>

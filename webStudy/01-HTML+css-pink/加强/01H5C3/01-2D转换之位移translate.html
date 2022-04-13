@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D转换之位移translate</title>
+    <style>
+        /* 
+            移动盒子位置的方法：
+                    1、定位
+                    2、外边距
+                    3、2D转换移动
+        */
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+
+            /* 位移：tranform: translate(x,y) 
+            x就是x轴上移动的位置 y就是y轴上的移动位置 中间用逗号隔开 */
+
+            /* 写法一 */
+            /* transform:  translate(100px,100px); */
+
+             /* 写法二 */
+             /* transform: translateX(100px); */
+            /* transform: translateY(200px); */
+        }
+        /* 
+            translate的特点：
+                ①不会影响到其他元素
+                ②translate中的百分比单位是相对于自身元素的translate(50%,50%);
+                ③对行内标签没有效果
+        */
+        div:first-child {
+            transform: translate(30px,30px);
+        }
+        div:last-child {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+</body>
+</html>

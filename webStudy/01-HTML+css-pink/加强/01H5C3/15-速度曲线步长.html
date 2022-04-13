@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>速度曲线步长</title>
+    <style>
+        .box {
+            width: 0px;
+            height: 30px;
+            background-color: pink;
+            /* steps() 就是分几步来完成我们的动画 有了steps() 就不要再写ease 或 linear */
+            animation: w 2s steps(5) forwards;
+        }
+        @keyframes w {
+            0% {
+
+            }
+            100% {
+                width: 200px;
+            }
+        }
+
+        /* 利用animation-timing-function: steps() 步长 实现打字机效果 */
+        .box1 {
+            overflow: hidden;
+            font-size: 20px;
+            width: 0px;
+            height: 30px;
+            background-color: pink;
+            margin-top: 50px;
+            /* 让文字强制一行显示 */
+            white-space: nowrap;
+
+            animation: dzj 4s steps(10) forwards;
+        }
+        @keyframes dzj {
+            0% {
+
+                }
+            100% {
+                 width: 200px;
+                }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1">世纪佳缘我在这里等你</div>
+</body>
+</html>

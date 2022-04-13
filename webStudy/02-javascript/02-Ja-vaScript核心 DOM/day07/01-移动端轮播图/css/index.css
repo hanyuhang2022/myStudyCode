@@ -1,0 +1,303 @@
+body {
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0px auto;
+    font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+    color: #000;
+    background: #f2f2f2;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+div {
+    box-sizing: border-box;
+}
+.search-index {
+    display: flex;
+    /* 固定定位跟父级没有关系 它以屏幕为准 */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    /* 固定的盒应该有宽度 */
+    width: 100%;
+    min-width: 320px;
+    max-width: 540px;
+    height: 44px;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    z-index: 999;
+}
+.search {
+    position: relative;
+    flex: 1;
+    height: 26px;
+    /* CSS3盒子模型需要减去边框才能居中 */
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #ccc;
+    margin: 7px 10px;
+    border-radius: 4px;
+    padding-left: 25px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);    
+}
+.search::before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url(../images/sprite.png) no-repeat -59px -279px;
+    background-size: 104px auto;
+}
+.user {
+    height: 44px;
+    width: 44px;
+    font-size: 12px;
+    text-align: center;
+    color: #2eaae0;
+}
+.user::before {
+    content: '';
+    width: 23px;
+    height: 23px;
+    display: block;
+    background: url(../images/sprite.png) no-repeat -59px -194px;
+    background-size: 104px auto;
+    margin: 5px auto -2px;
+}
+
+.goBack {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 38px;
+    height: 38px;
+    background: url(../images/back.png) no-repeat;
+    background-size: 38px 38px;
+}
+
+/* focus */
+.focus {
+    position: relative;
+    padding-top: 44px;
+    overflow: hidden;
+}
+.focus ul {
+    /* ul没有高度，清除浮动 */
+    overflow: hidden; 
+    width: 500%;
+    /* 让第一张图片是foucus1 */
+    margin-left: -100%;
+}
+.focus img {
+    width: 100%;
+}
+.focus ul li {
+    float: left;
+    width: 20%;
+}
+.focus ol {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    margin: 0px;
+}
+.focus ol li {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #fff;
+    list-style: none;
+    transition: all .3s;
+}
+.focus ol li.current {
+    width: 15px;
+}
+/* local-nav */
+.local-nav {
+    display: flex;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 3px 4px;
+}
+.local-nav li {
+    flex: 1;
+}
+.local-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+.local-nav li [class^=local-nav-icon] {
+    width: 32px;
+    height: 32px;
+    background: url(../images/localnav_bg.png) no-repeat 0 0;
+    background-size: 32px auto;
+    margin-top: 8px;
+}
+.local-nav li .local-nav-icon1 {
+    background-position:  0 -32px;
+}
+.local-nav li .local-nav-icon2 {
+    background-position:  0 -64px;
+}
+    .local-nav li .local-nav-icon3 {
+        background-position:  0 -96px;
+}
+.local-nav li .local-nav-icon4 {
+    background-position:  0 -128px;
+}
+/* nav部分 */
+nav {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+.nav-common {
+    display: flex;
+    height: 88px;
+    background-color: pink;
+}
+.nav-common:nth-child(2) {
+    margin: 3px 0px;
+}
+.nav-items {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.nav-items:nth-child(-n+2) {
+    border-right: 1px solid #Fff;
+}
+.nav-common:nth-child(1) {
+    background: -webkit-linear-gradient(left, #fa5a55, #fa994d);
+}
+.nav-common:nth-child(2) {
+    background: -webkit-linear-gradient(left, #4b90ed , #53bced);
+}
+.nav-common:nth-child(3) {
+    background: -webkit-linear-gradient(left, #34c2a9,#6cd559);
+}
+.nav-items a {
+    flex: 1;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 44px;
+    /* 文字阴影 */
+    text-shadow: 1px 1px rgba(0, 0, 0, .2);
+}
+.nav-items a:nth-child(1) {
+    border-bottom: 1px solid #fff;
+}
+.nav-items:nth-child(1) a {
+    border: 0px;
+    background: url(../images/hotel.png) no-repeat center bottom;
+    background-size: 121px auto;
+}
+/* subnav-entry */
+.subnav-entry {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0px 4px;
+    padding: 5px 0px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, .2);
+    margin-top: 4px;
+}
+.subnav-entry li {
+    /* 俩面的子盒子可以写百分比 相对于父级而言 */
+    flex: 20%;
+}
+.subnav-entry a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subnav-entry-icon {
+    width: 28px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 4px;
+    background: url(../images/subnav-bg.png) no-repeat 0px 0px;
+    background-size: 28px auto;
+}
+/* sales-box */
+.sales-box {
+    border-top: 2px solid #ccc;
+    background-color: #fff;
+    margin: 4px;
+    border-radius: 8px;
+}
+.sales-hd {
+    position: relative;
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+}
+.sales-hd h2 {
+    position: relative;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.sales-hd h2::after {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    content: '';
+    width: 79px;
+    height: 15px;
+    background: url(../images/hot.png) no-repeat 0px -20px;
+    background-size: 79px auto;
+}
+.more {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    background: -webkit-linear-gradient(left, #ff506c, #ff6bc6);
+    border-radius: 15px;
+    padding: 2px 20px 2px 10px;
+    color: #fff;
+}
+.more::after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+}
+.row {
+    display: flex;
+}
+.row a {
+    flex: 1;
+    border-bottom: 1px solid #eee;
+}
+.row a:nth-child(1) {
+    border-right: 1px solid #eee;
+}
+.row img {
+    width: 100%;
+}

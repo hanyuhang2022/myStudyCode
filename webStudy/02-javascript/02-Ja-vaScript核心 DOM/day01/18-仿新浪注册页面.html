@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仿新浪注册页面</title>
+    <style>
+        div {
+            width: 600px;
+            margin: 100px auto;
+        }
+
+        .message {
+            display: inline-block;
+            font-style: 12px;
+            color: #999;
+            background: url(images/mess.png) no-repeat left center;
+            padding-left: 20px;
+        }
+        .wrong {
+            color: red;
+            background: url(images/wrong.png) no-repeat left center;
+        }
+        .right {
+            color: green;
+            background: url(images/right.png) no-repeat left center;
+        }
+    </style>
+</head>
+<body>
+    <div class="register">
+        <input type="password" class="ipt"   >
+        <p class="message">请输入6~16为密码</p>
+    </div>
+    <script>
+        var ipt = document.querySelector('input');
+        var p = document.querySelector('p');
+        ipt.onfocus = function() {
+            p.innerHTML = '正在输入内容';
+        }
+        ipt.onblur = function() {
+            if(this.value.length < 6 || this.value.length > 16) {
+                p.innerHTML = '密码不符合规则';
+                p.className = 'message wrong';
+            } else {
+                p.innerHTML = '密码符合规则';
+                p.className = 'message right';
+            }
+        }
+    </script>
+</body>
+</html>

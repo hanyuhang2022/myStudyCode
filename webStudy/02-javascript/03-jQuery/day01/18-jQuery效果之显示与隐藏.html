@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery效果之显示与隐藏</title>
+    <style> 
+    button {
+        margin-right: 10px;
+    }
+        div {
+            width: 160px;
+            height: 350px;
+            background-color: pink;
+        }
+    </style>
+    <script src="jQuery.min.js"></script>
+</head>
+<body>
+    <button>显示</button>
+    <button>隐藏</button>
+    <button>切换</button>
+    <div></div>
+    <script>
+        // 显示隐藏效果 
+        // 语法规范：show('speed', easing, fn)
+        // ①speed 是速度 'slow' 'normal' 'fast' 默认值为normal(正常的), 也可以直接写表示动画时长的毫秒数如1000，数字不用加引号
+        // ②easing 是用来指定切换效果 默认是 swing(快慢随意) linear(匀速的)
+        $(function() {
+            // 隐藏
+            $('button').eq(1).click(function() {
+                $('div').hide(1000, function() {
+                    alert(1);
+                });
+            })
+            // 显示
+            $('button').eq(0).click(function() {
+                $('div').show(1000, function() {
+                    alert(1);
+                });
+            })
+            // 切换
+            $('button').eq(2).click(function() {
+                $('div').toggle(1000, function() {
+                    alert(1);
+                });
+            })
+        })
+    </script>
+</body>
+</html>

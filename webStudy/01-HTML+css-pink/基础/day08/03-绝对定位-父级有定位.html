@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绝对定位-父级有定位</title>
+    <style>
+        /* 特点：②如果父元素有定位(相对、绝对、固定定位)，则以 最近一级 的父元素为参考点移动位置。 */
+        .yeye {
+            /* 父元素没有定位，而爷爷元素有定位。就会以爷爷元素为参考移动 */
+            position: relative;
+            width: 800px;
+            height: 800px;background-color: hotpink;
+            padding: 50px;
+        }
+        .father {
+            /* position: relative; */
+            width: 400px;
+            height: 400px;
+            background-color: red;
+        }
+        .son {
+            position: absolute;
+            bottom: 50px;
+            left: 20px;
+            
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="yeye">
+        <div class="father">
+            <div class="son"></div>
+        </div>
+    </div>
+</body>
+</html>

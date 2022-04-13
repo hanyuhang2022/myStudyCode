@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+        解决IE9一下浏览器对html5新增标签的不识别，并导致css不起作用的问题
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      解决IE9一下浏览器对css3 Media Query(媒体查询) 的不识别
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <!-- 一定不要忘记引入bootst 的样式文件 -->
+    <!--  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .container {
+           background-color: chartreuse;
+        }
+        .container-fluid {
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bootstrap 需要为页面内容和删除格系统包裹一个.container容器，bootstrap与i西安定义好了这个类，叫.container
+    它提供了两个词作用处的类
+            1、container类：响应式布局容器 固定宽度
+            2、container-fluid类：流式布局容器 百分百宽度、占据全部视口、适合于单独做移动端开发
+    -->
+    <div class="container">123</div>
+    <div class="container-fluid">axsd</div>
+</body>
+</html>

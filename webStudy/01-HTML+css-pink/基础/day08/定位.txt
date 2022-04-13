@@ -1,0 +1,15 @@
+1、定位 = 定位模式 + 边偏移。
+     
+	①定位模式决定元素的定位方式，它通过CSS的 position 属性来设置，其值分别为四个。
+
+	     static  	静态定位(默认/无定位)
+	     relative   	行对定位
+	     absolute 	相对定位
+	     fixed       	固定定位
+2、边偏移
+        边偏移就是定位的盒子移动到最终位置。有top bottom left left 四个值。
+	
+	top	top: 80px		顶端偏移量，第一元素相对于器元素上边线的距离。
+	bottom    bottom: 80px
+	left	left: 80px
+	right	right: 80px

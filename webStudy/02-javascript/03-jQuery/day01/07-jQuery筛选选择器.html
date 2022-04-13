@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery筛选选择器</title>
+    <script src="jQuery.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+    </ul>
+    <ol>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+        <li>多个里面筛选几个</li>
+    </ol>
+    <script>
+        $(function() {
+            $('ul li:first').css('color', 'red'); //获取第一个li元素
+            $('ul li:eq(2)').css('color', 'blue'); //获取索引号为2的li元素 从0开始
+            $('ul li:last').css('color', 'purple'); //获取最后一个li元素
+            $('ol li:odd').css('color', 'skyblue'); //获取li元素中，选择索引号为奇数的元素
+            $('ol li:even').css('color', 'brown'); //获取li元素中，选择索引好为偶数的元素
+        })
+    </script>
+</body>
+</html>

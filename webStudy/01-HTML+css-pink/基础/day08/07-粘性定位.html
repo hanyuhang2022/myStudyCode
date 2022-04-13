@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>粘性定位</title>
+    <style>
+        /* 
+            特点：
+                ①一浏览器的可是窗口为参照点移动元素(固定定位特点)
+                ②粘性定位占有原先的位置
+                ③必须添加top、left、bottom、right一个边偏移元素才能生效
+                和页面滚动搭配使用
+        */
+        body {
+            height: 3000px;
+        }
+        .nav {
+            position: sticky;
+            top: 0px;
+            width: 50px;
+            height: 1000px;
+            background-color: pink;
+            margin: 100px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+</body>
+</html>

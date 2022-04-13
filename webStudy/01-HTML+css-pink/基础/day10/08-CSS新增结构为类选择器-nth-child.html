@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新增nth-child属性</title>
+    <style>
+        /* 1、even 把所有的偶数孩子选出来 */
+        ul li:nth-child(even) {
+            background-color: blue;
+        }
+         /* 1、odd 把所有的奇数孩子选出来 */
+        ul li:nth-child(odd) {
+            background-color: red;
+        }
+
+        /* nth-child(n) 从0开始 每次加1 往后面计算 这里面必须是n 不能是其他字母 */
+        
+        /* ol li:nth-child(n) {
+            background-color: pink;
+        } */
+
+        /* 选择了所有的偶数孩子等价于even */
+        ol li:nth-child(2n) {
+            background-color: seagreen;
+        }
+        /* 选择了所有的技术孩子等价于odd */
+        ol li:nth-child(2n-1) {
+            background-color: purple;
+        }
+        /* 从3行开始以后的孩子 */
+        ol li:nth-child(n+3) {
+            background-color: turquoise;
+        }
+        /* 从3行开始以前的孩子 */
+        ol li:nth-child(-n+3) {
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+
+    <ol>
+        <li>一</li>
+        <li>二</li>
+        <li>三</li>
+        <li>四</li>
+        <li>五</li>
+        <li>六</li>
+        <li>七</li>
+        <li>八</li>
+    </ol>
+</body>
+</html>

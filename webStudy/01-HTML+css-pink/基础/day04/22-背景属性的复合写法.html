@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景属性的复合写法</title>
+    <style>
+        body {
+            /* background-color: black;
+            background-image: url(images/bg.jpg);
+            background-repeat: no-repeat;
+            background-position: center 40px;
+            background-attachment: fixed; */
+
+            /* 背景属性采用复合写法时，顺序无硬性要求，但是最好按照以下顺序写 */
+            background: black url(images/bg.jpg) no-repeat fixed center 70px;
+                         /* 颜色       图片地址       平铺     滚动     位置 */
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

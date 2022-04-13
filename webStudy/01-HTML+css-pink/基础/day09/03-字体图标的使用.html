@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体图标的使用</title>
+    <!-- 
+        1、文字图标的下载：
+            ① https://icomoon.io/(国外网址)
+            ② www.iconfont.com.cn/(阿里妈妈)
+
+        2、字体图标使用方法：
+            ① 从文字图标网址下载下来的压缩包解压以后，会有一个 font 文件夹 一个网页 一个css文件，
+              该文件夹必须放在根目录(需要引用网站的同济)的下面。
+            ② 将CSS文件里的代码复制到 font-display: block; } 放在引用网页的 style 标签里，这是文字图标的声明。
+            ③ 网页里的方块符号就是字体图标。
+            ④ 在 style 标签里个字体加上 font-family: 'icomoon';（指定字体）
+     -->
+    <style>
+        @font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z06x12');
+  src:  url('fonts/icomoon.eot?z06x12#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z06x12') format('truetype'),
+    url('fonts/icomoon.woff?z06x12') format('woff'),
+    url('fonts/icomoon.svg?z06x12#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+    span {
+        font-family: 'icomoon';
+        font-size: 50px;
+        color: chartreuse;
+    }
+    </style>
+</head>
+<body>
+    <span></span>
+</body>
+</html>

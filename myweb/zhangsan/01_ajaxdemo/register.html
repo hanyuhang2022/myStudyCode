@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册界面</title>
+    <script>
+        window.onload = function() {
+            var username = document.querySelector("#username");
+            var email = document.querySelector("#email");
+            var phone = document.querySelector("#phone");
+            // onblur光标焦点事件
+            // 1.验证用户名
+            username.onblur = function() {
+                var usernameValue = username.value;
+                // 将usernameValue提交给服务器 由服务器进行唯一性的校验
+                // 1.创建xhr对象 兼容性处理
+                var xhr = null;
+                if(window.XMLHttpRequest) {
+                    var xhr = new XMLHttpRequest();
+                } else {
+                    var xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                // 2.准备发送
+                xhr.open("get","./server/checkUsername.php?uname=" + usernameValue,true);
+                // 3.执行发送
+                xhr.send(null);
+                // 4.指定回调函数
+                xhr.onreadystatechange = function() {
+                    if(xhr.readyState == 4) {
+                        if(xhr.status == 200) {
+                            var result = xhr.responseText;
+                            var username_result = document.querySelector("#username_result");
+                            if(result == 'ok') {
+                                username_result.innerText = "用户名可以使用";
+                            } else {
+                                username_result.innerText = "用户名已存在";
+                            }
+                        }
+                    }
+                };  
+
+            };
+            
+            // 2.验证邮箱
+            email.onblur = function() {
+                var emailValue = email.value;
+                var xhr = null;
+                if(window.XMLHttpRequest) {
+                     xhr = new XMLHttpRequest();
+                } else {
+                     xhr = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                // 2.
+                var param = "e=" + emailValue;
+                xhr.open("post", "./server/checkEmail.php", true);
+                // 3.
+                
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.send(param);
+
+                xhr.onreadystatechange = function() {
+                    if(xhr.readyState == 4) {
+                        if(xhr.status == 200) {
+                            var result = xhr.responseText;
+                            var email_result = document.querySelector("#email_result");
+                            if(result == 0) {
+                                email_result.innerText = "邮箱可以使用";
+                            } else {
+                                email_result.innerText = "邮箱不可以使用";
+                            }
+                        }
+                    }
+                }
+            };
+        
+            // 3.
+            phone.onblur = function(){
+				var phoneValue = phone.value;
+				//1 2 3 4
+				var xhr = null;
+				if(window.XMLHttpRequest) {
+					xhr = new XMLHttpRequest();
+				} else {
+					xhr = new ActiveXObject("Microsoft.XMLHTTP");
+				}
+
+				xhr.open("post","./server/checkPhone.php",true);
+				var params = "phonenumber="+phoneValue;
+				xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+				xhr.send(params);
+
+				xhr.onreadystatechange = function(){
+					if(xhr.readyState == 4){
+						if(xhr.status == 200){
+							//xhr.responseText就是一个字符串
+							var result = xhr.responseText;
+
+							//希望将result这样的一个字符串转化为对象，方便我们获取里面的一些值
+							result = JSON.parse(result);
+							var phone_result = document.querySelector("#phone_result");
+							if(result.status == 0) {
+								//代表手机号码可用
+								phone_result.innerText = result.message.tips + "," + result.message.phonefrom;
+							} else if(result.status == 1) {
+								//代表手机号码不可用
+								phone_result.innerText = result.message;
+							}
+
+						}
+					}
+				};
+			};
+
+        };
+    </script>
+</head>
+<body>
+    <h1>注册界面</h1>
+    <form action="">
+        用户名:<input type="text" id="username" ><span id="username_result"></span><br>
+        邮箱:<input type="text" id="email"><span id="email_result"></span><br>
+        手机号: <input type="text" name="" id="phone" ><span id="phone_result"></span><br>
+    </form>
+</body>
+</html>

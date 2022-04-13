@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方法作业</title>
+    <script>
+        var str = 'abaasdffggghhjjkkgfddsssss3444343';
+        console.log('str的长度是' + str.length);
+        console.log(str.charAt(0));
+        console.log(str.indexOf('d'));
+        console.log(str);
+        while(str.indexOf('g') !== -1) {
+            str = str.replace('g', '22');
+            str = str.replace('ss', 'b');
+        }
+        console.log(str);
+        console.log(str.substr(1, 5));
+
+        var str1 = 'abaasdffggghhjjkkgfddsssss3444343';
+        var o = {};
+        for(var i = 0; i < str1.length; i++) {
+            var chars = str1.charAt(i);
+            if(o[chars]) {
+                o[chars]++;
+            } else {
+                o[chars] = 1;
+            }
+        }
+        console.log(o);
+        var max = 0;
+        var ch = '';
+        for (var k in o) {
+            if(o[k] > max) {
+                max = o[k];
+                ch = k;
+            }
+        }
+        console.log(max, ch);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

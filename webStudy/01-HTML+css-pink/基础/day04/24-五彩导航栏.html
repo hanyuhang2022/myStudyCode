@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五彩导航</title>
+    <style>
+        .nav a {
+            text-decoration: none;
+            color: white;
+            width: 120px;
+            height: 58px;
+            background-color: pink;
+            display: inline-block;
+            line-height: 48px;
+            text-align: center;
+        }
+        .nav .bgi {
+            background: url(images/bg1.png) no-repeat;
+        }
+        .nav .bgi1 {
+            background: url(images/bg2.png) no-repeat;
+        }
+        .nav .bgi2 {
+            background: url(images/bg3.jpg) no-repeat;
+        }
+        .nav .bgi3 {
+            background: no-repeat url(images/bg4.png);
+        }
+        /* 鼠标经过改变背景图 */
+        .nav .bgi:hover {
+            background-image: url(images/bg4.png);
+        }
+        .nav .bgi1:hover {
+            background-image: url(images/bg3.png);
+        }
+        .nav .bgi2:hover {
+            background-image: url(images/bg2.png);
+        }
+        .nav .bgi3:hover {
+            background-image: url(images/bg1.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#" class="bgi">五彩导航</a>
+        <a href="#" class="bgi1">五彩导航</a>
+        <a href="#" class="bgi2">五彩导航</a>
+        <a href="#" class="bgi3">五彩导航</a>
+    </div>
+</body>
+</html>

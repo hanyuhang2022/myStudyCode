@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <script>
+        window.addEventListener('load', function() {
+            var btn = document.querySelector('#btn');
+            btn.addEventListener('click', function() {
+                var username = document.querySelector('#name').value;
+                var xhr = new XMLHttpRequest();
+                xhr.open("get", "checkUsername.php?username="+ username, true);
+                xhr.send(null);
+                xhr.addEventListener('readystatechange', function() {
+                    var result = xhr.responseText;
+                    alert(result);
+                    // var span = document.querySelector('#result');
+                    //         span.innerHTML = xhr.responseText;
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>注册新用户</h1>
+    <input type="text" name="username" id="name">
+    <input type="button" id="btn" value="验证">
+    <span id="result"></span>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>变量命名规范</title>
+</head>
+<body>
+    <script>
+        var app = 10;
+        var App = 100;
+        console.log(app);
+        console.log(App);
+        // 由字母(A-Z/a-z)数字(0-9) 下划线 美元符号($)祖成 不能以数字开头
+        // var 18age;
+        // var var; 因为var有特殊意义了,这个叫做关键词 不能用作变量名 for while if都不行
+        //name 尽量不要直接使用name作为变量名
+        console.log(name); /* 不会报错 */
+
+        // 驼峰命名法:
+        var myFirstName = 100;
+    </script>
+</body>
+</html>

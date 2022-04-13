@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch分支语句</title>
+    <script>
+        // 1.switch 语句也是多分支语句 也可以实现多选1
+        // 2.语法结构 switch 转换 开关 case 例子 选项的意思
+        /* switch(表达式) {
+            case value1:
+                表达式 等于value1时要执行的代码
+                break;
+            case value2:
+                表达式 等于value2时要执行打代码
+                break;
+            case value3:
+                表达式 等于value3时要执行的代码
+                break;
+
+                .....
+                default:
+                    表达式 不等于任何一个value时执行的代码
+            } */
+            /* 3.执行思路 利用我们的表达式的值 和 case 后面选项值相匹配 
+            如果匹配上 就执行该case (case后边必须跟常量表达式)
+            里面的语句 如果没有匹配上 那么执行 default 里面的语句 */
+            switch(9) {
+                case 1:
+                    console.log('这是1');
+                    break;
+                case 2:
+                    console.log('这是2');
+                    break;
+                case 3:
+                    console.log('这是3');
+                default:
+                    console.log('没有');
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

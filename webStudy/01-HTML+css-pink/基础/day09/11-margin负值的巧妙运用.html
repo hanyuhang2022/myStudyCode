@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin负值的巧妙运用</title>
+    <style>
+        ul li {
+            position: relative;
+            float: left;
+            width: 100px;
+            height: 200px;
+            border: 2px solid red;
+            list-style: none;
+
+            /* 因为每个li右2px边框爱着就变成4px 解决方法就是margin-left盒子的边框像素 */
+            margin-left: -2px;
+        }
+
+        /* 鼠标经过盒子显示边框不同的颜色，
+        但是前边有margin-left负值会压住盒子的一个边框所以有一下解决办法： */
+       
+            /* 方法1：若盒子没有定位，则给鼠标京股票添加先对定位即可 */
+       /* ul li:hover {
+            position: relative;
+            border: 2px solid blue;
+        } */
+
+            /* 方法2：若li都有定位，则利用z-index提高层级 */
+            ul li:hover {
+                z-index: 1;
+                border: 2px solid blue;
+            }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+</html>

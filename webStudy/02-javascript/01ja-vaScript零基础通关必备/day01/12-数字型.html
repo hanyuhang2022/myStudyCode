@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字型</title>
+</head>
+<body>
+    <script>
+        var num = 10; //num数字型
+        var PI = 3.14; //PI数字型
+            //  1、八进制0 - 7 我们数字程序里面前面加0 表示八进制
+            var num1 = 010;
+            console.log(num1); //010八进制转换为十进制就是八 (1乘以8的一次得出)
+            // 2、十六进制 0 - 9 a - f #ffffff 数字的前面加0x表示十六进制
+            var num3 = 0x9;
+            console.log(num3);
+            var num4 = 0xa;
+            console.log(num4);
+            //3、数字型的最大值写法
+            console.log(Number.MAX_VALUE);
+            //4、数字型的最小值写法
+            console.log(Number.MIN_VALUE);
+            //5、无穷大
+            console.log(Number.MAX_VALUE * 2); //infinity
+            //6、无穷小
+            console.log(-Number.MIN_VALUE * 2 ); //-infinity
+            //7、非数字
+            console.log('名字' - 100); //NaN
+    </script>
+</body>
+</html>

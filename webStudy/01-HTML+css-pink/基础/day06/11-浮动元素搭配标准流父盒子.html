@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动元素搭配标准流父盒子</title>
+    <style>
+        .box {
+            width: 1200px;
+            height: 500px;
+            background-color: red;
+            margin: 0px auto;
+        }
+        .left {
+            width: 300px;
+            height: 500px;
+            background-color: sandybrown;
+        }
+        .right {
+            width: 900px;
+            height: 500px;
+            background-color: seagreen;
+        }
+        .left,.right {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="left">左</div>
+        <div class="right">右</div>
+    </div>
+</body>
+</html>

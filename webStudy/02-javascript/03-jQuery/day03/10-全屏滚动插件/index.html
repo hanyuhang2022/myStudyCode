@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全屏滚动插件</title>
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <style>
+        #fp-nav ul li a.active span,
+        #fp-nav ul li a span {
+            background-color: red!important;
+        }
+    </style>
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script>
+        $(function(){
+    $('#dowebok').fullpage({
+        // 屏幕背景颜色
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+        // 侧边导航小圆点
+        navigation: true
+    });
+});
+    </script>
+</head>
+<body>
+    <div id="dowebok">
+        <div class="section">
+            <h3>第一屏演示的内容</h3>
+        </div>
+        <div class="section">
+            <h3>第二屏演示的内容</h3>
+        </div>
+        <div class="section">
+            <h3>第三屏演示的内容</h3>
+        </div>
+        <div class="section">
+            <h3>第四屏演示的内容</h3>
+        </div>
+    </div>
+</body>
+</html>

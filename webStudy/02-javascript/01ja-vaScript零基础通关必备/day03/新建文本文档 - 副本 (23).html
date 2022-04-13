@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /* 
+                要求：  里面先存有一百块钱
+                        如果存钱， 就用输入钱数， 之后显示余额提示框
+                        如果取钱， 就减去取得钱数， 之后弹出显示余额提示框
+                        如果显示余额就输出余额
+                        如果退出， 就弹出退出信息提示框 */
+                        var bj = 100;
+                        while (true) {
+                            var chose = prompt('1.存钱\n2.取钱\n3.余额查询\n4.退出');
+                                chose = Number(chose);
+                            switch(chose) {
+                                case 1:
+                                    var cq = prompt('请输入存入金额：');
+                                    bj = Number(cq) + bj; 
+                                    alert('您的余额为：' + bj +'元');
+                                    break;
+                                case 2:
+                                    var qq = Number(prompt('请输入取出金额：'));
+                                    if (qq <= bj) {
+                                        bj = bj - qq;
+                                        alert('您本次取出' + qq + '元，余额剩余' + bj + '元');
+                                    } else {
+                                        alert('钱不够，您的账户只有' + bj + '元了');
+                                    }
+                                    break;
+                                case 3:
+                                    alert('您的余额为'+ bj + '元');
+                                    break;
+                                case 4:
+                                    alert('退出成功');
+                                    break;
+                            }
+                            if (chose == 4) {
+                                break;
+                            }
+                        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

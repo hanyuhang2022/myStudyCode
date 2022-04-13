@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS三角强化的巧妙运用</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .box {
+            width: 0px;
+            height: 0px;
+            /* border-top: 100px solid red;
+            border-right: 50px solid blue;
+            border-bottom: 0px solid green;
+            border-left: 0px solid pink; */
+
+
+            /* 只保留右边的边框有颜色 */
+            border-color: transparent red transparent transparent;
+            /* 样式都是solid */
+            border-style: solid;
+            /* 上边框宽度要大，有边框宽度稍小 其余的边框为0*/
+            border-width: 100px 50px 0px 0px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+
+    <div class="price">
+        <span class="miaosha">
+            ￥1650
+            <i></i>
+        </span>
+        <span>￥5650</span>
+    </div>
+</body>
+</html>

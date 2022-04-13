@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旋转中心点案例</title>
+    <style>
+        div {
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            border: 1px solid pink;
+            margin: 100px auto;
+        }
+         div::after{
+             content: '黑马';
+             color: seashell;
+             font-size: 22px;
+             text-align: center;
+             line-height: 200px;
+             font-weight: 800;
+             display: block;
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            transform: rotate(180deg);
+            transition: .5s;
+            transform-origin: left bottom;
+        }
+        div:hover::after {
+            /* 0deg 0度是恢复原位 */
+            transform: rotate(0deg);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
